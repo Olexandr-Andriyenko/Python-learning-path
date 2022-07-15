@@ -52,4 +52,6 @@ In order to solve this problem, we will now define separate steps, which will be
 2. Measure the length of the wall
 3. Calculate the area by multiplying width with length
 4. Pick out a wallpaper with the area from step three
+<br>
+These four individual steps are necessary to solve the problem
 
