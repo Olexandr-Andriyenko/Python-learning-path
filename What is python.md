@@ -91,6 +91,13 @@ At the beginning of the chapter was written: "Python is a higher programming lan
 <br>
 <br>
 To prevent programming directly with the machine language, different programming languages were invented, which abstract and simplify the communication between computer and human. To illustrate how impractical machine language programming is, consider the following command, whose meaning is not relevant to us for now:
+  
+```ruby
+  int a = 2;  
 ```
-int a = 2;  
+  
+This is an excerpt of a programming code from the language "C" language. If the same code were formulated in machine language, it would look like this:
+  
+```ruby
+  11000111010001011111110000000010
 ```
