@@ -26,3 +26,8 @@ Artificial languages are also often called constructed languages because, unlike
 <br>
 For example, secret languages have the purpose that only initiates understand the conversations among themselves.
 For such a secret language, a "key" is designed that makes it possible to encode the messages between the initiates, for example, by shifting letters or replacing them with numbers. In the process of the programming exercises, we will learn about the so-called "Caesar cipher", which allows us to encode a message.
+<br>
+Another example of artificial languages are the fictional languages that are conceived as part of a fictional world.
+They can be found mostly in movies, books or even computer games. If you've ever watched Star Trek, you're probably familiar with the fictional language Klingon.
+Many other examples of artificial languages exist, but for us as programming enthusiasts, the formal language is of particular importance.
+<br>
