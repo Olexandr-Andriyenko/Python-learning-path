@@ -41,4 +41,10 @@ Since we already know that Python is a programming language, we can already answ
 <br>
 <br>
 An algorithm is the set of all steps which are necessary to solve a given problem. So an algorithm is a solution plan, according to which data are processed in such a way, that they lead to the desired result. Algorithms are the basis of programming and can be formulated independently of a chosen programming language. In order to formulate an algorithm, first of all you have to describe the problem which you want to solve.
+<br>
+As an example of an algorithm, let's take the following example as a problem statement:
+<br>
+How much wallpaper is needed, to completely cover a rectangular wall?
+<br>
+In order to solve this problem, we will now define separate steps, which will be executed step by step in order to master this issue:
 
