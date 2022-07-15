@@ -4,8 +4,8 @@ All topics which are listed here, I have described in detail and worked out by m
 Feel free to learn python easiely by my roadmap beginer friendly.<br>
 ____________________________________________________________________________________________
 
-| Topic                     | Difficulty    |
-| --------------------------|---------------|
-| What is python            | Beginner      | 
-| Variables and data types  | Beginner      |
-| Input and output          | Beginner      |
+| Topic                                                                                                                | Difficulty    |
+| --------------------------|----------------------------------------------------------------------------------------------------------|
+| [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python)           | Beginner      | 
+| Variables and data types                                                                                             | Beginner      |
+| Input and output                                                                                                     | Beginner      |
