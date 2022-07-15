@@ -84,5 +84,5 @@ At the beginning of the chapter was written: "Python is a higher programming lan
 <br>
 <br>
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img04.png" width="450">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img04.png" width="400">
 <p> 
