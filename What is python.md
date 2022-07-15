@@ -119,4 +119,5 @@ It was already mentioned that a computer understands only machine language. This
 <br>
 <br>
 When a program is created by using a programming language, it creates a file with the programming code, which is also called source code. This source code must now be translated into machine language. This can be done either with a compiler or interpreter. For compiled programming languages like C or C++, a compiler must be used for the conversion into machine language. A corresponding compiler for the respective programming language must be available on each operating system. For compiling the C programming language, a different compiler with the appropriate version is required on Windows, Linux or macOS. A program that has been compiled for a specific operating system is also called a native program. When using compilers, the following points should be considered:
+- Program must be translated into machine language before execution
 
