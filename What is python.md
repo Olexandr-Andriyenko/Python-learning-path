@@ -76,6 +76,6 @@ Data such as videos, images, sounds or texts are represented as binary values wi
 But these data must have some order in the computer. For this purpose the so-called data structures are available, this is understood as the organization of data in the memory of a computer. Data structures are important for organizing, processing, accessing and storing data. Over time, you will learn about different data structures and understand how to use them.
 <br>
 <br>
-The two terms "algorithms" and "data structures" are of central importance in computer science. Already in 1976 Niklaus Wirth published a book with the title "Algorithms + Data Structures = Programs". This statement is of great importance and illustrates the
+The two terms "algorithms" and "data structures" are of central importance in computer science. Already in 1976 Niklaus Wirth published a book with the title ***"Algorithms + Data Structures = Programs"***. This statement is of great importance and illustrates the
 term "program". A program is a sequence of instructions and definitions, written in machine language or a higher programming language so that the computer understands the instructions. The program's task is to make the computer understand and execute an algorithm and process the necessary input data to solve a given problem. Programs are also very often called software. The person who creates a program is called a programmer and his activity is called programming (don't worry about this activity, we will deal with it long enough).
 
