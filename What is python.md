@@ -104,4 +104,10 @@ This is an excerpt of a programming code from the language "C" language. If the 
 
 The reason why one does not program directly in a machine language nowadays is the same reason, that nowadays people prefer to drive from Germany to France in a car, rather than in a horse carriage. The use of a machine language is confusing for humans, error-prone, non-compliant, and very complex compared to a 
 abstract programming language that is similar to a natural language.
+<br>
+<br>
+It is important to mention that such a machine language is dependent on the processor architecture (structure of the processors). Each processor architecture has its own instruction set, which represents the set of machine instructions that a particular processor can execute.
+<br>
+<br>
+Programming languages allow the interaction between programmer and computer to be abstracted and significantly simplified. And exactly depending on this level of abstraction, programming languages can be divided into machine languages, assembly languages and higher programming languages. Python is a higher-level programming language, which means that it is very far abstracted from zeros and ones and is closer to natural language.
 
