@@ -56,12 +56,15 @@ As an example of an algorithm, let's take the following example as a problem sta
 How much wallpaper is needed, to completely cover a rectangular wall?
 <br>
 In order to solve this problem, we will now define separate steps, which will be executed step by step in order to master this issue:
+<br>
+<br>
+  
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img03.png" width="900">
+<p> 
 
-1. Measure the width of the wall (input)
-2. Measure the length of the wall (input)
-3. Calculate the area by multiplying width with length (processing)
-4. Pick out a wallpaper with the area from step three (output)
-
+<br>
+<br>  
 These four individual steps are necessary to solve the problem. The four individual steps combined as a whole are called an algorithm.
 Such an algorithm can then be implemented in any programming language. In very general terms, an algorithm is a systematic, logical procedure of steps that leads to the solution of a problem. Such an algorithm can also be seen as a function, because input variables (width and length) are transformed into output variables (area), which represent the solution of the problem. Now it is left to explain what exactly a data structure is.
 <br>
