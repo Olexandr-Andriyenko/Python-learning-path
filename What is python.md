@@ -61,5 +61,5 @@ In computer science, data refers to certain information that has been translated
 Data such as videos, images, sounds or texts are represented as binary values with patterns of two numbers (0 and 1) inside the computer.
 <br>
 <br>
-But these data must have some order in the computer. For this purpose the so-called data structures are available, this is understood as the organization of data in the memory of a computer. Data structures are important for organizing, processing, accessing and storing data.
+But these data must have some order in the computer. For this purpose the so-called data structures are available, this is understood as the organization of data in the memory of a computer. Data structures are important for organizing, processing, accessing and storing data. Over time, you will learn about different data structures and understand how to use them.
 
