@@ -35,3 +35,7 @@ Many other examples of artificial languages exist, but for us as programming ent
 <br>
 <br>
 For the formal language there are many mathematical descriptions, which I will not go into for now, instead I will give you a simple description for the beginning, to get a basic overview. Formal languages have no meaning for interpersonal communication, their purpose is to enable an exact mathematical description or to describe the processing of data. Such a formal language is built from a certain set of symbol chains ("words" of a language), which can be composed from a character set ("alphabet" basic symbols). Perhaps in simpler terms: A formal language is composed of a set of words, which in turn is composed of characters of the alphabet of a language. The alphabet is the set of characters that is allowed to be used in a word. With such a formal language, a natural language can be modeled very well, because computers only work with formal languages. At some point you will come across the terms syntax and semantics in the context of languages. Syntax refers to the rules by which words of the language are constructed and semantics answers the question: What is the meaning of these words?
+<br>
+<br>
+Since we already know that Python is a programming language, we can already answer the following question with the previous knowledge: What actually is a programming language? A programming language is a formal language that is used to formulate algorithms and data structures that can be executed by the computer.
+
