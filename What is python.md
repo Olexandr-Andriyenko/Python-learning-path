@@ -13,3 +13,4 @@ There are different theories how these natural languages had developed, but this
 because in computer science the artificial language plays a big role.
 That is why we will take a closer look at artificial language to get deeper into the meaning of programming language.
 
+![py1 drawio](https://user-images.githubusercontent.com/92121260/179177965-025ecff1-5c7c-4969-b4f7-9356ec787448.png)
