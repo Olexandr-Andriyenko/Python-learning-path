@@ -14,7 +14,7 @@ But before we use this tool for problem solving, we have to learn more about thi
 For now, let's answer the first question: [What is python?](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md).
 
 
-| Topic                                                                                                                   | Difficulty    |
+| Chapter                                                                                                                 | Difficulty    |
 | --------------------------|-------------------------------------------------------------------------------------------------------------|
 | [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md)           | Beginner      | 
 | Variables and data types                                                                                                | Beginner      |
