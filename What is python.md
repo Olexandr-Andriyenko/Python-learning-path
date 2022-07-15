@@ -11,6 +11,15 @@ Such a natural language is never developed by a single person, but by a totality
 experience set with each other. Today, there are more than 6000 different natural languages known.
 There are different theories how these natural languages had developed, but this is not relevant for us for now, 
 because in computer science the artificial language plays a big role.
-That is why we will take a closer look at artificial language to get deeper into the meaning of programming language.
+That is why we will take a closer look at artificial language to get deeper into the meaning of programming language.<br>
+<br>
+<br>
 
-![py1 drawio](https://user-images.githubusercontent.com/92121260/179177965-025ecff1-5c7c-4969-b4f7-9356ec787448.png)
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/01.png" width="450">
+<p>
+  
+<br>
+<br>
+  
+Artificial languages are also often called constructed languages because, unlike natural languages, they had not evolved in the progress of human history as a medium of communication between people, but were constructed for a specific purpose.
