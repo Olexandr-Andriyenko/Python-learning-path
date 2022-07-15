@@ -83,3 +83,6 @@ term "program". A program is a sequence of instructions and definitions, written
 At the beginning of the chapter was written: "Python is a higher programming language". Slowly we are getting closer to the answer, what is Python. Now it only remains to find out why Python is not only a programming language, but a "higher" programming language. It was already mentioned that a computer understands only zeros and ones, a pattern from these two numbers is also called machine code, machine language or binary code. The reason for this lies in the construction of a computer from certain building blocks, which are controlled by electric current. Electric current can either flow through these components, represented by a one, or not, represented by a zero. However, for a programmer it is very complicated to develop a program by using a machine language. This is because a human being is not used to thinking in ones and zeros, because it does not correspond to its everydays communication medium (natural language).
 <br>
 <br>
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img04.png" width="900">
+<p> 
