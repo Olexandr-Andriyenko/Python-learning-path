@@ -24,10 +24,14 @@ That is why we will take a closer look at artificial language to get deeper into
   
 Artificial languages are also often called constructed languages because, unlike natural languages, they had not evolved in the progress of human history as a medium of communication between people, but were constructed for a specific purpose.
 <br>
+<br>
 For example, secret languages have the purpose that only initiates understand the conversations among themselves.
 For such a secret language, a "key" is designed that makes it possible to encode the messages between the initiates, for example, by shifting letters or replacing them with numbers. In the process of the programming exercises, we will learn about the so-called "Caesar cipher", which allows us to encode a message.
+<br>
 <br>
 Another example of artificial languages are the fictional languages that are conceived as part of a fictional world.
 They can be found mostly in movies, books or even computer games. If you've ever watched Star Trek, you're probably familiar with the fictional language Klingon.
 Many other examples of artificial languages exist, but for us as programming enthusiasts, the formal language is of particular importance.
 <br>
+<br>
+For the formal language there are many mathematical descriptions, which I will not go into for now, instead I will give you a simple description for the beginning, to get a basic overview. Formal languages have no meaning for interpersonal communication, their purpose is to enable an exact mathematical description or to describe the processing of data. Such a formal language is built from a certain set of symbol chains ("words" of a language), which can be composed from a character set ("alphabet" basic symbols). Perhaps in simpler terms: A formal language is composed of a set of words, which in turn is composed of characters of the alphabet of a language. The alphabet is the set of characters that is allowed to be used in a word. With such a formal language, a natural language can be modeled very well, because computers only work with formal languages. At some point you will come across the terms syntax and semantics in the context of languages. Syntax refers to the rules by which words of the language are constructed and semantics answers the question: What is the meaning of these words?
