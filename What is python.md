@@ -25,4 +25,4 @@ That is why we will take a closer look at artificial language to get deeper into
 Artificial languages are also often called constructed languages because, unlike natural languages, they had not evolved in the progress of human history as a medium of communication between people, but were constructed for a specific purpose.
 <br>
 For example, secret languages have the purpose that only initiates understand the conversations among themselves.
-For such a secret language, a "key" is designed that makes it possible to encode the messages between the initiates, for example, by shifting letters or replacing them with numbers.
+For such a secret language, a "key" is designed that makes it possible to encode the messages between the initiates, for example, by shifting letters or replacing them with numbers. In the process of the programming exercises, we will learn about the so-called "Caesar cipher", which allows us to encode a message.
