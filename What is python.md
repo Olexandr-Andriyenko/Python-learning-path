@@ -38,4 +38,7 @@ For the formal language there are many mathematical descriptions, which I will n
 <br>
 <br>
 Since we already know that Python is a programming language, we can already answer the following question with the previous knowledge: What actually is a programming language? A programming language is a formal language that is used to formulate algorithms and data structures that can be executed by the computer.
+<br>
+<br>
+An algorithm is the set of all steps which are necessary to solve a given problem. So an algorithm is a solution plan, according to which data are processed in such a way, that they lead to the desired result. Algorithms are the basis of programming and can be formulated independently of a chosen programming language. In order to formulate an algorithm, first of all you have to describe the problem which you want to solve.
 
