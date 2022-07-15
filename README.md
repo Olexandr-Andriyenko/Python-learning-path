@@ -11,11 +11,11 @@ Because the best way to learn a programming language is by practical application
 In this chapter I will only go into the most necessary details to gain a first insight into the Python programming language.<br>
 After all, a programming language is first and foremost a tool to solve different problems.<br>
 But before we use this tool for problem solving, we have to learn more about this tool.<br>
-For now, let's answer the first question: [What is python?](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python).
+For now, let's answer the first question: [What is python?](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md).
 
 
-| Topic                                                                                                                | Difficulty    |
-| --------------------------|----------------------------------------------------------------------------------------------------------|
-| [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python)           | Beginner      | 
-| Variables and data types                                                                                             | Beginner      |
-| Input and output                                                                                                     | Beginner      |
+| Topic                                                                                                                   | Difficulty    |
+| --------------------------|-------------------------------------------------------------------------------------------------------------|
+| [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md)           | Beginner      | 
+| Variables and data types                                                                                                | Beginner      |
+| Input and output                                                                                                        | Beginner      |
