@@ -58,6 +58,7 @@ How much wallpaper is needed, to completely cover a rectangular wall?
 <br>
 In order to solve this problem, we will now define separate steps, which will be executed step by step in order to master this issue:
 <br>
+  
 1. Measure the width of the wall (input)
 2. Measure the length of the wall (input)
 3. Calculate the area by multiplying width with length (processing)
