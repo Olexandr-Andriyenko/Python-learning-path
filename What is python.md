@@ -16,7 +16,7 @@ That is why we will take a closer look at artificial language to get deeper into
 <br>
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/01.png" width="450">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img01.png" width="450">
 <p>
   
 <br>
