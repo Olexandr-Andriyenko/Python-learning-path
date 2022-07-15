@@ -55,4 +55,11 @@ In order to solve this problem, we will now define separate steps, which will be
 
 These four individual steps are necessary to solve the problem. The four individual steps combined as a whole are called an algorithm.
 Such an algorithm can then be implemented in any programming language. In very general terms, an algorithm is a systematic, logical procedure of steps that leads to the solution of a problem. Such an algorithm can also be seen as a function, because input variables (width and length) are transformed into output variables (area), which represent the solution of the problem. Now it is left to explain what exactly a data structure is.
+<br>
+<br>
+In computer science, data refers to certain information that has been translated into a particular format so that a computer can understand and process it.
+Data such as videos, images, sounds or texts are represented as binary values with patterns of two numbers (0 and 1) inside the computer.
+<br>
+<br>
+But these data must have some order in the computer. For this purpose the so-called data structures are available, this is understood as the organization of data in the memory of a computer. Data structures are important for organizing, processing, accessing and storing data.
 
