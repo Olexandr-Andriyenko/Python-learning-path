@@ -101,3 +101,5 @@ This is an excerpt of a programming code from the language "C" language. If the 
 ```ruby
   11000111010001011111110000000010
 ```
+
+The reason why one does not program directly in a machine language nowadays is the same reason, that nowadays people prefer to drive from Germany to France in a car, rather than in a horse carriage.
