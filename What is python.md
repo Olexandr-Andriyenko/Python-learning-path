@@ -125,8 +125,7 @@ When a program is created by using a programming language, it creates a file wit
 - The translation speed is low
 - The development effort is high
 - Program requires less execution time and memory
-<br>
-<br>
+
 In an interpreted programming language such as Python, there is an interpreter used to translate it into machine language. The source code is translated into machine language line by line during the runtime of the program. The interpreter does not finish his work until the end of the program is reached or an error is detected in the source code. Programming languages which interpret source code are often called scripting languages. When using interpreters, the following points should be considered:
 - Source code translation is performed during the runtime of the program
 - It is translated line by line
@@ -134,3 +133,14 @@ In an interpreted programming language such as Python, there is an interpreter u
 - Interpreted code is about 20 times slower than compiled code
 - Can be executed on any operating system as long as suitable interpreter is available
 - Development effort very low
+  
+Often a clear assignment of a programming language to the compiler language or interpreter language is not possible, because for most programming languages both compilers and interpreters are available. At this point it must be mentioned that the description of compiler and interpreter is kept simple, but offers a good introduction to the topic. In reality, a compiler and interpreter is not a pure translator, because they have many more tasks than converting the source code into machine language.
+<br>
+<br>
+Some programming languages, such as Java, cannot be clearly assigned to a compiled or interpreted programming language. In Java, both an interpreter and compiler are used. In this process, the source code is translated into an intermediate language (bytecode) by a compiler and then converted into machine language by an interpreter.
+This can have some advantages such as platform independence of a programming language.
+<br>
+<br>
+After all the terms and explanations, you should now be able to successfully answer the question **"What is Python?"**:
+- It is a higher level programming language because Python is very far abstracted from the machine language and is similar to the natural language
+- Python is a scripting language because it is usually executed with an interpreter
