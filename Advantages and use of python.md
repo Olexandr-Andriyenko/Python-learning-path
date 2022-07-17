@@ -17,7 +17,13 @@ When you get to know a new tool, such as a a Phillips screwdriver, you also firs
 - Many libraries exist
 - Independent of the operating system
 - Gets by with relatively few keywords
-- 
+- Suitable for particularly fast development of programs. For this reason very popular in the RAD area (Rapid Application Development)
+- No semicolon at the end of the line, as for example with Java necessary
+- Specification of data types for variables not necessary (dynamically typed)
+- Simple games are easy to develop
+
+This list can be strongly continued, but it should be enough examples of the advantages and application areas in Python for the beginning. If you are a beginner, don't worry if some terms are not known in the list. Over time, we will look more closely at the subject areas and the terms that belong to them, and provide clear definitions.
+
 
 
 
