@@ -11,5 +11,8 @@ On the website you can easily find all the information about the installation. T
 The command line can be used in Windows to test whether Python has been successfully installed and is working. To do this you have to search Windows for "cmd".
 and then just type Python. After that you can see the Python version and its date in the console. Now the first big step is done and the real learning of Python can start soon
 
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img09.jpg" width="450">
+<p>
 
 
