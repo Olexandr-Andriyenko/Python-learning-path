@@ -157,6 +157,7 @@ This can have some advantages such as platform independence of a programming lan
   
 <br>
 <br>
+  
 After all the terms and explanations, you should now be able to successfully answer the question "What is Python?":
 - It is a higher level programming language because Python is very far abstracted from the machine language and is similar to the natural language
 - Python is a scripting language because it is usually executed with an interpreter
