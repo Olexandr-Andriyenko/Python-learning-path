@@ -120,4 +120,17 @@ It was already mentioned that a computer understands only machine language. This
 <br>
 When a program is created by using a programming language, it creates a file with the programming code, which is also called source code. This source code must now be translated into machine language. This can be done either with a compiler or interpreter. For compiled programming languages like C or C++, a compiler must be used for the conversion into machine language. A corresponding compiler for the respective programming language must be available on each operating system. For compiling the C programming language, a different compiler with the appropriate version is required on Windows, Linux or macOS. A program that has been compiled for a specific operating system is also called a native program. When using compilers, the following points should be considered:
 - Program must be translated into machine language before execution
-
+- The entire source text is translated at once
+- Errors are collected and displayed after complete compilation 
+- The translation speed is low
+- The development effort is high
+- Program requires less execution time and memory
+<br>
+<br>
+In an interpreted programming language such as Python, there is an interpreter used to translate it into machine language. The source code is translated into machine language line by line during the runtime of the program. The interpreter does not finish his work until the end of the program is reached or an error is detected in the source code. Programming languages which interpret source code are often called scripting languages. When using interpreters, the following points should be considered:
+- Source code translation is performed during the runtime of the program
+- It is translated line by line
+- Better error analysis because translation stops immediately when an error appears
+- Interpreted code is about 20 times slower than compiled code
+- Can be executed on any operating system as long as suitable interpreter is available
+- Development effort very low
