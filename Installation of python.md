@@ -12,7 +12,7 @@ The command line can be used in Windows to test whether Python has been successf
 and then just type Python. After that you can see the Python version and its date in the console. Now the first big step is done and the real learning of Python can start soon
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img09.jpg" width="450">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img09.JPG" width="600">
 <p>
 
 
