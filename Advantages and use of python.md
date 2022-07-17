@@ -25,6 +25,11 @@ When you get to know a new tool, such as a a Phillips screwdriver, you also firs
 This list can be strongly continued, but it should be enough examples of the advantages and application areas in Python for the beginning. If you are a beginner, don't worry if some terms are not known in the list. Over time, we will look more closely at the subject areas and the terms that belong to them, and provide clear definitions.
 
 
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img08.png" width="450">
+<p>
+
+
 
 
 
