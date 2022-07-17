@@ -115,6 +115,13 @@ Programming languages allow the interaction between programmer and computer to b
 Assembly languages are much less abstracted from zeros and ones compared to higher programming languages. Although you don't program in binary code, the commands are still very cryptic and confusing. A higher level programming language like Python has a very high level of abstraction, which makes the language more understandable and easy to remember.
 <br>
 <br>
+  
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img05.png" width="600">
+<p> 
+  
+<br>
+<br>
 It was already mentioned that a computer understands only machine language. This means that the programming language that we use to create a program must firstly be translated into machine language, before the computer executes the program. Without translation, the computer would not understand the program and would not be able to execute it. To convert a programming language into machine language, you need a translator. Depending on what kind of translator is used for a programming language, it is either a compiled programming language, an interpreted programming language or an intermediate language. Python is an interpreted programming language, what exactly this means will be understood in the next lines. 
 <br>
 <br>
