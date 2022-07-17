@@ -60,7 +60,7 @@ In order to solve this problem, we will now define separate steps, which will be
 <br>
   
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img03.png" width="900">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img03.png" width="400">
 <p> 
 
 <br>
