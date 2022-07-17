@@ -14,11 +14,11 @@ But before we use this tool for problem solving, we have to learn more about thi
 For now, let's answer the first question: [What is python?](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md).
 
 
-| Chapter                                                                                                                 | Difficulty    |
-| --------------------------|-------------------------------------------------------------------------------------------------------------|
-| [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md)           | Beginner      | 
-| Advantages and use of python                                                                                            | Beginner      |
-| Installation of python                                                                                                  | Beginner      |
-| Variables and data types                                                                                                | Beginner      |
-| Input and output                                                                                                        | Beginner      |
+| Chapter                                                                                                                                      | Difficulty    |
+| ---------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md)                                | Beginner      | 
+| [Advantages and use of python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Advantages%20and%20use%20of%20python.md)| Beginner      |
+| Installation of python                                                                                                                       | Beginner      |
+| Variables and data types                                                                                                                     | Beginner      |
+| Input and output                                                                                                                             | Beginner      |
 
