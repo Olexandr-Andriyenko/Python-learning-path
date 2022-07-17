@@ -13,6 +13,7 @@ After all, a programming language is first and foremost a tool to solve differen
 But before we use this tool for problem solving, we have to learn more about this tool.<br>
 For now, let's answer the first question: [What is python?](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md).
 
+## Python introduction
 
 | Chapter                                                                                                                                      | Difficulty    |
 | ---------------------------------------------------------------------------------------------------------------------------------------------|---------------|
