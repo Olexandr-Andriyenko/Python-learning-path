@@ -25,9 +25,10 @@ Actually, in Python, the data is stored in objects and the variables simply refe
 Now we have to look at how to assign a value to variables. This is done with the so-called assignment operator "=", which should not be confused with the equals sign from mathematics. As an example, let's look at the following quel text (you should absolutely reproduce all examples on your own!):
 
 ```python
-income = 4200
+salary = 4200
 job = "programmer"
 employee_vacation = False
 # Increase employee salary
 salary = 4700.97
 ```
+In the 1st line a variable is created with the name "salary" and a value of 4200 is assigned to it. Because 4200 is an whole number, the data type of salary is a integer. In the 2nd line, the word "programmer" is assigned to the variable "job". This is a character sequence and so the data type is string. In the 3rd line it is a Boolean. The 4th line is a comment and is used only by the programmer, as a tool to make notes. Comments are prefixed with a hash and ignored in the program. In the 5th line the value of the variable "salary", which was previously defined in line 1, is changed. This is a real number and therefore it is now the float data type instead of integer.
