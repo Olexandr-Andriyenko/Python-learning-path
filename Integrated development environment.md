@@ -5,4 +5,9 @@ Now that Python is installed on the operating system, you could theoretically al
 <br>
 <br>
 Then you open the created text document and you have an area where you can write your own source code. To test this you can paste the following source code:
-
+```python
+import time
+print("hello")
+time.sleep(5)
+```
+The meaning of the individual "words" is not important for now, the explanations will come later. To run this program now, you need to go to "Save As" under "File". Afterwards a window appears where you have to select "All files" under "File type". At the "filename" you choose any name, but you have to take care that the ending of the name is ".py" (e.g. program.py). After saving, a Python file appears, which can be executed by double-clicking on it. The file is located under the location you selected. After running the file, the console will open automatically, saying "hello". After 5 seconds the console closes automatically and the program is finished.
