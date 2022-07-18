@@ -36,7 +36,7 @@ In the 1st line a variable is created with the name "salary" and a value of 4200
 <br>
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img10.png" width="350">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img10.png" width="300">
 <p>
   
 
