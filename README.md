@@ -30,4 +30,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | ---------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Variables and data types                                                                                                                     | Beginner      |
 | Input and output                                                                                                                             | Beginner      |      
-(https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Integrated%20development%20environment.md)
+
