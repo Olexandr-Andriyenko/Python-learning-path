@@ -89,3 +89,16 @@ For a formatted output the knowledge of string literals is helpful. They are usu
 | "\t"          | Horizontal tab  |
 | "\f"          | Formfeed        |
 | "\r"          | Carriage Return |
+Example:
+```python
+name = "Chayenne"
+age = 18
+print(f"Hello my name is:\n{name} and I am:\n{age} years old")
+```
+Gives the Output:
+```
+Hello my name is:
+Chayenne and I am:
+18 years old
+```
+Try to use the other string literals by yourself and find out their meaning!
