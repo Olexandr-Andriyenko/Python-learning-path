@@ -105,10 +105,16 @@ Chayenne and I am:
 Try to use the other string literals by yourself and find out their meaning!
 <br>
 <br>
-### Assignment about the print() function
+### Assignments about the print() function
 
 1 Let the words Tea, Coffee and Latte appear on the console in that order with a space between them. 
 <br> Expected output:
 ```
 Tea Coffee Latte
+```
+2 Write code that does the following. Define a variable text that is assigned the value Hello World! Use this variable to make Hello World! appear on the console. Then, change the value of this variable to MINT first. and print these words on the console. 
+<br> Expected output:
+```
+Hello World!
+MINT first
 ```
