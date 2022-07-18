@@ -89,6 +89,7 @@ For a formatted output the knowledge of string literals is helpful. They are usu
 | "\t"          | Horizontal tab  |
 | "\f"          | Formfeed        |
 | "\r"          | Carriage Return |
+
 Example:
 ```python
 name = "Chayenne"
