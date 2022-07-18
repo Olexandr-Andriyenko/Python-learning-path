@@ -103,3 +103,12 @@ Chayenne and I am:
 18 years old
 ```
 Try to use the other string literals by yourself and find out their meaning!
+<br>
+<br>
+### Assignment about the print() function
+
+1 Let the words Tea, Coffee and Latte appear on the console in that order with a space between them. 
+<br> Expected output:
+```
+Tea Coffee Latte
+```
