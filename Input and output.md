@@ -107,14 +107,25 @@ Try to use the other string literals by yourself and find out their meaning!
 <br>
 ### Assignments about the print() function
 
-1 Let the words Tea, Coffee and Latte appear on the console in that order with a space between them. 
+1. Let the words Tea, Coffee and Latte appear on the console in that order with a space between them. 
 <br> Expected output:
 ```
 Tea Coffee Latte
 ```
-2 Write code that does the following. Define a variable text that is assigned the value Hello World! Use this variable to make Hello World! appear on the console. Then, change the value of this variable to MINT first. and print these words on the console. 
+2. Write code that does the following. Define a variable text that is assigned the value Hello World! Use this variable to make Hello World! appear on the console. Then, change the value of this variable to MINT first. and print these words on the console. 
 <br> Expected output:
 ```
 Hello World!
 MINT first
+```
+3. Look at the following code. Write down exactly (including the spaces) what will appear on the console when this code is executed. 
+```python
+age = 30
+print("In two years you will be", age + 2, "years old.")
+```
+4. Make the following text appear on the console using a print function. 
+```
+Hello Alex!
+Awesome, that you improve your python-skills.
+Do not give up!
 ```
