@@ -26,3 +26,9 @@ The most important components of an IDE are:
 - Tools for the development of graphical user interfaces (GUI)
 - Version control
 - Many more tools and extensions
+
+
+In fact, when installing Python, an IDE called IDLE is often installed. You can find it quickly through Windows Search, for example. However, we will use another IDE that is very commonly used in the Python community to create professional software. It is the Python IDE "PyCharm", which can be downloaded from the website of "JETBRAINS" (https://www.jetbrains.com/de-de/pycharm/). After installing PyCharm, we have everything we need in tools set up and can get started with the actual programming in Python.
+<br>
+<br>
+It should be mentioned that there are different IDEs for Python, but at the beginning you should not worry about which one you use. As a beginner, you will focus more on the syntax and semantics of a programming language than on the individual tools of an IDE. You will become familiar with the IDE while learning a programming language, which will answer most questions about the IDE either by itself or through a little internet research.
