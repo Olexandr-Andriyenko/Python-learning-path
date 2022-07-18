@@ -32,3 +32,6 @@ employee_vacation = False
 salary = 4700.97
 ```
 In the 1st line a variable is created with the name "salary" and a value of 4200 is assigned to it. Because 4200 is an whole number, the data type of salary is a integer. In the 2nd line, the word "programmer" is assigned to the variable "job". This is a character sequence and so the data type is string. In the 3rd line it is a Boolean. The 4th line is a comment and is used only by the programmer, as a tool to make notes. Comments are prefixed with a hash and ignored in the program. In the 5th line the value of the variable "salary", which was previously defined in line 1, is changed. This is a real number and therefore it is now the float data type instead of integer.
+<br>
+<br>
+So called keywords should be considered when naming variables. These are certain words such as break, def, from, global, return... which cannot be used as variable names. You are probably not going to know all the keywords by memory, and you don't have to. Your IDE will give you a warning if you accidentally name a variable with a keyword. If you are interested in what the keywords are, you can read it on the official Python website. Now you should be able to create variables on your own and understand what data type it is.
