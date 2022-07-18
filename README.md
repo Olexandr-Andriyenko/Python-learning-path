@@ -27,6 +27,6 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 
 | Chapter                                                                                                                                      | Difficulty    |
 | ---------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| Variables and data types                                                                                                                     | Beginner      |
+| [Variables and data types](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Variables%20and%20data%20types.md)          | Beginner      |
 | Input and output                                                                                                                             | Beginner      |      
 
