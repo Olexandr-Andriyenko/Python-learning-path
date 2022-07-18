@@ -65,3 +65,18 @@ Gives the Output:
 Hello my name is Chayenne, and I am 18 years old
 ```
 So within the print function you can bring a string together with a variable by a comma or a plus. When using the comma method, a space is created and when using plus, a space must be added for a "nicer" output.
+<br>
+<br>
+If you want to output multiple variables and character using the print function, you should use the so-called f-string. To do this, the letter "f" must be placed before the quotation marks in the print function. All variables which should be output must be marked by curly brackets. 
+<br>
+<br>
+Example:
+```python
+name = "Chayenne"
+age = 18
+print(f"Hello my name is {name} and I am {age} years old")
+```
+Gives the Output:
+```
+Hello my name is Chayenne, and I am 18 years old
+```
