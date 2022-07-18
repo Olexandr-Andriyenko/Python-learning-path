@@ -21,8 +21,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Advantages and use of python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Advantages%20and%20use%20of%20python.md)| Beginner      |
 | [Installation of python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Installation%20of%20python.md)                | Beginner      |
 | [Integrated development environment](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Integrated%20development%20environment.md) | Beginner      |
-| Tipps learning programming                                                                                                                   | Beginner      |
-
+| [Tipps learning programming](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Tipps%20learning%20programming.md)        | Beginner      |
 
 ## Python basics
 
