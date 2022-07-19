@@ -47,3 +47,25 @@ print(x ** n)
 # 1
 # 25
 ```
+
+## Comparison  operators
+
+Comparison operators are used to compare values. The output when using these operators can be either "True" or "False".
+
+| Operator                          | Meaning                             | Example                                  |
+| ----------------------------------|-------------------------------------|----------------------------------------- |
+| " > "                             | Greater than                        | x > y                                    |
+| " < "                             | Less than                           | x < y                                    |
+| " == "                            | Equal to                            | x == y                                   |
+| " != "                            | Not equal to                        | x != y                                   |
+| " >= "                            | Greater than or equal to            | x >= y                                   |
+| " <= "                            | Less than or equal to               | x <= y                                   |
+
+
+
+
+
+
+
+
+Let's take a closer look at examples of arithmetic operations.
