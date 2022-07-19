@@ -62,10 +62,34 @@ Comparison operators are used to compare values. The output when using these ope
 | " <= "                            | Less than or equal to               | x <= y                                   |
 
 
+Let's take a closer look at examples of comparison operations.
 
+Example:
+```python
+# Create some variables for the operations
+x = 5
+y = 3
+# Greater than
+print(x > y)
+# Less than
+print(x < y)
+# Equal to
+print(x == y)
+# Not Equal to
+print(x != y)
+# Greater than or equal to
+print(x >= y)
+# Less than or equal to
+print( x <= y)
+# The operations gives the following outputs
+# True
+# False
+# False
+# True
+# True
+# False
+```
 
+## Logical  operators
 
-
-
-
-Let's take a closer look at examples of arithmetic operations.
+Python supports the logical operators "and", "or" and "not".
