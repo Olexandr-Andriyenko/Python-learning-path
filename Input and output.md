@@ -129,3 +129,16 @@ Hello Alex!
 Awesome, that you improve your python-skills.
 Do not give up!
 ```
+## Input by the input() function
+
+The easiest way to create an input of data and store it in a variable is using the "input()" function. The data is entered by the keyboard. In the parenthesis of the "input()" function a string can be passed in quotation marks, which will be printed in the console to inform the user about the input of data.
+<br> Example:
+```python
+age = input("Enter your age here: ")
+```
+The console will display the text "Enter your age here: " Then Python will wait for the user's input to continue processing. After the user has made a console input, the variable name "age" is assigned the entered value and saved. If you print the variable "age" using the print() function, the output will be the assigned age-value.
+```python
+# After the input the number "18" in the last code block
+print(age)
+# Gives the output "18"
+```
