@@ -42,4 +42,7 @@ In the 1st line a variable is created with the name "salary" and a value of 4200
 
 <br>
 <br>
-So called keywords should be considered when naming variables. These are certain words such as break, def, from, global, return... which cannot be used as variable names. You are probably not going to know all the keywords by memory, and you don't have to. Your IDE will give you a warning if you accidentally name a variable with a keyword. If you are interested in what the keywords are, you can read it on the official [Python website](https://docs.python.org/3/reference/lexical_analysis.html#identifiers). Now you should be able to create variables on your own and understand what data type it is.
+So called keywords should be considered when naming variables. These are certain words such as break, def, from, global, return... which cannot be used as variable names. You are probably not going to know all the keywords by memory, and you don't have to. Your IDE will give you a warning if you accidentally name a variable with a keyword. If you are interested in what the keywords are, you can read it on the official 
+  
+[Python website](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) 
+Now you should be able to create variables on your own and understand what data type it is.
