@@ -152,3 +152,12 @@ type(age)
 # Gives the output "str"
 ```
 It looks like a number, but it is a string. How to convert a string into an integer, you will learn in the future.
+### Assignments about the input() function
+
+1. Create a program that prints your first name, last name and birthday on the console.
+```
+# Expected output:
+Gandalf
+Graurock
+10 January 1642
+```
