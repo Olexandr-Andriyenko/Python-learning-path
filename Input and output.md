@@ -151,3 +151,4 @@ print(age)
 type(age)
 # Gives the output "str"
 ```
+It looks like a number, but it is a string. How to convert a string into an integer, you will learn in the future.
