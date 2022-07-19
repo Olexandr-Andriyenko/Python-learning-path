@@ -142,3 +142,12 @@ The console will display the text "Enter your age here: " Then Python will wait 
 print(age)
 # Gives the output "18"
 ```
+It is very important to know that the data type of the variable, which has been assigned a value by the "input()" function, is a string. By using the function "type()" you can find out which data type a variable has:
+```python
+age = input("Enter your age here: ")
+# Input number "18"
+print(age)
+# Gives the output "18"
+type(age)
+# Gives the output "str"
+```
