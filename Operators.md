@@ -92,4 +92,13 @@ print( x <= y)
 
 ## Logical  operators
 
-Python supports the logical operators "and", "or" and "not".
+Python supports the logical operators "and", "or" and "not". Just like comparison operators, logical operators result in "True" or "False" after evaluation. The values "True" or "False" are also called Boolean values. The corresponding variables which are linked to each other by logical operators and are affected with boolean values are called boolean expressions. Thus, the logical operators allow a specific linkage between the variables. So called truth tables are often used to illustrate the evaluation of two variables that are linked together by logical operators.
+
+### Logical "and"
+
+| Variable x    | Variable y    | x and y   |
+| ------------- | ------------- | --------- |
+| True          | False         | False     |
+| False         | True          | False     |
+| True          | True          | True      |
+| False         | False         | False     |
