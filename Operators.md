@@ -242,3 +242,11 @@ Let's have a look at how to address the single elements of a string.
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img12.png" width="450">
 <p>
+  
+You can see that the characters of a string are numbered from left to right starting with 0. From the back (right) you start counting with -1. Each character of a string can be addressed clearly by this way, they can index with square brackets, as you can see in the following example: 
+ 
+```python
+txt = "Hello World"
+# Lets address and print single characters
+
+```
