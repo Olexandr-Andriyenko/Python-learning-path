@@ -240,5 +240,5 @@ The membership operators are used to detect if variables are in a sequence (list
 Let's have a look at how to address the single elements of a string.
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img12.png" width="700">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img12.png" width="450">
 <p>
