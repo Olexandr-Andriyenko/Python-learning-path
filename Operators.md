@@ -209,7 +209,7 @@ print(a == b)
 # Lets check the adress of the objects which refered by the variables 
 print(id(a))
 print(id(b))
-Gives the output: "9789280" and "9789280"
+# Gives the output: "9789280" and "9789280"
 # Both "a" and "b" is pointed to the same object
 
 
