@@ -228,3 +228,9 @@ print(a == b)
 False
 False
 ```
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img11.JPG" width="600">
+<p>
+
+
