@@ -223,4 +223,8 @@ a = a + 1
 print(id(a))
 print(a is b)
 print(a == b)
+# Output is:
+2363502494256
+False
+False
 ```
