@@ -299,3 +299,12 @@ In this code, "H" is present in the sequence (string), so "True" is returned. Si
 ## Assignment   operators
   
 Assignment operators are used to assign values to variables.
+
+  
+  
+| Operator      | Example       | Same as      |
+| ------------- | ------------- | ------------ |
+| =             | x = 5         | x = 5        |
+|  +            | x += 3        | x = x + 3    |
+| -=            | x -= 3        | x = x - 3    |
+| *=            | x *= 2        | x = x * 2    |
