@@ -235,4 +235,6 @@ print(a == b)
 
 ## Membership  operators
 
-The membership operators are used to detect if variables are in a sequence (list, tuple, string, and dictionary) or not.
+The membership operators are used to detect if variables are in a sequence (list, tuple, string, and dictionary) or not. A sequence is a data type that contains a sequence of similar or different elements. You already know a sequence, which is called a string. In the future you will get to know other sequences like lists, tuples and directories. The elements of a sequence have a defined order and so they can be accessed by indices. 
+<br>
+Let's have a look at how to address the single elements of a string.
