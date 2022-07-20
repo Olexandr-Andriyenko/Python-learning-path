@@ -234,3 +234,5 @@ print(a == b)
 <p>
 
 ## Membership  operators
+
+The membership operators are used to detect if variables are in a sequence (list, tuple, string, and dictionary) or not.
