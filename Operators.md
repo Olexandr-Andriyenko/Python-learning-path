@@ -118,3 +118,25 @@ Python supports the logical operators "and", "or" and "not". Just like compariso
 | ------------- | ------------- | 
 | True          | False         | 
 | False         | True          | 
+
+Example:
+```python
+# Create some variables for the calculations
+x = True
+y = False
+# Logical and
+print(x and y)
+# Logical or
+print(x or y)
+# Logical not
+print(not y)
+# Combination of logical operators
+print((x and y) or (x or y))
+print(not(x or y))
+# The operations gives the following outputs
+# False
+# True
+# True
+# True
+# False
+```
