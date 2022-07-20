@@ -233,4 +233,4 @@ print(a == b)
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img11.png" width="700">
 <p>
 
-
+## Membership  operators
