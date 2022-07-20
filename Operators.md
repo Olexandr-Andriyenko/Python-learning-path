@@ -150,6 +150,7 @@ It was already mentioned that variables actually refer to objects. The actual da
 | in            | Returns "True" if a sequence with the specified value is present in the object               | 
 | not in        | Returns "True" if a sequence with the specified value is not present in the object           | 
 
+
 Example:
 ```python
 # Create some variables for the calculations
@@ -171,4 +172,26 @@ False
 True
 False
 True
+```
+
+The variable "n1" and "n2" return the value "True", which means that the two variables reference the same object. By using the "id()" function you can explain this behavior. The function "id()" returns a unique integer value for any object. This value equals the address where the object is stored in memory.
+
+```python
+# Create some variables for the calculations
+n1 = "alex"
+n2 = "peter"
+n3 = "chayenne"
+n4 = "alex"
+
+# Lets find out the adress of each variable
+print(id(n1))
+print(id(n2))
+print(id(n3))
+print(id(n4))
+# The operations gives the following outputs
+# 139943243577520
+# 139943243577648
+# 139943243577840
+# 139943243577520
+# The first address is equal to the fourth address, these two variables reference the same object in memory (this is why we have the value "True" using the "in" operator)
 ```
