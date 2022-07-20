@@ -195,3 +195,22 @@ print(id(n4))
 # 139943243577520
 # The first address is equal to the fourth address, these two variables reference the same object in memory (this is why we have the value "True" using the "in" operator)
 ```
+
+Don't confuse the both operators "in" and "=="! There is a big difference between the two operators. The "is" operator will return "True" if two variables point to the same object. The "==" operator will return "True", if the values assigned to the variables are identical.
+<br>
+To illustrate the difference between "is" and "==" watch the following example:
+
+```python
+# Equality operator
+a = 10
+b = 10
+print(a == b)
+# Gives the output "True" because the value of the variables is identical
+# Lets check the adress of the objects which refered by the variables 
+print(id(a))
+print(id(b))
+Gives the output: "9789280" and "9789280"
+# Both "a" and "b" is pointed to the same object
+
+
+```
