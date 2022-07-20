@@ -294,3 +294,5 @@ print("k" not in txt)
 # False
 # True
 ```
+In this code, "H" is present in the sequence (string), so "True" is returned. Similarly, "W" is present in "txt", so "True" is returned again because " not in" is used, and so on.
+  
