@@ -140,3 +140,35 @@ print(not(x or y))
 # True
 # False
 ```
+## Identity  operators
+
+It was already mentioned that variables actually refer to objects. The actual data is stored in objects. Using the identity operators it is possible to find out if the locations of objects in the memory match.
+
+
+| Operator      | Description                                                                                  |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| in            | Returns "True" if a sequence with the specified value is present in the object               | 
+| not in        | Returns "True" if a sequence with the specified value is not present in the object           | 
+
+Example:
+```python
+# Create some variables for the calculations
+n1 = "alex"
+n2 = "peter"
+n3 = "chayenne"
+n4 = "alex"
+n = n1, n3
+# Lets try the operator "in"
+print(n3 in n)
+print(n2 in n)
+print(n1 in n4)
+# Lets try the operator "not in"
+print(n1 not in n)
+print(n2 not in n)
+# The operations gives the following outputs
+True
+False
+True
+False
+True
+```
