@@ -102,3 +102,19 @@ Python supports the logical operators "and", "or" and "not". Just like compariso
 | False         | True          | False     |
 | True          | True          | True      |
 | False         | False         | False     |
+
+### Logical "or"
+
+| Variable x    | Variable y    | x or y    |
+| ------------- | ------------- | --------- |
+| True          | False         | True      |
+| False         | True          | True      |
+| True          | True          | True      |
+| False         | False         | False     |
+
+### Logical "not"
+
+| Variable x    | not x         | 
+| ------------- | ------------- | 
+| True          | False         | 
+| False         | True          | 
