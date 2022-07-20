@@ -299,7 +299,6 @@ In this code, "H" is present in the sequence (string), so "True" is returned. Si
 ## Assignment   operators
   
 Assignment operators are used to assign values to variables.
-
   
   
 | Operator      | Example       | Same as      |
@@ -308,3 +307,46 @@ Assignment operators are used to assign values to variables.
 |  +            | x += 3        | x = x + 3    |
 | -=            | x -= 3        | x = x - 3    |
 | *=            | x *= 2        | x = x * 2    |
+| /=            | x /= 2        | x = x / 2    |
+| %=            | x %= 3        | x = x % 3    |
+| //=           | x //= 2       | x = x // 2   |
+| **=           | x **= 2       | x = x ** 2   |
+
+Example:
+  
+```python
+# Create variable for operation
+x = 2
+print(x)
+# Use the assignment operations
+x = 2
+x += 3
+print(x)
+x = 2
+x -= 3
+print(x)
+x = 2
+x *= 2
+print(x)
+x = 2
+x /= 2
+print(x)
+x = 2
+x %= 3
+print(x)
+x = 2
+x //= 2
+print(x)
+x = 2
+x **= 2
+print(x)  
+# Output is:
+2
+5
+-1
+4
+1.0
+2
+1
+4
+```
