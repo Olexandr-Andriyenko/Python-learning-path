@@ -147,8 +147,8 @@ It was already mentioned that variables actually refer to objects. The actual da
 
 | Operator      | Description                                                                                  |
 | ------------- | -------------------------------------------------------------------------------------------- |
-| in            | Returns "True" if a sequence with the specified value is present in the object               | 
-| not in        | Returns "True" if a sequence with the specified value is not present in the object           | 
+| is            | Returns "True" if both variables are the same object                                         | 
+| is not        | Returns "True" if both variables are not the same object                                     | 
 
 
 Example:
@@ -160,12 +160,12 @@ n3 = "chayenne"
 n4 = "alex"
 n = n1, n3
 # Lets try the operator "in"
-print(n3 in n)
-print(n2 in n)
-print(n1 in n4)
+print(n3 is n)
+print(n2 is n)
+print(n1 is n4)
 # Lets try the operator "not in"
-print(n1 not in n)
-print(n2 not in n)
+print(n1 is not n)
+print(n2 is not n)
 # The operations gives the following outputs
 True
 False
@@ -248,5 +248,49 @@ You can see that the characters of a string are numbered from left to right star
 ```python
 txt = "Hello World"
 # Lets address and print single characters
+  print(txt[0])
+  print(txt[1])
+  print(txt[2])
+  print(txt[3])
+  print(txt[4])
+# Output is:
+  # H
+  # e
+  # l
+  # l
+  # o
+# Lets address and print other single characters
+  print(txt[-5])
+  print(txt[-4])
+  print(txt[-3])
+  print(txt[-2])
+  print(txt[-1])
+# Output is:
+  # W
+  # o
+  # r
+  # l
+  # d
+```
 
+In this context, let's take a closer look at the membership operators.
+  
+| Operator      | Description                                                                                  |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| in            | Returns "True" if a sequence with the specified value is present in the object               | 
+| not in        | Returns "True" if a sequence with the specified value is not present in the object           | 
+  
+Let's look at an example:  
+  
+```python
+txt = "Hello World"
+print("H" in txt)
+print("W" not in txt)
+print("X" in txt) 
+print("k" not in txt) 
+# Output is:
+# True
+# False
+# False
+# True
 ```
