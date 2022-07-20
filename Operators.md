@@ -205,12 +205,22 @@ To illustrate the difference between "is" and "==" watch the following example:
 a = 10
 b = 10
 print(a == b)
+
 # Gives the output "True" because the value of the variables is identical
-# Lets check the adress of the objects which refered by the variables 
+# Lets check the adress of the objects which refered by the variables
 print(id(a))
 print(id(b))
 # Gives the output: "9789280" and "9789280"
 # Both "a" and "b" is pointed to the same object
 
+# That is why the "is" operator should output "True"
+print(a is b)
 
+# Lets increase the variable "a" by 1
+a = a + 1
+
+# Now the variable has got a different id and value and does not reference to the same object as b
+print(id(a))
+print(a is b)
+print(a == b)
 ```
