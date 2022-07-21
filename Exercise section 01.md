@@ -17,3 +17,9 @@ Enter your gross salary in euros:
 This results in a tax amount of: 600 Euro.
 ```
 ### 3.Exercise:
+Write a code that, for two given numbers "a" and "b", outputs the sum of the squares of "a" and "b". The values of the variables "a" and "b" are set by the user.<br>
+The output should look like this:
+```
+
+```
+
