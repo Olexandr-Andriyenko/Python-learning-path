@@ -5,3 +5,19 @@ Type conversion in computer science is the conversion of one data type into anot
 ## Implicit type conversion
 
 In implicit type conversion, Python automatically converts one data type to another data type. This process does not require the participation of the programmer. With the "type()" function you can display the data type of a variable, to be more precise of an object.
+<br>
+Example:
+```python
+num_int = 20
+num_float = 3.141
+new_num = num_int * num_float
+# Which datatype has the variable "new_num"?
+print(f"Datatype of num_int ist: {type(num_int)}")
+print(f"Datatype of num_float ist: {type(num_float)}")
+print(f"Datatype of new_num ist: {type(new_num)}")
+# Gives the outpur:
+Datatype of num_int ist: <class 'int'>
+Datatype of num_float ist: <class 'float'>
+Datatype of new_num ist: <class 'float'>
+# The datatype of "new_num" is determined automaticlly(implicit type conversion)
+```
