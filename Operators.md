@@ -8,13 +8,13 @@ Arithmetic operators are used to perform mathematical operations.
 
 | Operator                          | Meaning                             | Example                                 |
 | ----------------------------------|-------------------------------------|---------------------------------------- |
-| " + "                               | Add two operands                    | x + y                                   |
-| " - "                               | Subtract right operand from the left| x - y                                   |
-| " * "                               | Multiply two operands               | x * y                                   |
-| " / "                               | Divide left operand by the right one| x / y                                   |
-| " % "                               | Modulus (remainder of the division of left operand by the right)| x % y       |
-| " // "                              | Floor division (division that results into whole number) | x - y              |
-| " ** "                              | Exponent                            | x ** n                                  |
+|  +                                | Add two operands                    | x + y                                   |
+|  -                                | Subtract right operand from the left| x - y                                   |
+|  *                                | Multiply two operands               | x * y                                   |
+|  /                                | Divide left operand by the right one| x / y                                   |
+|  %                                | Modulus (remainder of the division of left operand by the right)| x % y       |
+|  //                               | Floor division (division that results into whole number) | x - y              |
+|  **                               | Exponent                            | x ** n                                  |
 
 Let's take a closer look at examples of arithmetic operations.
 
@@ -54,12 +54,12 @@ Comparison operators are used to compare values. The output when using these ope
 
 | Operator                          | Meaning                             | Example                                  |
 | ----------------------------------|-------------------------------------|----------------------------------------- |
-| " > "                             | Greater than                        | x > y                                    |
-| " < "                             | Less than                           | x < y                                    |
-| " == "                            | Equal to                            | x == y                                   |
-| " != "                            | Not equal to                        | x != y                                   |
-| " >= "                            | Greater than or equal to            | x >= y                                   |
-| " <= "                            | Less than or equal to               | x <= y                                   |
+|    >                              | Greater than                        | x > y                                    |
+|  <                                | Less than                           | x < y                                    |
+|  ==                               | Equal to                            | x == y                                   |
+|  !=                               | Not equal to                        | x != y                                   |
+|  >=                               | Greater than or equal to            | x >= y                                   |
+|  <=                               | Less than or equal to               | x <= y                                   |
 
 
 Let's take a closer look at examples of comparison operations.
@@ -350,3 +350,5 @@ print(x)
 # 1
 # 4
 ```
+
+There is one more type of operator which we will not cover here because it is not relevant for beginners. These are "bitwise operators" that allow us to change binary strings at the bit level. These few operations are required to work with device drivers, low-level graphics, cryptography, and network communications. These operators are easy to learn, but not necessary if you do not work with bits directly.
