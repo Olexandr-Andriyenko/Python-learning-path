@@ -32,6 +32,8 @@ Create a program that calculates the area of a rectangular triangle.<br>
 Calculation formula:<br>
 <br>
 ![](https://latex.codecogs.com/png.latex?%7B%5Ccolor%7BMagenta%7D%20A%3D%5Cfrac%7B1%7D%7B2%7D%5Ccdot%20a%5Ccdot%20b%7D)
+<br>
+<br>
 The output should look like this:
 ```
 Calculation of a triangular area!
@@ -41,5 +43,5 @@ Enter the value for b:
 3
 Enter the unit of measurement:
 m
-The triangle has a area of 6 square cm.
+The triangle has a area of 6 square m.
 ```
