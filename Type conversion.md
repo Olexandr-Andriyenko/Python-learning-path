@@ -16,10 +16,12 @@ new_num = num_int * num_float
 print(f"Datatype of num_int ist: {type(num_int)}")
 print(f"Datatype of num_float ist: {type(num_float)}")
 print(f"Datatype of new_num ist: {type(new_num)}")
-# Gives the outpur:
+
+# Gives the output:
 # Datatype of num_int ist: <class 'int'>
 # Datatype of num_float ist: <class 'float'>
 # Datatype of new_num ist: <class 'float'>
+
 # The datatype of "new_num" is determined automaticlly(implicit type conversion)
 ```
 
