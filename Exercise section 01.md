@@ -20,6 +20,10 @@ This results in a tax amount of: 600 Euro.
 Write a code that, for two given numbers "a" and "b", outputs the sum of the squares of "a" and "b". The values of the variables "a" and "b" are set by the user.<br>
 The output should look like this:
 ```
-
+Enter a number for a:
+2
+Enter a number for b:
+3
+The square sum is: 13
 ```
 
