@@ -12,6 +12,12 @@ A function is a group of related instructions that perform a specific task.
 Exampels:
 <br>
 <br>
+
+## Types of functions
+
 There are two different types of functions in python, built-in functions and user-defined functions.<br>
+
+### Built-in functions
+
 We know already the build-in functions like print(), input(), int().<br>
-Built-in functions come included with the standard library of python. These are the functions that some programmers somewhere in the world defined a long time ago and now you can use these functions in your program without having to write them all over again.
+Built-in functions come included with the standard library of python. These are the functions that some programmers somewhere in the world defined a long time ago and now you can use these functions in your program without having to write them all over again. With time you will get to know many more useful built-in functions.
