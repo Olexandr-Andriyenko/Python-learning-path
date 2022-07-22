@@ -97,3 +97,23 @@ print(numb_1 * numb_2)
 # Gives Output:
 # 10
 ```
+It is important to note that data loss can also result from type casting. This often happens when converting a float number to an integer number (the numbers after the decimal point are neglected).
+<br>
+<br>
+Example:
+```python
+a = 3.2
+b = 3.8
+c = 1.9999
+print(int(a))
+print(int(b))
+print(int(c))
+
+# Gives output:
+3
+3
+1
+
+# Data loss happend!
+```
+In implicit type conversion, python interpreter automatically converts one data type to another data type.In this Type Conversion the python interpreter converts lower datatype to higher datatype to avoid data loss.
