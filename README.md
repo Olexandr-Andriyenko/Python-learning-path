@@ -30,6 +30,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Variables and data types](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Variables%20and%20data%20types.md)          | Beginner      |
 | [Input and output](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Input%20and%20output.md)                            | Beginner      |    
 | [Operators](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Operators.md)                                              | Beginner      |
-| [Type conversion/casting](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Type%20conversion.md)                   | Beginner      |
+| [Type conversion/casting](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Type%20conversion.md)                        | Beginner      |
 | [Exercise section](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%2001.md)                         | Beginner      |
+| [Functions introduction](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Introducing%20Functions.md)                   | Beginner      |
 
