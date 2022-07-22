@@ -22,3 +22,7 @@ There are two different types of functions in python, built-in functions and use
 We know already the build-in functions like print(), input(), int().<br>
 Built-in functions come included with the standard library of python. These are the functions that some programmers somewhere in the world defined a long time ago and now you can use these functions in your program without having to write them all over again. With time you will get to know many more useful built-in functions.<br>
 When you are already interested to get to know some built-in functions then you can visit the python documentation about this topic: [Built-in Functions](https://docs.python.org/3/library/functions.html)
+
+### User-defined functions
+
+Python lets us define and use our own functions which we can use anywhere in our program (user defined functions). This functions help divide our program into smaller and modular blocks. As our program gets bigger, user-definedfunctions make it more organized and manageable. It also avoids repetition and makes the code reusable.
