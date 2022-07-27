@@ -103,7 +103,8 @@ After the function name there are empty round brackets, but they do not necessar
 <br>
 <br>
 Example:
-'''python
+  
+```python
 # We create a function with an 
 def welcome(name):
     print(f"Hello: {name} ")
@@ -112,4 +113,4 @@ def welcome(name):
 
 name = input("Please enter your name: ")
 welcome(name) 
-'''
+```
