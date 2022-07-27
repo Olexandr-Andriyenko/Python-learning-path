@@ -111,7 +111,23 @@ def welcome(name):
     print("Welcome to user-defined functions")
 
 
-name = input("Please enter your name: ")
-welcome(name) 
+users_name = input("Please enter your name: ")
+welcome(users_name) 
 ```
-The terms parameter and argument are used synonymously by many programmers, but both have different meanings.
+The terms parameter and argument are used synonymously by many programmers, but both have different meanings.For this reason, the difference between parameter and argument should be explained at this point:
+<br>
+<br>
+Parameter
+<br>
+<br>
+A parameter is the variable defined in parentheses during the function definition. They are simply written when we declare a function like in the example before (name is the parameter).
+<br>
+<br>
+Argument
+<br>
+<br>
+An argument is a value that is passed to a function when it is called. This can be a variable, value or object passed as input to a function. They are written when we call the function. We did it in the example before (users_name ist the argument).
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img16.png" width="400">
+<p>  
