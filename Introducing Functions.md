@@ -12,12 +12,12 @@ In the round brackets we enter data so that they are processed somehow. A functi
 
 <br>
 A function is a group of related instructions that perform a specific task.
-<br>
-<br>
-Exampels:
-<br>
-<br>
 
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img115.png" width="100">
+<p>  
+  
+  
 ## Types of functions
 
 There are two different types of functions in python, built-in functions and user-defined functions.<br>
@@ -27,6 +27,43 @@ There are two different types of functions in python, built-in functions and use
 We know already the build-in functions like print(), input(), int().<br>
 Built-in functions come included with the standard library of python. These are the functions that some programmers somewhere in the world defined a long time ago and now you can use these functions in your program without having to write them all over again. With time you will get to know many more useful built-in functions.<br>
 When you are already interested to get to know some built-in functions then you can visit the python documentation about this topic: [Built-in Functions](https://docs.python.org/3/library/functions.html)
+<br>
+<br>
+Let's look at some examples of built in functions:
+```python
+# 1. function "len()"
+# Return the length (the number of items) of an object.
+a = "Hello World"
+b = len(a)
+print(b)
+# Output is:
+# 11
+# Inside the variable a we have 11 items (blank included)
+  
+# 2. function "divmod(a, b)"
+# Take two (non-complex) numbers as arguments and return a pair of 
+# numbers consisting of their quotient and remainder when using integer division.
+a = 10
+b = 3
+c = divmod(a, b)
+print(c)  
+# Output is:
+# (3, 1)
+  
+# 3. function "round()"
+# Return number rounded to ndigits precision after the decimal point. 
+# If ndigits is omitted or is None, it returns the nearest integer to its input.
+a = 3.3
+b = round(a)
+c = 3.38
+d = round(c, 1)
+print(b)
+print(d)
+# Output is:
+# 3
+# 3.4
+  
+```
 
 ### User-defined functions
 
