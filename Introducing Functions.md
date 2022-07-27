@@ -105,7 +105,7 @@ After the function name there are empty round brackets, but they do not necessar
 Example:
   
 ```python
-# We create a function with an 
+# We create a function with an parameter
 def welcome(name):
     print(f"Hello: {name} ")
     print("Welcome to user-defined functions")
