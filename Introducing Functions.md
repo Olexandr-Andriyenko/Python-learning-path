@@ -4,12 +4,12 @@ Everyone had heard something about functions in their school days. If you do not
 <br>
 <br>
 In the round brackets we enter data so that they are processed somehow. A function can be imagined as a box that has an input and an output. Data goes into the input of this "box". They are processed in this "box" by specific operations which modify the data in some way. At the output, the processed data is returned, having some initial state due to the working steps.
+<br>
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img13.png" width="300">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img13.png" width="100">
 <p>
 
-<br>
 <br>
 A function is a group of related instructions that perform a specific task.
 <br>
