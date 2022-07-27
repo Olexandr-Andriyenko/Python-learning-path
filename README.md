@@ -15,7 +15,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 
 ## Python introduction
 
-| Chapter                                                                                                                                      | Difficulty    |
+| Chapter                                                                                                                                      | Difficulty    | 
 | ---------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | [What is python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/What%20is%20python.md)                                | Beginner      | 
 | [Advantages and use of python](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Advantages%20and%20use%20of%20python.md)| Beginner      |
