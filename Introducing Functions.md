@@ -12,11 +12,13 @@ In the round brackets we enter data so that they are processed somehow. A functi
 
 <br>
 A function is a group of related instructions that perform a specific task.
-
+<br>
+  
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img115.png" width="100">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img14.png" width="400">
 <p>  
   
+<br>
   
 ## Types of functions
 
