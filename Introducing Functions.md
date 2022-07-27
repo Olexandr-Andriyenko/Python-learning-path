@@ -91,3 +91,8 @@ welcome()
 # Hello: Olexandr
 # Welcome to user-defined functions
 ```
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img15.png" width="400">
+<p>  
+  
+Our function with the name "welcome" can now be used again by calling the function at any point in our program. To call a function we need the function name followed by the round brackets. This way we can recycle code and save typing:
