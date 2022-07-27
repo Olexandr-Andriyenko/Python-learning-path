@@ -96,3 +96,20 @@ welcome()
 <p>  
   
 Our function with the name "welcome" can now be used again by calling the function at any point in our program. To call a function we need the function name followed by the round brackets. This way we can recycle code and save typing:
+
+### User-defined functions with parameters and arguments
+  
+After the function name there are empty round brackets, but they do not necessarily have to be empty. Inside these brackets you can pass data/values to the function. In coding, these values are called arguments or parameters (depending on whether they are in the call or in the definition of the function). 
+<br>
+<br>
+Example:
+'''python
+# We create a function with an 
+def welcome(name):
+    print(f"Hello: {name} ")
+    print("Welcome to user-defined functions")
+
+
+name = input("Please enter your name: ")
+welcome(name) 
+'''
