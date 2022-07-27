@@ -114,3 +114,4 @@ def welcome(name):
 name = input("Please enter your name: ")
 welcome(name) 
 ```
+The terms parameter and argument are used synonymously by many programmers, but both have different meanings.
