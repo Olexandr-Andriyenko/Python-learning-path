@@ -110,9 +110,15 @@ def welcome(name):
     print(f"Hello: {name} ")
     print("Welcome to user-defined functions")
 
-
+# We create an argument
 users_name = input("Please enter your name: ")
-welcome(users_name) 
+# Now we call the function  
+welcome(users_name)
+  
+# Output is:
+# Please enter your name: Olex
+# Hello: Olex
+# Welcome to user-definition functions
 ```
 The terms parameter and argument are used synonymously by many programmers, but both have different meanings.For this reason, the difference between parameter and argument should be explained at this point:
 <br>
@@ -136,3 +142,18 @@ When defining a function with parameters, the function expects an input of a val
 <br>
 <br>  
 It is also possible to write functions that have multiple parameters. It is important to verify that the number and sequence of the parameters are the same. If there is more than one parameter, they must be separated by a comma in the function definition or function call.
+<br>
+<br> 
+Example:
+```python
+# We create a user-defined function with two parameters
+def welcome(name, city):
+    print(f"Hello: {name} ")
+    print(f"Your are from: {city}")
+    print("Welcome to user-defined functions")
+
+# We create the first argument
+users_name = input("Please enter your name: ")
+# The second argument we generate directly inside the function call
+welcome(users_name, "Berlin")  
+```
