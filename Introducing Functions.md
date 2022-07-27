@@ -130,4 +130,9 @@ An argument is a value that is passed to a function when it is called. This can 
 
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img16.png" width="400">
-<p>  
+<p> 
+  
+When defining a function with parameters, the function expects an input of a value. It is not allowed to call the function without a value or with more than one value, otherwise the program will cancel with an error message.  
+<br>
+<br>  
+It is also possible to write functions that have multiple parameters. It is important to verify that the number and sequence of the parameters are the same. If there is more than one parameter, they must be separated by a comma in the function definition or function call.
