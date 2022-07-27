@@ -70,3 +70,24 @@ print(d)
 ### User-defined functions
 
 Python lets us define and use our own functions which we can use anywhere in our program (user defined functions). This functions help divide our program into smaller and modular blocks. As our program gets bigger, user-definedfunctions make it more organized and manageable. It also avoids repetition and makes the code reusable.
+<br>
+<br>
+With the keyword "def" we create a user-defined function. We can also choose a name for our function, with these function name our own function can be called at any place in our code. For functions, the indentation is very important because it shows us the processing steps of the function.
+<br>
+<br>
+Example for a user-defined function:
+<br>
+<br>
+```python
+# By using "def" we define a function called "welcome". 
+def welcome():
+    # In the indented area we write the functional processing steps
+    print("Hello: Olexandr")
+    print("Welcome to user-defined functions")
+
+# Now somewhere in our code we need to call the function
+welcome()  
+# Output is:
+# Hello: Olexandr
+# Welcome to user-defined functions
+```
