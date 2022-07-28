@@ -178,3 +178,31 @@ print(check)
 # None
 ```
 Because the function has no return value, the variable "check" is empty and prints in the console "None".
+<br>
+<br>
+Functions are often used to calculate results. To continue working with these results, the functions must output them as return values. These return values can then be stored in a variable. To generate a return value you have to use the keyword "return" inside the function body.
+<br>
+<br>
+Example:
+```python
+  # Create a function which add two numbers
+def addition(num_1, num_2):
+    print(f"Addition of the numbers {num_1} and {num_2} started! ")
+    sum = num_1 + num_2
+    # Function returns the sum, which can be user for further processing
+    return sum
+
+
+# Generate two numbers for the input
+a = 3
+b = 2
+# Use the function to calculate the sum of two number and save the result inside a variable
+sum = addition(a, b)
+# Print the calculated number which was saved in the variable "sum"
+print(sum)
+  
+# Output is:
+# Addition of the numbers 3 and 2 started! 
+# 5
+´´´
+  
