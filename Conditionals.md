@@ -49,3 +49,11 @@ In general, the structure of an if statement looks like this:
  
 ## If-else statement
   
+The else is an extremely powerful word. This means that if none of the previous conditions are true, the code of the else statement will be executed. So here you can execute the code that should always run if the other conditions are not true.
+<br>
+<br>
+In a flowchart it looks like this:
+  
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img19.png" width="200">
+<p>   
