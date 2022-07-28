@@ -83,3 +83,5 @@ In a flowchart it looks like this:
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img20.png" width="550">
 <p>   
+  
+We can set elif branches in Python in any number under each other this way. The difference between else if and elif should be explained by the flowcharts by itself.
