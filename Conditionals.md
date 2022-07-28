@@ -81,5 +81,5 @@ Another way to extend the if statement is provided by elif branches in Python. B
 In a flowchart it looks like this:
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img20.png" width="450">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img20.png" width="550">
 <p>   
