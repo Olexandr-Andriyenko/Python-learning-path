@@ -73,4 +73,13 @@ else:
     print("Users age is over 18!")  
 ```
   
-## elif keyword
+## Elif keyword
+
+Another way to extend the if statement is provided by elif branches in Python. By using this we can even check multiple conditions within one if statement. So the "elif" stands for else-if and allows us to check another condition if the previous one was not true.  
+<br>
+<br>
+In a flowchart it looks like this:
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img20.png" width="250">
+<p>   
