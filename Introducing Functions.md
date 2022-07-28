@@ -204,5 +204,4 @@ print(sum)
 # Output is:
 # Addition of the numbers 3 and 2 started! 
 # 5
-´´´
-  
+```
