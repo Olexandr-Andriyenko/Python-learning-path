@@ -55,5 +55,5 @@ The else is an extremely powerful word. This means that if none of the previous 
 In a flowchart it looks like this:
   
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img19.png" width="200">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img19.png" width="250">
 <p>   
