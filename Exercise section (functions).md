@@ -1,10 +1,13 @@
 # Exercise section (functions)
 
-1. Write two functions that calculates the area and perimeter of a rectangle. <br>
-   The functions should return the area and the perimeter, to save the values. <br>
-   Add up the area and perimeter using the return values of the functions. <br>
-   Summarize the results "nicely" and output them to the console.
-   
+1. Assignment <br>
+<br>
+Write two functions that calculates the area and perimeter of a rectangle. <br>
+The functions should return the area and the perimeter, to save the values. <br>
+Add up the area and perimeter using the return values of the functions. <br>
+Summarize the results "nicely" and output them to the console.
+<br>
+<br>
 <details>
 <summary>Solution</summary>
 
@@ -34,14 +37,19 @@ print(f"A rectangle with a length of {length} units and width of {width} units h
 
 </details>
 
-2. The body mass index (short: BMI) is a number that can be used to estimate whether you are underweight, normal or overweight. One calculates this number according to the following formula: 
+2. Assignment <br>
+<br> 
+The body mass index (short: BMI) is a number that can be used to estimate whether you are underweight, normal or overweight. One calculates this number according to the following formula: 
 <br>
-
+<br>
+    
 ![CodeCogsEqn](https://user-images.githubusercontent.com/92121260/181480006-dc4e3e8b-069c-4b19-83db-0def0bca2aef.png)
 
-<br>
+
 The weight has the unit "kg" and height the unit "m". <br>
 Write a function which returns the BMI value after user input.
+<br>
+<br>
 <details>
 <summary>Solution</summary>
 
@@ -61,10 +69,13 @@ print(f"Your bmi is: {user_bmi}")
 
 </details>
 
-3. The optimal pulse for endurance sports depends on age. It can be determined with the formula P = 165 - 0.75*A. <br>
-   Where "A" is tge age in years.<br>
-   Write a function which calculates the optimal pulse and returns it.
-
+3. Assignment <br> 
+<br>
+The optimal pulse for endurance sports depends on age. It can be determined with the formula P = 165 - 0.75*A. <br>
+Where "A" is tge age in years.<br>
+Write a function which calculates the optimal pulse and returns it.
+<br>
+<br>
 <details>
 <summary>Solution</summary>
 
@@ -82,3 +93,6 @@ print(user_pulse)
 ```
 
 </details>
+
+4. Assignment <br> 
+<br>
