@@ -85,3 +85,26 @@ In a flowchart it looks like this:
 <p>   
   
 We can set elif branches in Python in any number under each other this way. The difference between else if and elif should be explained by the flowcharts by itself.
+<br>
+<br>
+Example:
+<br>
+<br>
+  
+```python
+age = int(input("Enter your age: "))
+
+# determine the ticket price
+if age < 5:
+    ticket_price = 5
+elif age < 16:
+    ticket_price = 10
+elif age < 21:
+    ticket_price = 13
+else:
+    ticket_price = 18
+
+# show the ticket price
+print(f"You'll pay ${ticket_price} for the ticket!")
+
+```
