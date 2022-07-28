@@ -46,7 +46,17 @@ Write a function which returns the BMI value after user input.
 <summary>Solution</summary>
 
 ```python
+# Create a function to calculate the BMI
+def calc_bmi(weight, height):
+    # Devide by 100 to convert centimeters in meters
+    bmi = weight / (height/100) ** 2
+    return bmi
 
+
+# Here starts the actual program
+# Calculating BMI by users input
+user_bmi = calc_bmi(float(input("Enter your weight in kg: ")), float(input("Enter your height in cm: ")))
+print(f"Your bmi is: {user_bmi}")
 ```
 
 </details>
