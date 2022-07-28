@@ -10,6 +10,14 @@ Conditionals may be best illustrated with a flowchart. Take a look at the follow
 <p> 
 
 Such a flow as shown in the flowchart can only be created by conditionals. The diamond in the flowchart indicates a decision point which can be answered with true or false. Depending on true or false the program runs differently. With this tool we can make our programs much more flexible in terms of decisions.
+<br>
+<br>
+In general, the structure of an if statement looks like this:
+ 
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img18.png" width="200">
+<p>   
+  
   
 ## If statement
   
