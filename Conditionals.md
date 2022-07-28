@@ -36,4 +36,6 @@ if bulb_burned == "Yes":
 print("Repair the lamp!")  
 ```
 Try different inputs by yourself and see what happens. But do not forget that only "Yes" or "No" can be accepted as input. How to force certain inputs follows later.
+
+  ## If-else statement
   
