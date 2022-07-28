@@ -96,3 +96,38 @@ print(user_pulse)
 
 4. Assignment <br> 
 <br>
+In driving school, you learn the following formulas for calculating stopping distances: 
+<br>
+<br>
+
+![CodeCogsEqn(1)](https://user-images.githubusercontent.com/92121260/181553819-295779a9-8c87-44dc-b4b9-ea9c53e69575.png)
+
+![CodeCogsEqn(2)](https://user-images.githubusercontent.com/92121260/181557431-decb196f-7d50-4faf-bc41-df5c3ce42930.png)
+
+![CodeCogsEqn(3)](https://user-images.githubusercontent.com/92121260/181559063-175b3078-5f57-416c-b66a-61d2407ca575.png)
+
+The unit of the distances is meters and the velocity in km/h.
+<br>
+<br>
+Build a function to calculate the stop distance depending on the speed.
+
+
+<details>
+<summary>Solution</summary>
+
+```python
+# Create a function to calculate the stop distance
+def stop_distance(velocity):
+    response_path = (velocity / 10) * 3
+    brake_distance = (velocity / 10) ** 2
+    stop_distance = response_path + brake_distance
+    return stop_distance
+
+# Here start the actual program
+# Calculate the stop distance and print it "nicely" on the console
+velocity = float(input("Enter the velocity of the vehicle: "))
+way = stop_distance(velocity)
+print(f"If you drive with the velocity {velocity} km/h, then you have a stop distance of {way} meters!")
+```
+
+</details>
