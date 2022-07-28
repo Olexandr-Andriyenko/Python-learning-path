@@ -35,3 +35,9 @@ print(f"A rectangle with a length of {length} units and width of {width} units h
 </details>
 
 2. The body mass index (short: BMI) is a number that can be used to estimate whether you are underweight, normal or overweight. One calculates this number according to the following formula: 
+<br>
+
+![CodeCogsEqn](https://user-images.githubusercontent.com/92121260/181480006-dc4e3e8b-069c-4b19-83db-0def0bca2aef.png)
+
+<br>
+The weight has the unit "kg" and height the unit "m".
