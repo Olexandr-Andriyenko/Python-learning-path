@@ -64,3 +64,21 @@ print(f"Your bmi is: {user_bmi}")
 3. The optimal pulse for endurance sports depends on age. It can be determined with the formula P = 165 - 0.75*A. <br>
    Where "A" is tge age in years.<br>
    Write a function which calculates the optimal pulse and returns it.
+
+<details>
+<summary>Solution</summary>
+
+```python
+# Create a function to calculate the optimal pulse
+def calc_pulse(age):
+    optimal_pulse = 165 - 0.75 * age
+    return optimal_pulse
+
+
+# Here starts the actual program
+# Calculating the optimal pulse by entering the age by the user
+user_pulse = calc_pulse(int(input("Enter your age in years: ")))
+print(user_pulse)
+```
+
+</details>
