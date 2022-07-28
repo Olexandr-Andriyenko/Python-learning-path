@@ -108,3 +108,9 @@ else:
 print(f"You'll pay ${ticket_price} for the ticket!")
 
 ```
+
+## Summary
+  
+- Use the if statement when you want to run a code block based on a condition.
+- Use the if...else statement when you want to run another code block if the condition is not True.  
+- Use the if...elif...else statement when you want to check multiple conditions and run the corresponding code block that follows the condition that evaluates to True.
