@@ -57,3 +57,20 @@ In a flowchart it looks like this:
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img19.png" width="250">
 <p>   
+
+<br>  
+Example:
+<br>
+<br>
+  
+```python
+# Ask users age
+age = int(input("Enter your age: "))
+# Check whether the user is minumum 18 years old or less
+if age >= 18:
+    print("users age is minimum 18 years old!")
+else:
+    print("Users age is over 18!")  
+```
+  
+## elif keyword
