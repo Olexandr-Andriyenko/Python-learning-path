@@ -32,5 +32,5 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Operators](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Operators.md)                                              | Beginner      ||
 | [Type conversion/casting](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Type%20conversion.md)                        | Beginner      ||
 | [Exercise section](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%2001.md)                         | Beginner      ||
-| [Functions introduction](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Introducing%20Functions.md)                   | Intermediate  |What are functions in Python. How to structore your code using functions and make him clearer. What are parameters and arguments. How to work with return values of a function. |
+| [Functions introduction](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Introducing%20Functions.md)                   | Intermediate  |What are functions in Python. How to structure your code using functions and make him clearer. What are parameters and arguments. How to work with return values of a function. |
 
