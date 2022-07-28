@@ -40,4 +40,13 @@ print(f"A rectangle with a length of {length} units and width of {width} units h
 ![CodeCogsEqn](https://user-images.githubusercontent.com/92121260/181480006-dc4e3e8b-069c-4b19-83db-0def0bca2aef.png)
 
 <br>
-The weight has the unit "kg" and height the unit "m".
+The weight has the unit "kg" and height the unit "m". <br>
+Write a function which returns the BMI value after user input.
+<details>
+<summary>Solution</summary>
+
+```python
+
+```
+
+</details>
