@@ -157,3 +157,24 @@ users_name = input("Please enter your name: ")
 # The second argument we generate directly inside the function call
 welcome(users_name, "Berlin")  
 ```
+What actually happens when we assign the function to a variable and then check this variable? Let's take a look at this.
+```python
+# We create a user-defined function with two parameters
+def welcome(name, city):
+    print(f"Hello: {name} ")
+    print(f"Your are from: {city}")
+    print("Welcome to user-defined functions")
+
+# We create the first argument
+users_name = input("Please enter your name: ")
+# The second argument we generate directly inside the function call
+check = welcome(users_name, "Berlin")  
+print(check)
+# Output is:
+# Please enter your name: olex
+# Hello: olex 
+# Your are from: Berlin
+# Welcome to user-defined functions
+# None
+```
+Because the function has no return value, the variable "check" is empty and prints in the console "None".
