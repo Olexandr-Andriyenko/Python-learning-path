@@ -205,3 +205,4 @@ print(sum)
 # Addition of the numbers 3 and 2 started! 
 # 5
 ```
+Inside the function, the result is calculated firstly. The result is then returned to the calling location using the "return" statement. The "return" statement also immediately ends the execution of the function. When the function is called for the first time, the return value is stored temporarily in the variable "sum". It can be used in the further process of the program at any place.
