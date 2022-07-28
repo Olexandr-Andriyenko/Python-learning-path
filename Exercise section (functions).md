@@ -1,1 +1,35 @@
 # Exercise section (functions)
+
+1. Write two functions that calculates the area and perimeter of a rectangle. <br>
+   The functions should return the area and the perimeter, to save the values. <br>
+   Add up the area and perimeter using the return values of the functions. <br>
+   Summarize the results "nicely" and output them to the console.
+   
+<details>
+<summary>Solution</summary>
+
+```python
+# Create a function to calculate the area
+def rectangle_area(width, length):
+    area = width * length
+    return area
+
+
+# Create a function to calculate the perimeter
+def rectangle_perimeter(width, length):
+    perimeter = 2 * width + 2 * length
+    return perimeter
+
+
+# Now we ask the user to input the width and length
+# Do not forget to convert the string input in a float data type
+width = float(input("Enter the width of the rectangle: "))
+length = float(input("Enter the length of the rectangle: "))
+# We use the functions to calculate the area and perimeter
+area = rectangle_area(width, length)
+perimeter = rectangle_perimeter(width, length)
+# We print the results in the console
+print(f"A rectangle with a length of {length} units and width of {width} units has a\narea of {area} square units and a perimeter of {perimeter} square units!")
+```
+
+</details>
