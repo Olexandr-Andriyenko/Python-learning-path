@@ -112,3 +112,13 @@ Write a function that calculates the BMI value of the user and gives an output b
 | 25 until 29.9                                     | Overweight        |  
 | 30 until 39.9                                     | Severe overweight (obesity)        |  
 | Over 40                                           |  	Extreme obesity        |  
+    
+  
+ Use the following formula to calculate the BMI value:
+ <br>
+ <br>
+    
+![181480006-dc4e3e8b-069c-4b19-83db-0def0bca2aef](https://user-images.githubusercontent.com/92121260/181736973-5d1c4c44-af79-42d3-b3a3-9ecf76181cb1.png)
+
+    
+    
