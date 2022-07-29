@@ -55,3 +55,15 @@ else:
 ```  
   
 </details>
+
+3. Assignment
+<br>
+<br>
+Create a program for tax calculation. The user should be requested to enter his monthly gross salary and his marital status. Use the following table to calculate the tax:
+
+| Salary                                            | Tax      | Marital status |
+| ------------------------------------------------- | -------- | -------------- |
+| Over 4000€                                        | 26%      | Single         |
+| Over 4000€                                        | 22%      |  Married       |
+| Less than 4000€ or equal 4000€                    | 22%      | Single         |
+| Less than 4000€ or equal 4000€                    | 18%      | Married        |
