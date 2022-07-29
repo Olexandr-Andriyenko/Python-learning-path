@@ -35,4 +35,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Functions introduction](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Introducing%20Functions.md)                   | Intermediate  |What are functions in Python. How to structure your code using functions and make him clearer. What are parameters and arguments. How to work with return values of a function. |
 |[Exercise section (functions)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(functions).md)| Intermediate |  Using the previous knowledge to solve problems. |
 |[Conditionals](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Conditionals.md)| Beginner |How to use if statement and keyword like elif, else and pass. The knowledge about logical conditions is nesecarry. |
-|Exercise section (conditionals)|Intermediate| Using the previous knowledge to solve problems.|
+|[Exercise section (conditionals)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(conditionals).md)|Intermediate| Using the previous knowledge to solve problems.|
