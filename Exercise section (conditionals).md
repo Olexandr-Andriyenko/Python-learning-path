@@ -30,3 +30,11 @@ else:
 <br>
 <br>
 Create a program for tax calculation. The user should be requested to enter his monthly gross salary. Use the following table to calculate the tax:
+<br>
+<br>
+
+| Salary                                            | Tax      |
+| ------------------------------------------------- | -------- | 
+| Over 4000€                                        | 26%      | 
+| 2500€ until 4000€                                 | 22%      |  
+| Less than 2500€                                   | 18%      |  
