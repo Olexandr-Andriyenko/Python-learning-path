@@ -120,5 +120,32 @@ Write a function that calculates the BMI value of the user and gives an output b
     
 ![181480006-dc4e3e8b-069c-4b19-83db-0def0bca2aef](https://user-images.githubusercontent.com/92121260/181736973-5d1c4c44-af79-42d3-b3a3-9ecf76181cb1.png)
 
-    
+ <details open>
+<summary>Solution</summary>
+
+```python
+# Function for BMI calculation
+def calc_bmi(weight, height):
+    # Devide by 100 to convert cm in m
+    bmi = weight / (height / 100) ** 2
+    # Case differentiation
+    if bmi < 18.5:
+        print("You are under weight!")
+    elif 18.5 <= bmi < 24.9:
+        print("You have normal weight!")
+    elif 25 <= bmi <29.9:
+        print("You are oberweight!")
+    elif 30 <= bmi < 39.9:
+        print("You have severe overweight!")
+    else:
+        print("You have extreme obesity!")
+
+
+# Use the function for bmi calculation by user input
+calc_bmi(float(input("Enter your weight: ")), float(input("Enter your height: ")))
+
+
+```  
+  
+</details>   
     
