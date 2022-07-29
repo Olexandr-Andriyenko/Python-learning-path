@@ -102,6 +102,8 @@ else:
 <br>
 <br>
 Write a function that calculates the BMI value of the user and gives an output based on the following table.  
+<br>
+<br>
 
 | BMI                                               | Rating            |
 | ------------------------------------------------- | ----------------- | 
