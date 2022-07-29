@@ -29,3 +29,4 @@ else:
 2. Assignment
 <br>
 <br>
+Create a program for tax calculation. The user should be requested to enter his monthly gross salary. Use the following table to calculate the tax:
