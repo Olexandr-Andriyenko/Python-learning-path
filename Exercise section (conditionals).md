@@ -67,3 +67,33 @@ Create a program for tax calculation. The user should be requested to enter his 
 | Over 4000€                                        | 22%      |  Married       |
 | Less than 4000€ or equal 4000€                    | 22%      | Single         |
 | Less than 4000€ or equal 4000€                    | 18%      | Married        |
+
+
+<details open>
+<summary>Solution</summary>
+
+```python
+# Ask the user for his salary
+salary = float(input("Please input your salary: "))
+# Ask the user for his marital status
+status = input("Enter your marital status: ")
+# Differentiation of the income and calculation of tax
+if salary > 4000 and status == "Single":
+    print("you have to pay 26% tax!")
+    tax = 4000 * 26 / 100
+    print(f"You have to pay {tax}€ tax!")
+elif salary > 4000 and status == "Married":
+    print("you have to pay 22% tax!")
+    tax = 4000 * 22 / 100
+    print(f"You have to pay {tax}€ tax!")
+elif salary <= 4000 and status == "Single":
+    print("you have to pay 22% tax!")
+    tax = 4000 * 22 / 100
+    print(f"You have to pay {tax}€ tax!")
+else:
+    print("you have to pay 18% tax!")
+    tax = 4000 * 18 / 100
+    print(f"You have to pay {tax}€ tax!")
+```  
+  
+</details>
