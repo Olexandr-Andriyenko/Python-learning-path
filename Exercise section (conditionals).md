@@ -97,3 +97,16 @@ else:
 ```  
   
 </details>
+
+4. Assignment
+<br>
+<br>
+Write a function that calculates the BMI value of the user and gives an output based on the following table.  
+
+| BMI                                               | Rating            |
+| ------------------------------------------------- | ----------------- | 
+| Less than 18.5                                    | Under weight      | 
+| 18.5 until 24.9                                   | Normal weight     |  
+| 25 until 29.9                                     | Overweight        |  
+| 30 until 39.9                                     | Severe overweight (obesity)        |  
+| Over 40                                           |  	Extreme obesity        |  
