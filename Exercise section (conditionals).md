@@ -170,7 +170,7 @@ This can certainly help you:
 - The lowest possible temperature is absolute zero 0K.
 
     
-    <details open>
+<details open>
 <summary>Solution</summary>
 
 ```python
