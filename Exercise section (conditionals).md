@@ -38,3 +38,20 @@ Create a program for tax calculation. The user should be requested to enter his 
 | Over 4000€                                        | 26%      | 
 | 2500€ until 4000€                                 | 22%      |  
 | Less than 2500€                                   | 18%      |  
+
+<details open>
+<summary>Solution</summary>
+
+```python
+# Ask the user for his salary
+salary = float(input("Please input your salary: "))
+# Differentiation of the income and calculation of tax
+if salary > 4000:
+    print("you have to pay 26% tax!")
+elif 2500 < salary < 4000:
+    print("you have to pay 22% tax!")
+else:
+    print("you have to pay 18% tax!")
+```  
+  
+</details>
