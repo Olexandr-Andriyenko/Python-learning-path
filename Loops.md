@@ -44,3 +44,8 @@ print("while loop finished!")
 # 10
 # while loop finished!             
 ```
+As like with the conditions you can use the "else" keyword for an alternative "way". Look at the illustration below for the while-else-loop:
+             
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img22.png" width="200">
+<p> 
