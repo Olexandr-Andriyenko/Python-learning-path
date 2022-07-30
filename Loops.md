@@ -162,3 +162,59 @@ Output is:
 ```
     
 In this example, the numbers from 0 to 10 were output in two steps without the 10. The first number inside the range() function is the start, the next number the end and the last number the steps. The start is included as a number but the end not. 
+
+# Nested loops
+    
+Python allows to include a another loop in a loop, this is called a nested loop. In fact, this happens a lot in coding. It is called that the loops are nested, that is, one is contained in the other: just as you can put one box in another.
+<br>
+<br>
+Example: We create a multiplication table
+
+```python
+# Creat numbers from 1 until 10
+for first_num in range(1, 11):
+    # Crear numbers from 1 until 10
+    for sec_num in range(1, 11):
+        # Multiply both numbers and print them
+        multiply = first_num * sec_num
+        print(f"{first_num} * {sec_num} = {multiply}")
+        # Just to make it better readable we create a "line"
+        if sec_num == 10:
+            print("---------------")    
+
+# Output is:    
+# 1 * 1 = 1
+# 1 * 2 = 2
+# 1 * 3 = 3
+# 1 * 4 = 4
+# 1 * 5 = 5
+# 1 * 6 = 6
+# 1 * 7 = 7
+# 1 * 8 = 8
+# 1 * 9 = 9
+# 1 * 10 = 10
+# ---------------
+# 2 * 1 = 2
+# 2 * 2 = 4
+# 2 * 3 = 6
+# 2 * 4 = 8
+# 2 * 5 = 10
+# 2 * 6 = 12
+# 2 * 7 = 14
+# 2 * 8 = 16
+# 2 * 9 = 18
+# 2 * 10 = 20
+# ---------------
+# 3 * 1 = 3
+# 3 * 2 = 6
+# 3 * 3 = 9
+# 3 * 4 = 12
+# 3 * 5 = 15
+# 3 * 6 = 18
+# 3 * 7 = 21
+# 3 * 8 = 24
+# 3 * 9 = 27
+# 3 * 10 = 30
+# ---------------  
+# And so on....    
+````
