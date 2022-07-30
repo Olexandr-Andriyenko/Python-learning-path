@@ -139,3 +139,6 @@ How the for loop is constructed:
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img24.png" width="450">
 <p>       
+
+    
+# For loop and the range() function
