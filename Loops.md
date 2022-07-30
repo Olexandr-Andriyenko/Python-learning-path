@@ -41,8 +41,7 @@ print("while loop finished!")
 # 7
 # 8
 # 9
-# 10
-# inside else            
+# 10          
 # while loop finished!             
 ```
 As like with the conditions you can use the "else" keyword for an alternative "way". Look at the illustration below for the while-else-loop:
@@ -75,6 +74,7 @@ print("while loop finished!")
 # 8
 # 9
 # 10
+# inside else               
 # while loop finished!   
 ```
 
