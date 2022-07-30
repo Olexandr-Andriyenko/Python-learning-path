@@ -16,5 +16,5 @@ The idea behind Python while loops is that they execute one or more statements u
 The while loop is illustrated in the following flowchart:
     
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img21.png" width="250">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img21.png" width="200">
 <p>  
