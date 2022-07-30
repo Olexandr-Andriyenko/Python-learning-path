@@ -133,3 +133,9 @@ Look at the illustration below for the for-loop:
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img23.png" width="250">
 <p>     
+
+How the for loop is constructed:
+    
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img24.png" width="250">
+<p>       
