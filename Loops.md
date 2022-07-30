@@ -49,3 +49,30 @@ As like with the conditions you can use the "else" keyword for an alternative "w
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img22.png" width="200">
 <p> 
+
+Example:
+    
+```python
+ x = 0
+while x < 10:  # This is the condition
+    # Here is the loop body
+    x += 1
+    print(x)
+else:
+    print("inside else")
+# After loop body
+print("while loop finished!")
+
+# Output is:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+# while loop finished!   
+```
