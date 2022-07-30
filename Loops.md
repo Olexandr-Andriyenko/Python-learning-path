@@ -104,3 +104,32 @@ print("while loop finished!")
 # 5
 # while loop finished!    
 ```
+## For loop
+             
+             
+A for statement is another looping statement that iterates over a sequence of objects, which means it iterates through each object in the sequence(lists, tuples, strings...). What you need to know right now is just that a sequence is simply an ordered sequence of individual objects.
+<br>
+<br>
+Example:
+```python
+# Create a string
+name = "Olexandr"
+# We want to print each letter of this string using a for loop
+for letter in name:
+    print(letter)
+    
+# Output is:
+# O
+# l
+# e
+# x
+# a
+# n
+# d
+# r
+```
+Look at the illustration below for the for-loop:
+    
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img23.png" width="200">
+<p>     
