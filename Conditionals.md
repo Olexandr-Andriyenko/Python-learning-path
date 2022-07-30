@@ -117,7 +117,7 @@ If you want to provide the implementation of a loop or function in the future, y
 <br>
 Example:
   
-´´´python
+```python
 # Ask the user for a number
 num = int(input("number: "))
 # Check whether the number is an even number
@@ -128,7 +128,7 @@ if num % 2 == 0:
     pass
 
 print("After the if statement")  
-´´´
+```
               
 ## Summary
   
