@@ -137,5 +137,5 @@ Look at the illustration below for the for-loop:
 How the for loop is constructed:
     
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img24.png" width="250">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img24.png" width="450">
 <p>       
