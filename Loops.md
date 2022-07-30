@@ -14,3 +14,7 @@ Most often, loops work with variables that change during the process of the loop
 The idea behind Python while loops is that they execute one or more statements until a condition is true. Then the loop is terminated.
 <br
 The while loop is illustrated in the following flowchart:
+    
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img21.png" width="250">
+<p>  
