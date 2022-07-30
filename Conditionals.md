@@ -108,7 +108,28 @@ else:
 print(f"You'll pay ${ticket_price} for the ticket!")
 
 ```
+## Pass keyword
 
+The pass statement is actually used as a placeholder. If you want to declare a function, conditional or a loop, but do not want to provide the implementation, you can use the pass statement.<br> 
+<br>
+If you want to provide the implementation of a loop or function in the future, you must use the pass statement because a function or loop in Python can never have an empty body. The pass statement creates an empty body for you.
+<br>
+<br>
+Example:
+  
+´´´python
+# Ask the user for a number
+num = int(input("number: "))
+# Check whether the number is an even number
+if num % 2 == 0:
+    # If the number is even something should happen, but at the moment
+    # we don't know what should happen inside the body
+    # that's why we ise the pass keyboard to implement the functionality later
+    pass
+
+print("After the if statement")  
+´´´
+              
 ## Summary
   
 - Use the if statement when you want to run a code block based on a condition.
