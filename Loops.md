@@ -76,3 +76,35 @@ print("while loop finished!")
 # 10
 # while loop finished!   
 ```
+
+In Python, the "break" statement gives you the ability to exit a loop when an external condition is triggered. You place the break statement within the code block below your loop statement, usually after a conditional if statement.    
+<br>
+<br>
+Example:
+```python
+x = 0
+while x < 10:  # This is the condition
+    # Here is the loop body
+    x += 1
+    print(x)
+    # If x equals 5, loop ends 
+    if x == 5:
+        break
+else:
+    print("inside else")
+# After loop body
+print("while loop finished!")
+
+# Output is:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+# while loop finished!    
+```
