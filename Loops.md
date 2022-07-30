@@ -131,5 +131,5 @@ for letter in name:
 Look at the illustration below for the for-loop:
     
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img23.png" width="200">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img23.png" width="250">
 <p>     
