@@ -141,4 +141,24 @@ How the for loop is constructed:
 <p>       
 
     
-# For loop and the range() function
+## For loop and the range() function
+    
+    
+The range() function is a mini-program and creates numbers for you in your required range.  You specify your range in the brackets after the name of the function. Commonly this function is used together with a for loop.    
+<br>
+<br>
+Example:
+```python
+for number in range(0, 10, 2):
+    print(number)
+
+Output is:
+# 0
+# 2
+# 4
+# 6
+# 8 
+    
+```
+    
+In this example, the numbers from 0 to 10 were output in two steps without the 10. The first number inside the range() function is the start, the next number the end and the last number the steps. The start is included as a number but the end not. 
