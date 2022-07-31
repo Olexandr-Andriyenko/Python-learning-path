@@ -86,3 +86,35 @@ while continue_loop:
  ``` 
   
 </details>
+
+  
+4. Assignment
+<br>
+A program is to draw a right triangle with the character " * ". For this purpose, the user specifies the side length as a even number. <br>
+Output should look like this:
+
+```python
+*
+**
+***
+****
+*****  
+  
+```
+  
+  
+<details open>
+<summary>Solution</summary>
+
+  ```python
+# The length of the side
+length = int(input("Enter the length of the triangle (even number): "))
+# Variable to loop until this variable es equal the length
+m = 1
+while m <= length:
+    print(m * "*")
+    m += 1
+
+ ``` 
+  
+</details>
