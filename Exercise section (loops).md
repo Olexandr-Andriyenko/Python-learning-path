@@ -54,3 +54,35 @@ while not stop_program:
  ``` 
   
 </details>
+
+2. Assignment
+<br>
+In a program, a user is to enter numbers until he enters a negative number. After each input, the program should output the current sum and number of all numbers.
+
+
+<details open>
+<summary>Solution</summary>
+
+  ```python
+# Variables for counting the amount of entered numbers
+# and the sum of all numbers
+sum_numbers = 0
+count_num = 0
+# Loop condition variable
+continue_loop = True
+while continue_loop:
+    num = float(input("Enter a number: "))
+    # Check is the entered number negative
+    # if yes exit the program
+    if num < 0:
+        continue_loop = False
+        print("You entered a negative number, program ends now!")
+        break
+    count_num += 1
+    print(f"Yout entered {count_num} number(s)!")
+    sum_numbers += num
+    print(f"The sum of all numbers is: {sum_numbers}")
+
+ ``` 
+  
+</details>
