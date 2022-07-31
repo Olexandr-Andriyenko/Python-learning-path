@@ -55,7 +55,7 @@ while not stop_program:
   
 </details>
 
-2. Assignment
+3. Assignment
 <br>
 In a program, a user is to enter numbers until he enters a negative number. After each input, the program should output the current sum and number of all numbers.
 
