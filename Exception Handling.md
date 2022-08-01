@@ -69,3 +69,5 @@ print("End of the program")
 # End of the program
 
 ```
+
+Only the critical line is embedded in the exception handling. So you should think about which parts of your program are sensitive to errors. A command prompt is such a critical point.
