@@ -34,5 +34,10 @@ print("End of the program")
 # ValueError: invalid literal for int() with base 10: '5abc'
 #-------------------------------------------------------------------
 # We are informed that an error has occurred and where it is located.
+# The program is canceled
 
 ```
+
+How can we catch such an error as in the example above and avoid the termination of the program? To do this, you must first find out which part of the program is sensitive to such an error. To do this, you must first find out which part of the program is sensitive to such an error. We achieve this by using the keyword "try" and "except".
+<br>
+<br>
