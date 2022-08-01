@@ -41,3 +41,4 @@ print("End of the program")
 How can we catch such an error as in the example above and avoid the termination of the program? To do this, you must first find out which part of the program is sensitive to such an error. To do this, you must first find out which part of the program is sensitive to such an error. We achieve this by using the keyword "try" and "except".
 <br>
 <br>
+The keyword try is used to initiate exception handling. If the try block does not run without errors, the error can be caught by using an except statement, in this case, all statements of the given except block are executed.
