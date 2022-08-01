@@ -157,3 +157,19 @@ print("End of the program")
 # End of the program
 
 ```
+
+## Keyword "else"
+
+If you use else, you can write code that will only be executed if no exceptions or errors have occurred.
+<br>
+<br>
+Example:
+
+```python
+try:
+  print("Hello my name is Olexandr")
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
+```
