@@ -71,3 +71,41 @@ print("End of the program")
 ```
 
 Only the critical line is embedded in the exception handling. So you should think about which parts of your program are sensitive to errors. A command prompt is such a critical point.
+<br>
+<br>
+By using a "while" loop, the input can be repeated until the user makes the correct input. Let's put this into practice:
+
+
+```python
+# Variable for loop condition
+error = True
+# Use while loop to reapet input until no error
+while error:
+  # Input
+  num = input("Please enter a whole number: ")
+
+  # Using the input function we will get a string
+  # Now we have to converts the string to integer
+  try:
+    num = int(num)
+    print("Converting from string to int successful")
+    print(f"You have entered the following number: {num}")
+    error = False
+  except:
+    print("Converting string in int failed")
+
+# Lets print the number in the console
+print("End of the program")
+
+# Let's assume that we pass a 5abc as input.
+# The output will be:
+# Please enter a whole number: 5abc
+# Converting string in int failed
+# Please enter a whole number: 5aaa
+# Converting string in int failed
+# Please enter a whole number: 5
+# Converting from string to int successful
+# You have entered the following number: 5
+# End of the program
+
+```
