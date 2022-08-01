@@ -42,3 +42,30 @@ How can we catch such an error as in the example above and avoid the termination
 <br>
 <br>
 The keyword try is used to initiate exception handling. If the try block does not run without errors, the error can be caught by using an except statement, in this case, all statements of the given except block are executed.
+<br>
+<br>
+Let's add "try" and "except" to the previous example:
+
+```python
+# Input
+num = input("Please enter a whole number: ")
+
+# Using the input function we will get a string
+# Now we have to converts the string to integer
+try:
+  num = int(num)
+  print("Converting from string to int successful")
+  print(f"You have entered the following number: {num}")
+except:
+  print("Converting string in int failed")
+
+# Lets print the number in the console
+print("End of the program")
+
+# Let's assume that we pass a 5abc as input.
+# The output will be:
+# Please enter a whole number: 5abc
+# Converting string in int failed
+# End of the program
+
+```
