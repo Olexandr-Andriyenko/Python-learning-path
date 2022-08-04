@@ -137,3 +137,29 @@ print(3 * shopping_list_filled)
 # ['Apple', 'Sugar', 'Apple', 'Sugar', 'Apple', 'Sugar']
 
 ```
+
+### Delete elements
+
+
+We can delete one or more elements from a list with the keyword "del". It can even delete the list completely.
+
+```python
+shopping_list_filled = ["Apple", "Sugar", "Flour", "Oil", "Bread", "Milk"]
+# Delete one element
+del shopping_list_filled[1]
+print(shopping_list_filled)
+# Delete multiple elements
+del shopping_list_filled[1:3]
+print(shopping_list_filled)
+# Delete whole list
+del shopping_list_filled
+print(shopping_list_filled)
+
+# Output is:
+# ['Apple', 'Flour', 'Oil', 'Bread', 'Milk']
+# ['Apple', 'Bread', 'Milk']
+# Traceback (most recent call last):
+#   File "<string>", line 10, in <module>
+# NameError: name 'shopping_list_filled' is not defined
+
+```
