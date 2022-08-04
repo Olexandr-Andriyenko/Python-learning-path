@@ -213,6 +213,24 @@ Output is:
 # True
 # ('a', 'b', 'c')
 
+```
 
+### Pack and unpack a tuple:
+
+
+In Python, there is a very powerful tuple assignment function that assigns the right side of values to the left side. In another way, it is called unpacking a tuple of values into a variable. When packing we put values into a new tuple, while when unpacking we extract these values into a single variable.
+
+```python
+
+x = ("Guru99", 20, "Education")    # tuple packing
+(company, emp, profile) = x    # tuple unpacking
+print(company)
+print(emp)
+print(profile)
+
+# Output is:
+# Guru99
+# 20
+# Education
 
 ```
