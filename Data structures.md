@@ -302,3 +302,46 @@ print(member)
 # {'name': 'Olexandr', 'age': 21, 'city': 'Berlin'}
 # {'name': 'Olexandr', 'age': 21, 'city': 'Berlin', 'job': 'engineer'}
 ```
+
+Common tasks in a dictionary:
+
+```python
+# Create a dictionary
+member={
+"name": "Olexandr",
+"age": 18,
+"city": "Berlin",
+"job": "engineer",
+"task": "back-end",
+"salary": 147000
+}
+# Check whether a element is included
+if "salary" in member:
+  print(member["salary"])
+# Amount of elements
+amount = len(member)
+print(f"The dictionary have {amount} elements")
+# Print each element
+for element in member:
+  print(element)
+# Print each value
+for value in member:
+  print(member[value])
+  
+# Output is:
+# 147000
+# The dictionary have 6 elements
+# name
+# age
+# city
+# job
+# task
+# salary
+# Olexandr
+# 18
+# Berlin
+# engineer
+# back-end
+# 147000
+
+```
