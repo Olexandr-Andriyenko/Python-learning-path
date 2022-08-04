@@ -168,3 +168,7 @@ This was a short overview of some important functionalities of lists. Depending 
 <br>
 <br>
 If you want to know all the methods defined for list objects, then get the details with "help(list)".
+
+## Tuples
+
+Tuples are just like lists except that they are unchanging like strings, this means you cannot modify tuples. Tuples are defined by specifying comma separated objects inside a normal pair of parentheses.
