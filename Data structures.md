@@ -171,4 +171,4 @@ If you want to know all the methods defined for list objects, then get the detai
 
 ## Tuples
 
-Tuples are just like lists except that they are unchanging like strings, this means you cannot modify tuples. Tuples are defined by specifying comma separated objects inside a normal pair of parentheses.
+Tuples are just like lists except that they are unchanging like strings, this means you cannot modify tuples. Tuples are defined by specifying comma separated objects inside a normal pair of parentheses. Tuples are usually needed whenever a statement or user-defined function can be sure that the collection of values used will not change.
