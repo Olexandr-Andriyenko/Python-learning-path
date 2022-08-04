@@ -81,14 +81,17 @@ print(shopping_list_filled)
 
 ```
 
-We can add an element to a list by using the append() method or add multiple elements using extend() method. What exactly methods are is explained in more detail in the chapter "Object Oriented Programming". For now it is enough to be able to use just the two commands if you want to extend your list. Methods are always introduced with the dot operator. Use the following examples as a guide:
+Unfortunately, at this point it is necessary to use a future topic. We can add an element to a list by using the append() method or add multiple elements using extend() method. What exactly methods are is explained in more detail in the chapter "Object Oriented Programming". For now it is enough to be able to use just the two commands if you want to extend your list. Methods are always introduced with the dot operator. Use the following examples as a guide:
 
 ```python
 shopping_list_filled = ["Apple", "Sugar", "Flour", "Oil", "Bread", "Milk"]
 # Add a element to the list
+shopping_list_filled.append("New Element")
+shopping_list_filled.extend(["One more Element", "Last Element"])
+print(shopping_list_filled)
 
 
 # Output is:
-
+# ['Apple', 'Sugar', 'Flour', 'Oil', 'Bread', 'Milk', 'New Element', 'One more Element', 'Last Element']
 
 ```
