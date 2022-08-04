@@ -234,3 +234,40 @@ print(profile)
 # Education
 
 ```
+
+## Dictionaries
+
+Like a dictionary that links terms and their meanings, the Python dictionary contains elements that are linked to related information. In Python, dictionaries are generally referred to as key-value pairs.
+<br>
+<br>
+You can imagine a dictionary like a table:
+
+| Key            | Value        |
+| ------------- | ------------- |
+| name          | "Olexandr"    |
+| age           | 18            |
+| city          | "Berlin"      |
+
+
+
+### Create a dictionary
+
+
+```python
+
+# Creat an empty dictionary
+member = {}
+print(member)
+# Create a dictionary with keys and values
+member={
+"name": "Olexandr",
+"age": 18,
+"city": "Berlin"
+}
+print(member)
+
+# Output is:
+# {}
+# {'name': 'Olexandr', 'age': 18, 'city': 'Berlin'}
+
+```
