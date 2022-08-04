@@ -167,4 +167,4 @@ print(shopping_list_filled)
 This was a short overview of some important functionalities of lists. Depending on what you want to do with your list, you can use the Python documentation about lists. Because you don't have to know all the keywords by memory.
 <br>
 <br>
-
+If you want to know all the methods defined for list objects, then get the details with "help(list)".
