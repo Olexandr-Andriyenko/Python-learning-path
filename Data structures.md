@@ -11,8 +11,44 @@ A variable must be surrounded by square brackets so that Python recognizes it as
 
 ### Create lists:
 
+In Python programming, a list is created by enclosing all elements (items) in square brackets, separated by commas.
+It can contain any number of elements and they can be of different types (integer, float, string, etc.).
+
+
+
 ```python
 # Creat an empty list
-shopping_list =[]
+shopping_list_empty = []
+# Creat a list with elements/objects of the same datatype
+shopping_list_filled = ["Apple", "Sugar", "Flour"]
+# Creat a list with elements/objects with different datatypes
+shopping_list_filled_int_strg = ["42", "People"]
+# 
+
+```
+
+### Access list elements:
+
+We can use the index operator "[]" to access an element in a list. In Python, indexes start at 0, so a list with 3 elements has an index from 0 to 2.
+
+```python
+shopping_list_empty = []
+shopping_list_filled = ["Apple", "Sugar", "Flour"]
+shopping_list_filled_int_strg = ["42", "People"]
+# Access elements
+print(shopping_list_filled[0])
+print(shopping_list_filled[1])
+print(shopping_list_filled[2])
+# Like strings, a negative indecision can be used
+print(shopping_list_filled_int_strg[-1])
+print(shopping_list_filled_int_strg[-2])
+
+# Output is:
+# Apple
+# Sugar
+# Flour
+# People
+# 42
+
 
 ```
