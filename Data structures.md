@@ -271,3 +271,28 @@ print(member)
 # {'name': 'Olexandr', 'age': 18, 'city': 'Berlin'}
 
 ```
+
+
+### Edit a dictionary
+
+```python
+
+# Create a dictionary with keys and values
+member={
+"name": "Olexandr",
+"age": 18,
+"city": "Berlin"
+}
+print(member)
+# Change a value 
+member["age"] = 21
+print(member)
+# Add a element
+member["job"] = "engineer"
+print(member)
+
+# Output is:
+# {'name': 'Olexandr', 'age': 18, 'city': 'Berlin'}
+# {'name': 'Olexandr', 'age': 21, 'city': 'Berlin'}
+# {'name': 'Olexandr', 'age': 21, 'city': 'Berlin', 'job': 'engineer'}
+```
