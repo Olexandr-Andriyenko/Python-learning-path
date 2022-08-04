@@ -252,6 +252,9 @@ You can imagine a dictionary like a table:
 
 ### Create a dictionary
 
+Dictionaries are created with the help of curly braces. The pairs are separated by commas. A pair is noted in the following form:<br>
+key:value
+
 
 ```python
 
@@ -274,6 +277,9 @@ print(member)
 
 
 ### Edit a dictionary
+
+It is important to know how to access the elements, change them and add new elements.
+
 
 ```python
 
