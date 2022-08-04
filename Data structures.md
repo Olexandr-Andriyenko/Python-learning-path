@@ -195,3 +195,24 @@ print(tuple_2)
 # (1, 2, 3, 'a', 'b', 'c', True, '42a')
 
 ```
+
+### Access tuple elements:
+
+
+Using the square brackets, it is possible to access the corresponding value by index. Also like with lists the index starts at 0.
+
+```python
+tuple_2 = (1, 2 ,3 ,"a", "b", "c", True, "42a")
+# Access elements
+print(tuple_2[0])
+print(tuple_2[6])
+print(tuple_2[3:6])
+
+Output is:
+# 1
+# True
+# ('a', 'b', 'c')
+
+
+
+```
