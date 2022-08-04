@@ -96,6 +96,24 @@ print(shopping_list_filled)
 
 ```
 
+The "insert" method can be used to add elements to a specific position in the list:
+
+```python
+shopping_list_filled = ["Apple", "Sugar"]
+# Add element after the index 0
+shopping_list_filled.insert(1, "New Element")
+print(shopping_list_filled)
+# Add multiple elements after index 1 with the slicing operator
+shopping_list_filled[2:2]=["With", "Slicing"]
+print(shopping_list_filled)
+
+# Output is:
+# ['Apple', 'New Element', 'Sugar']
+# ['Apple', 'New Element', 'With', 'Slicing', 'Sugar']
+
+```
+
+
 ### List concatenation
 
 We can also use "+" operator to combine two lists. This is also called concatenation.
@@ -107,4 +125,15 @@ print(shopping_list_filled + price)
 
 # Output is:
 # ['Apple', 'Sugar', 'Flour', 'Oil', 'Bread', 'Milk', 1.95, 0.35, 0.45, 2.95, 1.45, 0.95]
+```
+
+The "*" operator repeats a list for the specified number of times.
+
+```python
+shopping_list_filled = ["Apple", "Sugar"]
+print(3 * shopping_list_filled)
+
+# Output is:
+# ['Apple', 'Sugar', 'Apple', 'Sugar', 'Apple', 'Sugar']
+
 ```
