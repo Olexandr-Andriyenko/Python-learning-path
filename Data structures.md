@@ -95,3 +95,16 @@ print(shopping_list_filled)
 # ['Apple', 'Sugar', 'Flour', 'Oil', 'Bread', 'Milk', 'New Element', 'One more Element', 'Last Element']
 
 ```
+
+### List concatenation
+
+We can also use "+" operator to combine two lists. This is also called concatenation.
+
+```python
+shopping_list_filled = ["Apple", "Sugar", "Flour", "Oil", "Bread", "Milk"]
+price = [1.95, 0.35, 0.45, 2.95, 1.45, 0.95]
+print(shopping_list_filled + price)
+
+# Output is:
+# ['Apple', 'Sugar', 'Flour', 'Oil', 'Bread', 'Milk', 1.95, 0.35, 0.45, 2.95, 1.45, 0.95]
+```
