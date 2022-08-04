@@ -172,3 +172,26 @@ If you want to know all the methods defined for list objects, then get the detai
 ## Tuples
 
 Tuples are just like lists except that they are unchanging like strings, this means you cannot modify tuples. Tuples are defined by specifying comma separated objects inside a normal pair of parentheses. Tuples are usually needed whenever a statement or user-defined function can be sure that the collection of values used will not change.
+<br>
+<br>
+Once you enter a value, it remains the same until the end of the program. This is why this data structure is always useful when the values do not change.
+
+### Create a tuple
+
+```python
+# Without elements
+tuple_1 = ()
+# With elements
+tuple_2 = (1, 2 ,3 ,"a", "b", "c", True, "42a")
+# If tuple have only one element it is IMPORTAN to use a comma, or python do not recognizes this object as a tuple
+tuple_3 = ("One element",)
+# At this"tuple" we do not use a comma, so it is not a tuple but a string
+tuple_4 = ("This is not a tuple!")
+print(type(tuple_4))
+print(tuple_2)
+
+# Output is:
+# <class 'str'>
+# (1, 2, 3, 'a', 'b', 'c', True, '42a')
+
+```
