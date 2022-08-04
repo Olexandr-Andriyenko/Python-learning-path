@@ -50,5 +50,45 @@ print(shopping_list_filled_int_strg[-2])
 # People
 # 42
 
+```
+
+We can access a range/interval of elements in a list by using the slicing operator ":".
+
+```python
+shopping_list_filled = ["Apple", "Sugar", "Flour", "Oil", "Bread", "Milk"]
+# Access elements by using slicing operator:
+print(shopping_list_filled[2:5])
+
+# Output is:
+# ['Flour', 'Oil', 'Bread']
+
+```
+
+### Add and change elements:
+
+Lists are changeable, which means their elements can be changed, unlike strings or tuples. We can use the assignment operator "=" to change an element or a set of elements.
+
+
+```python
+shopping_list_filled = ["Apple", "Sugar", "Flour", "Oil", "Bread", "Milk"]
+# Change Sugar to Salt and Bread to Cake
+shopping_list_filled[1] = "Salt"
+shopping_list_filled[4] = "Cake"
+print(shopping_list_filled)
+
+# Output is:
+# ['Apple', 'Salt', 'Flour', 'Oil', 'Cake', 'Milk']
+
+```
+
+We can add an element to a list by using the append() method or add multiple elements using extend() method. What exactly methods are is explained in more detail in the chapter "Object Oriented Programming". For now it is enough to be able to use just the two commands if you want to extend your list. Methods are always introduced with the dot operator. Use the following examples as a guide:
+
+```python
+shopping_list_filled = ["Apple", "Sugar", "Flour", "Oil", "Bread", "Milk"]
+# Add a element to the list
+
+
+# Output is:
+
 
 ```
