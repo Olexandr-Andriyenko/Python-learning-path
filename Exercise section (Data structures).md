@@ -99,3 +99,17 @@ print(list_2)
 # [5, 1, 3, 6, 4]
   
  ``` 
+
+  ### 4. Assignment
+  
+Reverse a specified list.<br>
+Note: list.reverse() is nice, but not the point of this task!
+  
+  
+<details open>
+<summary>Solution</summary>
+
+  ```python
+
+  
+ ``` 
