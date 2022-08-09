@@ -47,3 +47,28 @@ list_01 = [3,8,9,5,1,3,6,4]
 
 ```
 
+<details open>
+<summary>Solution</summary>
+
+  ```python
+# Create a list
+list_01 = [3,8,9,5,1,3,6,4]
+# Variable which corresponds with the element position inside the list
+index = 0
+# Loop the list
+for value in list_01:
+    # If value is three the element at the index position
+    if value == 3:
+        del list_01[index]
+    # the next element is at a "higher" index
+    index += 1
+
+print(list_01)
+
+# By searching the python documentation u can find easier methods to remove an element
+# Try to use the "remove" method !
+
+# Output is:
+# [8, 9, 5, 1, 6, 4]
+ ``` 
+
