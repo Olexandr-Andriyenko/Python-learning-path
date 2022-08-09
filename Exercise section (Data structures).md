@@ -12,3 +12,20 @@ list_02 = [4,2]
 [3,8,9,2,4,2]
 
 ```
+
+<details open>
+<summary>Solution</summary>
+
+  ```python
+ # Create two lists
+list_01 = [3,8,9,2]
+list_02 = [4,2]
+
+# Use list concatenation
+print(list_01 + list_02)
+
+# Output is:
+# [3, 8, 9, 2, 4, 2]  
+ ``` 
+  
+</details>
