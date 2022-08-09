@@ -173,3 +173,13 @@ except:
 else:
   print("Nothing went wrong")
 ```
+
+
+## Summary
+
+
+
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img26.png" width="750">
+<p>  
