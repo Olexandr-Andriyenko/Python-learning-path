@@ -77,3 +77,25 @@ print(list_01)
 Separate a list at an index into two partial lists.
 Note:  If a list is to be separated at index 0, then the first list is list is empty.
   
+<details open>
+<summary>Solution</summary>
+
+  ```python
+# Create a list
+list_given = [3,8,9,5,1,3,6,4]
+# Ask the user at which index to split the list
+index = int(input("Index: "))
+# Spliting with "range" function
+# Usin the "len" function to find the last index out
+list_1 = list_given[0:index]
+list_2 = list_given[index:len(list_given)]
+# Print the lists
+print(list_1)
+print(list_2)
+
+# Output is:
+# Index: 3
+# [3, 8, 9]
+# [5, 1, 3, 6, 4]
+  
+ ``` 
