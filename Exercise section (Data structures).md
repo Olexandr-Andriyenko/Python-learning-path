@@ -72,3 +72,8 @@ print(list_01)
 # [8, 9, 5, 1, 6, 4]
  ``` 
 
+### 3. Assignment
+  
+Separate a list at an index into two partial lists.
+Note:  If a list is to be separated at index 0, then the first list is list is empty.
+  
