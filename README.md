@@ -40,4 +40,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 |[Exercise section (loops)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(loops).md) | :star: :star:|Using the previous knowledge to solve problems.|
 |[Exception Handling](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exception%20Handling.md) | :star: :star: | Catch errors with "try" and "except.Use "finally" to execute code, no matter if an error happened or not. Execute code with "else" if no error occurred|
 | [Data structures](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Data%20structures.md) | :star: :star: :star: | Learn different data structures like lists, tuples, dictionaries, sequences, references and more about strings. |
-| [Exercise section (Data structures)]() |:star: :star: :star:  | Using the previous knowledge to solve problems. |
+| [Exercise section (Data structures)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(Data%20structures).md) |:star: :star: :star:  | Using the previous knowledge to solve problems. |
