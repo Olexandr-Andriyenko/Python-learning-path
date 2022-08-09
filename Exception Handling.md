@@ -181,5 +181,5 @@ else:
 
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img26.png" width="750">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img26.png" width="300">
 <p>  
