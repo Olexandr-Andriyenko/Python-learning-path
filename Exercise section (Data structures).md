@@ -111,5 +111,21 @@ Note: list.reverse() is nice, but not the point of this task!
 
   ```python
 
+# Create a list
+list_given = [3,8,9,5,1,3,6,4]
+# Empty list where to store elements but reverse
+list_reverse = []
+# Start with the last index of the list
+list_length = len(list_given) - 1
+
+while list_length != -1:
+    # Add the elements to reverse list
+    list_reverse.append(list_given[list_length])
+    list_length -= 1
+
+print(list_reverse)
+  
+# Output is:
+# [4, 6, 3, 1, 5, 9, 8, 3]
   
  ``` 
