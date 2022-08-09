@@ -29,3 +29,21 @@ print(list_01 + list_02)
  ``` 
   
 </details>
+
+
+### 2. Assignment
+
+Remove a specific element from a specified list.
+Note: If an element appears more than once, it should be removed everywhere.
+
+Example:
+
+```python
+list_01 = [3,8,9,5,1,3,6,4]
+# Remove "3"
+
+# Output should look like:
+[8,9,5,1,6,4]
+
+```
+
