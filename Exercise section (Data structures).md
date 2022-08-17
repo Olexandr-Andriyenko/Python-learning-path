@@ -129,3 +129,30 @@ print(list_reverse)
 # [4, 6, 3, 1, 5, 9, 8, 3]
   
  ``` 
+  
+### 5. Assignment
+Let the user enter a sentence and a word. Find out if the word is in the sentence and return the result.<br>
+
+<details open>
+<summary>Solution</summary>
+
+  ```python
+  
+# The user do a input
+sentence = input("Enter a sentence: ")
+word = input("Enter a word: ")
+
+# Easy way
+if word in sentence:
+    print(word)
+
+# With the "lower()" method case sensitivity check is possible
+if word in sentence.lower():
+   print(word)
+  
+# Output is:
+# Enter a sentence: WE LOVE PYTHON
+# Enter a word: love
+# love
+  
+ ``` 
