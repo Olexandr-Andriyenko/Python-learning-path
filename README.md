@@ -48,4 +48,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 
 | Project             | Difficulty      | What you will learn |
 | --------------------|:---------------:| ------------------- |
-| [Treasure island]()     |  :star:         |   Use of control flow and logical operators                  | 
+| [Treasure island](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Treasure%20island.md)     |  :star:         |   Use of control flow and logical operators                  | 
