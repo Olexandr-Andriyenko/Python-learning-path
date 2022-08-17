@@ -160,3 +160,25 @@ if word in sentence.lower():
   ### 6. Assignment
   
   Write a Python program to get the largest number from a list.
+  
+  <details open>
+<summary>Solution</summary>
+
+  ```python
+  
+# Do not use the "max()" and "reduce() function!
+# List of numbers
+numbers = [20, 32, 4, 66, 42, 99, 4, 55, 23, 25, 62, 2, 44, 42, 49]
+# Set first number as largest number
+largest_num = numbers[0]
+# Go through each number and check whether they larger
+for number in numbers:
+    if number > largest_num:
+        largest_num = number
+
+print(largest_num)
+
+# Output is:
+# 99
+  
+ ``` 
