@@ -43,3 +43,27 @@ After importing a module, the functions, variables, methods and classes defined 
 <br>
 Let's take a closer look at the "random" module and use some functionalities of it. For each module you can find documentation, which you should definitely read!
 Here is do documentantion to the ["random" module](https://docs.python.org/3/library/random.html).
+<br>
+<br>
+In this example we use the "random" module:
+  
+```python
+# Import the random module
+import random
+# Return a random integer between 0 and 10 where 0 and 10 is included
+rand_num = random.randint(0, 10)
+print(rand_num)
+# Return a randomly selected element between 10 and 20 of two steps
+rand_num_range = random.randrange(10, 20, 2)
+print(rand_num_range)
+# Return a random element from the non-empty sequence
+companys = ["Apple", "Google", "Microsoft", "Meta", "Paypal"]
+rand_company = random.choice(companys)
+print(rand_company)
+
+# Output is:
+# 8
+# 10
+# Apple
+
+```
