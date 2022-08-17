@@ -67,3 +67,11 @@ print(rand_company)
 # Apple
 
 ```
+  
+So after importing a module, the classes, functions and variables defined in the module can be used with the following syntax:
+ 
+```
+modulname.Classname
+modulname.Variablename
+modulname.funcionname() 
+```
