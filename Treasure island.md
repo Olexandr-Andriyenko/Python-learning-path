@@ -6,4 +6,8 @@ This is a project I finished on my own during the course ["100 Days of Code: The
 Convert the following flowchart into a program:
 
 
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img27.JPG" width="700">
+<p> 
+
 
