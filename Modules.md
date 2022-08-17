@@ -81,4 +81,7 @@ To be able to save typing work with longer module names, an shortcut syntax is a
 ```python
 # import modul_name as own_name
 import random as r
+# Return a random integer between 0 and 10 where 0 and 10 is included
+rand_num = rd.randint(0, 10)
+print(rand_num)
 ```
