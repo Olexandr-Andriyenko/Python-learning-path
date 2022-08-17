@@ -75,3 +75,10 @@ modulname.Classname
 modulname.Variablename
 modulname.funcionname() 
 ```
+  
+To be able to save typing work with longer module names, an shortcut syntax is also possible when importing a module:
+ 
+```python
+# import modul_name as own_name
+import random as r
+```
