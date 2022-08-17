@@ -86,7 +86,10 @@ rand_num = rd.randint(0, 10)
 print(rand_num)
 ```
 
-A further simplification is possible if you only want to import individual classes or functions of a module. The following syntax is possible for this:
+A further simplification is possible if you only want to import individual classes or functions of a module.
+Multiple class or function names can also be specified, each separated by a comma. The classes or functions imported in this way can then be called directly as if they were defined in the current file.
+  
+The following syntax is possible for this:
 
 ```python
 # from modulname import Class_name   
