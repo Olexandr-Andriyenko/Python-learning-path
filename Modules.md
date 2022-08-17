@@ -7,5 +7,5 @@ In practice, modules are primarily used to make it easier to organize the source
 With the installation of python many modules are already included. If you want to list all available modules, you have to open the PYTHON CONSOLE and type "help("modules")". The console will show you all intealled modules, of course you can add latter new modules.
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img27.jpg" width="750">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img27.JPG" width="750">
 <p> 
