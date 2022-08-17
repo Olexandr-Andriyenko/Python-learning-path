@@ -156,3 +156,7 @@ if word in sentence.lower():
 # love
   
  ``` 
+  
+  ### 6. Assignment
+  
+  Write a Python program to get the largest number from a list.
