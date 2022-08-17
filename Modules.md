@@ -102,3 +102,5 @@ print(rand_num)
 
   
 ```
+  
+During the learning process you will get to know different modules over time. You should only learn modules if you need them for a project. Otherwise you try to learn different modules, don't apply them to projects and forget them.
