@@ -84,7 +84,7 @@ logo = '''
 ```
 
 <br>
-<br>
+
 Use the following list of words:
 
 ```python
