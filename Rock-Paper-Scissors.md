@@ -1,5 +1,7 @@
 # Rock-Paper-Scissors
-
+This is a project I finished on my own during the course ["100 Days of Code: The Complete Python Pro Bootcamp for 2022 by Dr. Angela Yu"](https://www.udemy.com/course/100-days-of-code/?couponCode=CA914D89FB922E1090DF).
+<br>
+<br>
 Creat a program which allows you to play Rock-Paper-Scissors game! <br>
 Do not forget to check the input of the user. Use for this try, except and loops. <br>
 You should use the modules "random" and "sys", read the documentation to use it!
