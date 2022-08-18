@@ -42,6 +42,8 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Data structures](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Data%20structures.md) | :star: :star: :star: | Learn different data structures like lists, tuples, dictionaries, sequences, references and more about strings. |
 | [Exercise section (Data structures)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(Data%20structures).md) |:star: :star: :star:  | Using the previous knowledge to solve problems. |
 |[Modules](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Modules.md)| :star:| What is a module and how to use them. |
+>
+| Passwort Generator | :star:   | Apply your knowledge about loops and improve it! the knowledge about lists is necessary so you can apply it in this project.|
 
 
 ## Beginner projects
