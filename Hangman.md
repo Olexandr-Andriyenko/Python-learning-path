@@ -8,4 +8,9 @@ Read more about the [rules of this game](https://en.wikipedia.org/wiki/Hangman_(
 Do not forget to use ASCII art!
 <br>
 <br>
-For a better overview I created a flowchart for orientation.
+For a better overview I created a flowchart for orientation:
+
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/Hangman.png" width="450">
+<p> 
