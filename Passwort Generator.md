@@ -1,5 +1,7 @@
 # Passwort Generator
-
+This is a project I finished on my own during the course ["100 Days of Code: The Complete Python Pro Bootcamp for 2022 by Dr. Angela Yu"](https://www.udemy.com/course/100-days-of-code/?couponCode=CA914D89FB922E1090DF).
+<br>
+<br>
 Create a passwort generator to get a random passwort.<br>
 The program should ask the user about the amount of numbers, symbols and letters in the passwort.<br>
 Of course the user have to input how long the passwort should be.<br>
