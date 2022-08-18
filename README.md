@@ -42,8 +42,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Data structures](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Data%20structures.md) | :star: :star: :star: | Learn different data structures like lists, tuples, dictionaries, sequences, references and more about strings. |
 | [Exercise section (Data structures)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(Data%20structures).md) |:star: :star: :star:  | Using the previous knowledge to solve problems. |
 |[Modules](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Modules.md)| :star:| What is a module and how to use them. |
->
-| Passwort Generator | :star:   | Apply your knowledge about loops and improve it! the knowledge about lists is necessary so you can apply it in this project.|
+
 
 
 ## Beginner projects
@@ -52,3 +51,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | --------------------|:---------------:| ------------------- |
 | [Treasure island](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Treasure%20island.md)     |  :star:         |   Use of control flow and logical operators. How to print ASCII art with multiple lines. Check user input independent of large and lower case by the "lower()" function.                  | 
 | [Rock-Paper-Scissors](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Rock-Paper-Scissors.md) |  :star: | Learn how to use the random module to create randomisation. Using the sys module to end the program if somethinh go wrong like a user input. Using exception handling to optipize the program. |
+| Passwort Generator | :star:   | Apply your knowledge about loops and improve it! the knowledge about lists is necessary so you can apply it in this project.|
