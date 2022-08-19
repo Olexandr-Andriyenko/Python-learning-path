@@ -1,5 +1,9 @@
 # Caesar cipher
 
+
+This is a project I finished on my own during the course ["100 Days of Code: The Complete Python Pro Bootcamp for 2022 by Dr. Angela Yu"](https://www.udemy.com/course/100-days-of-code/?couponCode=CA914D89FB922E1090DF).
+<br>
+<br>
 Study the [rules of Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) and build your own!<br>
 This is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. 
 <br>
