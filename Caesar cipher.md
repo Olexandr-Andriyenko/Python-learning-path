@@ -5,6 +5,9 @@ This is one of the simplest and most widely known encryption techniques. It is a
 <br>
 <br>
 Ask the user at the begining whether he likes to "encode" or "decode".
+<br>
+<br>
+Use the knowledge about functions to structure your code!
 
 <details><summary>Use this ASCII art </summary>
   
