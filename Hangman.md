@@ -320,6 +320,7 @@ For a better overview I created a flowchart for orientation:
 <p> 
   
 <details><summary>Solution</summary>
+  
 ```python
 # Import random modul to pick random words
 import random
@@ -653,4 +654,5 @@ if lives == 1:
     print("You Lose!")
   
 ```
+  
 </details>
