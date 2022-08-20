@@ -1,5 +1,9 @@
 # Simple calculator
 
+
+This is a project I finished on my own during the course ["100 Days of Code: The Complete Python Pro Bootcamp for 2022 by Dr. Angela Yu"](https://www.udemy.com/course/100-days-of-code/?couponCode=CA914D89FB922E1090DF).
+<br>
+<br>
 Buil a simple calculator which can use the operators "+", "-", "*" and "/".<br>
 For the calculation the user have to enter two numbers.<br>
 At the end of the calculation user can decide to continue calculation with the result and an another number.
