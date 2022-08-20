@@ -1,5 +1,8 @@
 # Auction program
 
+This is a project I finished on my own during the course ["100 Days of Code: The Complete Python Pro Bootcamp for 2022 by Dr. Angela Yu"](https://www.udemy.com/course/100-days-of-code/?couponCode=CA914D89FB922E1090DF).
+<br>
+<br>
 Build a simple auction program with which you can save the bidders and their bids inside a dictionary.<br>
 At the end of the program user should be informed who won the auction with the highest bid.<br>
 At the beginning of the program the user can choose a currency.<br>
@@ -28,7 +31,7 @@ Do not forget to valid the users input, no one can bid zero or less and the user
 
 </details>
 
-<details><summary>Solution!</summary>
+<details><summary>Solution</summary>
  
 ```python
   
