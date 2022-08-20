@@ -1,6 +1,6 @@
 # Guess-The-Number-Game
 
-Build a game which creats a random number and the player have to guess this number.<br>
+Build a game which creats a random number between 0 and 100 and the player have to guess this number.<br>
 But the player have 5 tries at the "hard" mode and 10 tries at the "easy" mode.<br>
 Every time of the guess is wrong, the player lose a live (try) until he has 0 tries.<br>
 Of course at 0 tries the game is over an the playe lost the game.<br>
