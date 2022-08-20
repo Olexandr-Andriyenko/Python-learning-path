@@ -62,4 +62,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 
 | Project             | Difficulty      | What you will learn |
 | --------------------|:---------------:| ------------------- |
-|                     |                  |               |
+| Coffe Machine Program |  :star: :star: |               |
