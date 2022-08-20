@@ -1,5 +1,10 @@
 # Guess-The-Number-Game
 
+
+
+This is a project I finished on my own during the course ["100 Days of Code: The Complete Python Pro Bootcamp for 2022 by Dr. Angela Yu"](https://www.udemy.com/course/100-days-of-code/?couponCode=CA914D89FB922E1090DF).
+<br>
+<br>
 Build a game which creats a random number between 0 and 100 and the player have to guess this number.<br>
 But the player have 5 tries at the "hard" mode and 10 tries at the "easy" mode.<br>
 Every time of the guess is wrong, the player lose a live (try) until he has 0 tries.<br>
