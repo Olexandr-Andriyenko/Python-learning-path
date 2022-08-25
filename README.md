@@ -64,3 +64,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | Project             | Difficulty      | What you will learn |
 | --------------------|:---------------:| ------------------- |
 | [Coffe Machine Program](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Coffe%20Machine%20Program.md) |  :star: :star: |               |
+| Higher-Lower-Game |  :star: :star: | |
