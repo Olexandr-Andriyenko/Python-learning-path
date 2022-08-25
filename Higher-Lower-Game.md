@@ -380,3 +380,53 @@ vs = """
   
 </details>
 
+</details>
+
+<details><summary>Solution: </summary>
+  
+```python
+
+# Import the ASCII art
+from art import logo
+from art import vs
+# Import the game date
+from game_data import data
+# Import random for random data pick
+import random
+# score counter
+score = 0
+while True:
+    # Display information and pick random two instagram users from data
+    print(logo)
+    data_A = random.choice(data)
+    data_B = random.choice(data)
+    print(f"Compare A: {data_A['name']}, a {data_A['description']}, from {data_A['country']}.")
+    print(vs)
+    print(f"Against B: {data_B['name']}, a {data_B['description']}, from {data_B['country']}.")
+    # Set the follower count variables which have to be compared
+    follower_A = data_A['follower_count']
+    follower_B = data_B['follower_count']
+    # Create a list with valid answers
+    valid_answers = ["a", "b"]
+    while True:
+        answer = input("Who has more followers? Type 'A' or 'B': ")
+        if answer.lower() in valid_answers:
+            break
+    # Compare the followers
+    if follower_A > follower_B and answer.lower() == "a":
+        score += 1
+        print(f"You're right! Current score: {score}")
+    elif follower_A < follower_B and answer.lower() == "b":
+        score += 1
+        print(f"You're right! Current score: {score}")
+    else:
+        print(f"Sorry, that's wrong. Final score: {score}")
+        break
+
+
+
+
+    
+```
+  
+</details>
