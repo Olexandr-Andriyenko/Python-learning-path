@@ -76,3 +76,9 @@ workers_pen.about_pen()
 # My outside color is yellow and my writing color is black!  
   
 ```
+  
+The following should be kept in mind:<br>
+- A class is generally a group of things, living things, or concepts that have common characteristics or properties.
+- In OOP, a class specifies a set of objects with the same attributes and methods.
+- The class has a mechanism to create objects. It is just the construction template for all newly required objects, while the objects "live" in the program system and   can be addressed.
+- Different relationships can be established between different classes, or their objects, to represent relationships as in reality.
