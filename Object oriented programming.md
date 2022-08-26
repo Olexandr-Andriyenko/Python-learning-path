@@ -113,7 +113,7 @@ Write three methods::<br>
 - The second method you call "riseAge()". This method increases the value of the "age" attribute by 1.
 - The third method is called "displayDetails()", it displays name, race and age meaningfully as text.
   
-<details><summary>Solution::</summary>
+<details><summary>Solution:</summary>
   
 ```python
   
