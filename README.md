@@ -48,7 +48,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 
 | Chapter          | Difficulty    | What you will learn |
 | ---------------------------------------------------------------------------------------------------------------------------------------------|:---------------:| --- 
-| Object oriented programming | :star: :star:  :star:  | What is object oriented programming, why to use this concept and how it effects our code. Basic knowledge about objects and methods. |
+| [Object oriented programming](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Object%20oriented%20programming.md)|:star: :star:  :star:  | What is object oriented programming, why to use this concept and how it effects our code. Basic knowledge about objects and methods. |
 
 ## Beginner projects
 
