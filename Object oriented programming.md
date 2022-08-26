@@ -104,3 +104,11 @@ print(my_list)
 # ['Red', 'Blue', 'Yellow']
 # ['Red', 'Blue', 'Yellow', 'Black']
 ```
+  
+Exercise:<br>
+<br>
+Write a class called "Cat". The class has three attributes: "name", " race" and "age". The "age" of a new "cat" object should be "0" at the beginning of its lifetime.<br>
+Write three methods::<br>
+- The first one is called "doMiau()". When the method is executed, the text "meow" is output.
+- The second method you call "riseAge()". This method increases the value of the "age" attribute by 1.
+- The third method is called "displayDetails()", it displays name, race and age meaningfully as text.
