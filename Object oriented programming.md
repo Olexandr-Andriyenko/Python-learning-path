@@ -68,6 +68,11 @@ workers_pen.refill()
 # Display the information about the pen with the "about_pen" method
 my_pen.about_pen()
 workers_pen.about_pen()
-  
+
+# Output is:
+# I am writing!
+# I refill the pen!
+# My outside color is red and my writing color is blue! 
+# My outside color is yellow and my writing color is black!  
   
 ```
