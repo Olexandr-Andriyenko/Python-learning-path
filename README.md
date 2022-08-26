@@ -44,7 +44,11 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 |[Modules](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Modules.md)| :star:| What is a module and how to use them. |
 | Debugging | :star: | How to find and fix errors in your code. Watching for red underlines and fix them.|
 
+## Python intermediate
 
+| Chapter          | Difficulty    | What you will learn |
+| ---------------------------------------------------------------------------------------------------------------------------------------------|:---------------:| --- 
+| Object oriented programming | :star: :star:  :star:  | What is object oriented programming, why to use this concept and how it effects our code. Basic knowledge about objects and methods. |
 
 ## Beginner projects
 
