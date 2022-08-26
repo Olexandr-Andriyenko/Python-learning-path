@@ -13,5 +13,8 @@ Because object orientation is very similar to human thinking, this programming s
 <br>
 <br>
 An object is an exact description for example of our pen. The attributes (properties) have a value or a fixed state. For example, our pen had the outer color white and the writing color black. The class, on the other hand, is a generalization of all pen objects. It describes which attributes a pen can have without assigning a value to them. Only the object represents the thing pen, which we have in front of us with all its properties.
-<br>
-<br>
+
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img28.png" width="500">
+<p>  
