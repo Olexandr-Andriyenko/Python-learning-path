@@ -112,3 +112,45 @@ Write three methods::<br>
 - The first one is called "doMiau()". When the method is executed, the text "meow" is output.
 - The second method you call "riseAge()". This method increases the value of the "age" attribute by 1.
 - The third method is called "displayDetails()", it displays name, race and age meaningfully as text.
+  
+<details><summary>Solution::</summary>
+  
+```python
+  
+# Create the class
+class Cat:
+    # Attributes
+    name = None
+    race = None
+    age = 0
+
+    # Methods
+    def doMiau(self):
+        print("meow")
+
+    def riseAge(self):
+        self.age += 1
+
+    def displayDetails(self):
+        print(f"The name of the cat is {self.name}, the cat is {self.age} years old and the race is an {self.race}!")
+
+
+# Main program
+my_cat = Cat()
+# Show me the age of my cate
+print(f"My cat is {my_cat.age} years old")
+# Lets rise the age of my cate
+my_cat.riseAge()
+# My cat get a name
+my_cat.name = "Thanos"
+# Define the race of the cat
+my_cat.race = "American Shorthair"
+# Show me all details about my cat
+my_cat.displayDetails()
+  
+# Output is:
+# My cat is 0 years old
+# The name of the cat is Thanos, the cat is 1 years old and the race is an American Shorthair!
+```
+  
+</details>
