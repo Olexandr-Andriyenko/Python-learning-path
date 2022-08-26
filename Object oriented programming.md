@@ -82,3 +82,25 @@ The following should be kept in mind:<br>
 - In OOP, a class specifies a set of objects with the same attributes and methods.
 - The class has a mechanism to create objects. It is just the construction template for all newly required objects, while the objects "live" in the program system and   can be addressed.
 - Different relationships can be established between different classes, or their objects, to represent relationships as in reality.
+  
+<br>
+<br>
+If you remember, we had already applied methods to objects. However, at that time we did not know what exactly a method or an object is.  We had used the method "append()" with the dot notation for the data structure "list". This method allowed us to add an entry at the end of the list.
+ <br>
+ <br>
+ Example:
+  
+```python
+# Create a list
+my_list = ["Red", "Blue", "Yellow"]
+# Display the list
+print(my_list)
+# Add a entry at the end of this list
+my_list.append("Black")
+# Display the list
+print(my_list)
+  
+# Output is:
+# ['Red', 'Blue', 'Yellow']
+# ['Red', 'Blue', 'Yellow', 'Black']
+```
