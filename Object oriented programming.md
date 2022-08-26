@@ -1,5 +1,7 @@
 # Object oriented programming
 
+Until now, we had worked according to the concept of procedural programming. With the increase in complexity and the number of relationships between functions and variables, programming projects quickly become confusing and difficult to understand. Using the programming paradigm of object-oriented programming, projects can often be significantly simplified and presented in a clearer way. The reason why the concept is called "Object Oriented Programming" is that you try to model an object of the "real" world.
+
 ## Introduction
 
 In software development, object orientation (OO for short) is a view of complex systems in which a system is described by the interaction of cooperating objects. 
