@@ -1,5 +1,7 @@
 # Object oriented programming
 
+## Introduction
+
 In software development, object orientation (OO for short) is a view of complex systems in which a system is described by the interaction of cooperating objects. 
 The term object is not very clear, the only important thing about an object is that it has certain attributes (properties) and methods assigned to it and that it is able to receive messages from other objects or send messages to them.
 Object orientation is mostly used in the context of object-oriented programming to reduce the complexity of the resulting programs.
@@ -20,3 +22,6 @@ An object is an exact description for example of our pen. The attributes (proper
 <p>  
 
 Another example is the "Human" class. Even before birth, we know which characteristics (e.g. eye color, size, gender) and functions (e.g. speaking) a person will later have, but we do not know what value they have. A single person then corresponds to an object of the class "human" (even if the term object is perhaps a bit misplaced in this context), whose properties are set at creation (e.g. eye color=brown).
+<br>
+<br>
+In object-oriented programming, each object belongs to a class. This has the attributes (properties) and the methods (interactions) of this class.
