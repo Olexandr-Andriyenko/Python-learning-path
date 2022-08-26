@@ -26,4 +26,48 @@ An object is an exact description for example of our pen. The attributes (proper
 Another example is the "Human" class. Even before birth, we know which characteristics (e.g. eye color, size, gender) and functions (e.g. speaking) a person will later have, but we do not know what value they have. A single person then corresponds to an object of the class "human" (even if the term object is perhaps a bit misplaced in this context), whose properties are set at creation (e.g. eye color=brown).
 <br>
 <br>
-In object-oriented programming, each object belongs to a class. This has the attributes (properties) and the methods (interactions) of this class. In our class "pen" a method could be called "write".
+In object-oriented programming, each object belongs to a class. This has the attributes (properties) and the methods (interactions) of this class. In our class "pen" a method could be called "write". Methods are nothing more than functions that can only be executed by a specific object. So an object is just a way to combine some variables and functions into one "thing".
+  
+## Define classes, methods and objects
+  
+Using the example of the pen we will learn how to create classes, objects and methods.<br>
+
+```python
+# Define a class with the "class" keyword
+class pen:
+    # Let's create some attributes which the pen will have (We are using "None" to assign "no value"
+    outside_color = None
+    writing_color = None
+
+    # Create some methods (what can the pen do?). The definition is the same as functions.
+    # Methods have always minimum one parameter, the object itself "keyword self"
+    def write(self):
+        print("I am writing!")
+
+    def refill(self):
+        print("I refill the pen!")
+
+    # Inside the f-string we have to use the "self" keyword to call the object "itself"
+    def about_pen(self):
+        print(f"My outside color is {self.outside_color} and my writing color is {self.writing_color}! ")
+
+
+# Let's use our class inside the main program
+
+# Firstly we create two objects of the class "pen", this process is called "create instance of class"
+my_pen = pen()
+workers_pen = pen()
+# Let's set the values of the attributes with the "dot notation"
+my_pen.outside_color = "red"
+my_pen.writing_color = "blue"
+workers_pen.outside_color = "yellow"
+workers_pen.writing_color = "black"
+# Let's do something with the pens by using the methods
+my_pen.write()
+workers_pen.refill()
+# Display the information about the pen with the "about_pen" method
+my_pen.about_pen()
+workers_pen.about_pen()
+  
+  
+```
