@@ -18,3 +18,5 @@ An object is an exact description for example of our pen. The attributes (proper
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img28.png" width="500">
 <p>  
+
+Another example is the "Human" class. Even before birth, we know which characteristics (e.g. eye color, size, gender) and functions (e.g. speaking) a person will later have, but we do not know what value they have. A single person then corresponds to an object of the class "human" (even if the term object is perhaps a bit misplaced in this context), whose properties are set at creation (e.g. eye color=brown).
