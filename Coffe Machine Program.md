@@ -57,7 +57,7 @@
 ## For a better overview I have created a flow chart diagram, which can be used as oriantation to solve the assignment step by step.
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img30.png" width="200">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img30.png" width="550">
 <p> 
 
 ## Use case diagram
@@ -66,7 +66,7 @@ A use case diagram is a graphical depiction of a user's possible interactions wi
 Here i have created a superficial representation of the interactions without details.
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img29.png" width="200">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img29.png" width="550">
 <p> 
 
 
