@@ -69,6 +69,9 @@ Here i have created a superficial representation of the interactions without det
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img29.png" width="550">
 <p> 
 
+The use case diagrams can be a good communication tool for stakeholders.
+Experts recommend working with use case diagrams to supplement and illustrate a textual description of the use case in question.
+
 
 
 
