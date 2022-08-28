@@ -176,4 +176,9 @@ We can create an object of this class and save it inside a variable. I will call
 import turtle
 
 bob = turtle.Turtle()
+# If we use "print()" on our object, we will see where our object is stored inside the computer memory
+print(bob)
+  
+# Output is:
+# <turtle.Turtle object at 0x000001F0556B6080>
 ```
