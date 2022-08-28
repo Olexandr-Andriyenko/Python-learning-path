@@ -229,3 +229,39 @@ my_screen.exitonclick()
 <p> 
 
 Of course, you don't have to know all these classes and attributes by memory. You can find all this in the ["Turtle graphics libary documentation"](https://docs.python.org/3/library/turtle.html).
+<br>
+<br>
+Exercise:
+<br>
+<br>
+Create your own turtle and draw a rectangle200 with a height of 150 and width of 200.
+
+<details><summary>Solution:</summary>
+  
+```python
+ 
+import turtle
+
+bob = turtle.Turtle()
+# Change the shape of "bob"
+bob.shape("turtle")
+bob.color("green")
+# Move turtle forward
+bob.forward(150)
+# Turn him 90 degrees left direction
+bob.left(90)
+# Move turtle forward
+bob.forward(200)
+bob.left(90)
+bob.forward(150)
+bob.left(90)
+bob.forward(200)
+
+# Creat a "Screen" object:
+my_screen = turtle.Screen()
+# Let's use another attribute of the class Screen (we will see the screen until we press a key)
+my_screen.exitonclick()
+
+
+  
+```
