@@ -199,6 +199,8 @@ my_screen.exitonclick()
 
 
 ```
+  
+In the middle of the screen you can see the turtle "bob".
 
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img32.PNG" width="450">
