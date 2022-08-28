@@ -154,3 +154,10 @@ my_cat.displayDetails()
 ```
   
 </details>
+  
+## Turtle libary
+  
+A library is an umbrella term referring to a reusable chunk of code. Usually, a Python library contains a collection of related modules and packages. Actually, this term is often used interchangeably with “Python package” because packages can also contain modules and other packages (subpackages). However, it is often assumed that while a package is a collection of modules, a library is a collection of packages.
+<br>
+<br>
+To get some exerciese with the concept of OOP, we will work with the libary "turtle" for now.
