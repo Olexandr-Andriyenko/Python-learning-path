@@ -201,5 +201,5 @@ my_screen.exitonclick()
 ```
 
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img32.PNG" width="550">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img32.PNG" width="450">
 <p>  
