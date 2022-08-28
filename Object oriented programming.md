@@ -199,3 +199,7 @@ my_screen.exitonclick()
 
 
 ```
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img32.png" width="550">
+<p>  
