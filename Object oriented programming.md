@@ -173,7 +173,7 @@ Now you can access the class "Turtle" which was defined inside this library.
 We can create an object of this class and save it inside a variable. I will call my turtle (variable) bob:
 
 ```python
-  ìmport turtle
-  
-  bob = turtle.Turtle()
+import turtle
+
+bob = turtle.Turtle()
 ```
