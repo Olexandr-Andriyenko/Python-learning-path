@@ -161,3 +161,11 @@ A library is an umbrella term referring to a reusable chunk of code. Usually, a 
 <br>
 <br>
 To get some exerciese with the concept of OOP, we will work with the libary "turtle" for now.
+<br>
+<br>
+By using "import turtle" we can use this libary.<br>
+Now you can access the class "Turtle" which was defined inside this library.
+  
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img30.png" width="550">
+<p>  
