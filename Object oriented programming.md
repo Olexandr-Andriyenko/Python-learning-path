@@ -265,3 +265,11 @@ my_screen.exitonclick()
 
   
 ```
+</details>
+
+Exercise:
+<br>
+<br>
+Draw the following house with your turtle!
+  
+![house](https://user-images.githubusercontent.com/92121260/187092239-6ddf52e6-4571-4ddd-9667-213f2024d81b.svg)
