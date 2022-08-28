@@ -167,5 +167,13 @@ By using "import turtle" we can use this libary.<br>
 Now you can access the class "Turtle" which was defined inside this library.
   
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img30.png" width="550">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img31.png" width="550">
 <p>  
+  
+We can create an object of this class and save it inside a variable. I will call my turtle (variable) bob:
+
+```python
+  ìmport turtle
+  
+  bob = turtle.Turtle()
+```
