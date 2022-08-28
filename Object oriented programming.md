@@ -205,3 +205,21 @@ In the middle of the screen you can see the turtle "bob".
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img32.PNG" width="450">
 <p>  
+  
+But the shape of the turtle is actually an arrow, lets change it to a turtle by a attribute of the Turtle class.
+
+```python
+import turtle
+
+bob = turtle.Turtle()
+# Change the shape of "bob"
+bob.shape("turtle")
+# We can also change the color of bob
+bob.color("green")
+# Creat a "Screen" object:
+my_screen = turtle.Screen()
+# Let's use another attribute of the class Screen (we will see the screen until we press a key)
+my_screen.exitonclick()
+
+
+```
