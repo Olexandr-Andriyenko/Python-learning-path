@@ -182,3 +182,20 @@ print(bob)
 # Output is:
 # <turtle.Turtle object at 0x000001F0556B6080>
 ```
+  
+Now we can do many different and interesting things with this object.<br>
+One of the other interesting classes in the "turtle" library is the "Screen" class. It allows to display our object in a window.
+  
+```python
+import turtle
+
+bob = turtle.Turtle()
+# Creat a "Screen" object:
+my_screen = turtle.Screen()
+# Use one of the Screen class attributes (this is the height of the screen, if you print it you will see 300 as default value)
+my_screen.canvheight
+# Let's use another attribute of the class Screen (we will see the screen until we press a key)
+my_screen.exitonclick()
+
+
+```
