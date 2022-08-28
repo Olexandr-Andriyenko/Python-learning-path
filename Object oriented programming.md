@@ -227,3 +227,5 @@ my_screen.exitonclick()
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img33.PNG" width="450">
 <p> 
+
+Of course, you don't have to know all these classes and attributes by memory. You can find all this in the ["Turtle graphics libary documentation"](https://docs.python.org/3/library/turtle.html).
