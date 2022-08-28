@@ -273,5 +273,5 @@ Exercise:
 Draw the following house with your turtle!
   
 <p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img34.PNG" width="500">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img34.PNG" width="250">
 <p>  
