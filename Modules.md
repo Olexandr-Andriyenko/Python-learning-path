@@ -104,3 +104,6 @@ print(rand_num)
 ```
   
 During the learning process you will get to know different modules over time. You should only learn modules if you need them for a project. Otherwise you try to learn different modules, don't apply them to projects and forget them. It is important that you always work with the documentation of the modules because you can never know all the functionalities by memory.
+<br>
+<br>
+A module is a file containing Python definitions and statements. The file name is the module name with the suffix .py appended.
