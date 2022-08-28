@@ -72,6 +72,8 @@ Here i have created a superficial representation of the interactions without det
 The use case diagrams can be a good communication tool for stakeholders.
 Experts recommend working with use case diagrams to supplement and illustrate a textual description of the use case in question.
 
+## Solution:
+  
 <details><summary>main.py</summary>
 
 ```python
