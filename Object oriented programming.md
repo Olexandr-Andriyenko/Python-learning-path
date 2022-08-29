@@ -321,3 +321,14 @@ my_screen.exitonclick()
 
 ```
 </details>
+
+  
+## Prettytable libary
+  
+With this libary you can also practice the concepts of OOP very well. This is a simple Python library for easily displaying tabular data in a visually appealing ASCII table format.<br>
+<br>
+In comparison to the "turtle" libary you have to install "prerttytable" first:<br>
+In pycharm we go firstly to File > Settings > Project: "NameOfYourProject" > Python Interpreter > "+" button > search "prettytable" > Install Package
+<br>
+<br>
+Now your are ready to use prettytable! (Like every time, the [documentation](https://pypi.org/project/prettytable/) is your friend!)
