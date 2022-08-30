@@ -279,82 +279,73 @@ Draw the following house with your turtle!
 <details><summary>Solution:</summary>
   
 ```python
-import turtle
+# Example using prettytable
+import prettytable
 
-bob = turtle.Turtle()
-# Set window size
-turtle.setup(500, 500)
-# Change the shape of "bob"
-bob.shape("turtle")
-bob.color("green")
+# Inside this dictionary we will store the to-dos
+to_dos = {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+}
+to_do_on = True
+while to_do_on:
+    # Variable which will be filled by the user
+    day = "place holder"
+    valid_days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+    # Loop until the user enter the valid day
+    while True:
+        if day.lower() in valid_days:
+            break
+        # Display all days which the user can select
+        print("------------------------\nWelcome to your to-do list!\n------------------------")
+        day = input(""
+                    "\t1-Monday\n"
+                    "\t2-Tuesday\n"
+                    "\t3-Wednesday\n"
+                    "\t4-Thursday\n"
+                    "\t5-Friday\n"
+                    "\t6-Saturday\n"
+                    "\t7-Sunday\n"
+                    "------------------------\n"
+                    "Select a day: ")
 
-bob.fd(80)
-bob.lt(90)
-bob.fd(80)
-bob.lt(30)
-bob.fd(80)
-bob.lt(120)
-bob.fd(80)
-bob.lt(120)
-bob.fd(80)
-bob.rt(90)
-bob.fd(80)
-bob.rt(90)
-bob.fd(20)
-bob.rt(90)
-bob.fd(40)
-bob.lt(90)
-bob.fd(40)
-bob.lt(90)
-bob.fd(40)
-bob.rt(90)
-bob.fd(20)
-bob.rt(90)
-bob.fd(80)
+    # Now we search inside the dictionary the selected day and enter a to-do
+    to_do = input("Enter a to-do: ")
+    to_dos[day].append(to_do)
 
-# Creat a "Screen" object:
-my_screen = turtle.Screen()
-# Let's use another attribute of the class Screen (we will see the screen until we press a key)
-my_screen.exitonclick()
-
+    # Create an object of the class "PrettyTable"
+    table = prettytable.PrettyTable()
+    # Create the captions
+    table.field_names = ["Day", "To-Do"]
+    # Create all rows with the days
+    table.add_rows(
+        [
+            ["Monday", to_dos["monday"]],
+            ["Tuesday", to_dos["tuesday"]],
+            ["Wednesday", to_dos["wednesday"]],
+            ["Thursday", to_dos["thursday"]],
+            ["Friday", to_dos["friday"]],
+            ["Saturday", to_dos["saturday"]],
+            ["Sunday", to_dos["sunday"]]
+        ]
+    )
+    # Display the table
+    print(table)
+    # Ask the user if he likes to exit
+    while True:
+        valid_input = ["yes", "no"]
+        exit_to_do = input("You like to exit the to-do list? (Yes/No): ")
+        if exit_to_do in valid_input:
+            if exit_to_do.lower() == "yes":
+                # Set this variable to False for breaking the main while loop
+                to_do_on = False
+        break
 
 
 ```
 </details>
-
-  
-## Prettytable libary
-  
-With this libary you can also practice the concepts of OOP very well. This is a simple Python library for easily displaying tabular data in a visually appealing ASCII table format.<br>
-<br>
-In comparison to the "turtle" libary you have to install "prerttytable" first:<br>
-In pycharm we go firstly to File > Settings > Project: "NameOfYourProject" > Python Interpreter > "+" button > search "prettytable" > Install Package
-<br>
-<br>
-Now your are ready to use prettytable! (Like every time, the [documentation](https://pypi.org/project/prettytable/) is your friend!)
-<br>
-<br>
-Example:
-  
-```python
-  
-# Example using prettytable
-import prettytable
-# Create a table object
-table = prettytable.PrettyTable()
-# Let's add data in inside our table
-# Add a Column with data
-table.add_column("Pokemon name", ["Pikachu", "Squirtle", "Charmander"])
-# Add a row with data
-table.add_column("Type", ["Electric", "Water", "Fire"])
-# Dispkay the table
-print(table)
-# We can even change the table style!
-# Changing the alignment of columns
-table.align = "l"
-print(table)
-# Sorting your table by a field
-table.sortby = "Pokemon name"
-print(table)
-
-```
