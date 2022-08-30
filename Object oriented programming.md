@@ -382,3 +382,21 @@ while to_do_on:
 
 ```
 </details>
+  
+<br>
+Exersice:
+<br>
+The table shows the recorded values of a free fall experiment.<br>
+Display the following table using prettytable and complete the empty cells.<br>
+Sorry but the table is writen in german language, use a translator :) <br>
+You need this formulas:
+<br>
+<br>
+  
+![CodeCogsEqn](https://user-images.githubusercontent.com/92121260/187521471-70e529ea-c54d-462b-9bd9-10bd5e865c2d.gif)
+  
+![CodeCogsEqn (1)](https://user-images.githubusercontent.com/92121260/187522535-531f2d3f-77c8-4170-822a-4bb7a418ecb5.gif)
+
+
+
+  
