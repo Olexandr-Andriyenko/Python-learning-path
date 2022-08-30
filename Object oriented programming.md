@@ -289,6 +289,22 @@ Go to File > Settings > Project: > Python Interpreter > press the + symbol > sea
 Like every time to practice this libary your best friend is the [documentation](https://pypi.org/project/prettytable/) about prettytable!
 <br>
 <br>
+Example:
+  
+```python
+  # import this libary
+import prettytable
+# Create a object
+my_table = prettytable.PrettyTable()
+# Add data
+my_table.add_column("Pokemon Name", ["Pikachu", "Squirtle", "Charmander"])
+my_table.add_column("Type", ["Electric", "Water", "Fire"])
+# Display the table
+print(my_table)
+# Change properties
+my_table.align = "l"
+print(my_table)  
+```
 Exercise:
 <br>
 Create woth "prettytable" a simple to-do list! The user can select a day and enter a to-do. Then he can select to continue for a new entry or exit the to-do list.
