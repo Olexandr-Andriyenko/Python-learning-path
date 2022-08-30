@@ -312,96 +312,47 @@ Create woth "prettytable" a simple to-do list! The user can select a day and ent
 <details><summary>Solution:</summary>
   
 ```python
-# Example using prettytable
-import prettytable
-
-# Inside this dictionary we will store the to-dos
-to_dos = {
-    "monday": [],
-    "tuesday": [],
-    "wednesday": [],
-    "thursday": [],
-    "friday": [],
-    "saturday": [],
-    "sunday": []
+# Import everything from this libary
+from prettytable import *
+# Create dictionary with data
+data_table = {
+    "Nr.": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "Fallstrecke": [0, 0.115, 0.245, 0.285, 0.38, 0.49, 0.59, 0.67, 0.76, 0.835],
+    "Messung 1": [0, 0.1568, 0.2072, 0.3404, 0.2811, 0.3173, 0.3488, 0.3705, 0.3937, 0.4183],
+    "Messung 2": [0, 0.1561, 0.2075, 0.2427, 0.2846, 0.3172, 0.3477, 0.3703, 0.3941, 0.4176],
+    "Messung 3": [0, 0.1566, 0.2578, 0.2403, 0.2814, 0.3172, 0.3483, 0.3693, 0.3946, 0.4116],
+    "Mittelwert": [],
+    "Geschwindigkeit": []
 }
-to_do_on = True
-while to_do_on:
-    # Variable which will be filled by the user
-    day = "place holder"
-    valid_days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-    # Loop until the user enter the valid day
-    while True:
-        if day.lower() in valid_days:
-            break
-        # Display all days which the user can select
-        print("------------------------\nWelcome to your to-do list!\n------------------------")
-        day = input(""
-                    "\t1-Monday\n"
-                    "\t2-Tuesday\n"
-                    "\t3-Wednesday\n"
-                    "\t4-Thursday\n"
-                    "\t5-Friday\n"
-                    "\t6-Saturday\n"
-                    "\t7-Sunday\n"
-                    "------------------------\n"
-                    "Select a day: ")
 
-    # Now we search inside the dictionary the selected day and enter a to-do
-    to_do = input("Enter a to-do: ")
-    to_dos[day].append(to_do)
+# Calculate the first value
+for index in data_table["Nr."]:
+    # Calculating the "Mittelwert"
+        messung_1 = data_table["Messung 1"][index - 1]
+        messung_2 = data_table["Messung 2"][index - 1]
+        messung_3 = data_table["Messung 3"][index - 1]
+        # Do not forget to round
+        mittelwert = round((messung_1 + messung_2 + messung_3) / 3, 4)
+        data_table["Mittelwert"].append(mittelwert)
+    # Calculating the "Geschwindigkeit"
+        geschwindigkeit = round(9.81 * mittelwert, 2)
+        data_table["Geschwindigkeit"].append(geschwindigkeit)
 
-    # Create an object of the class "PrettyTable"
-    table = prettytable.PrettyTable()
-    # Create the captions
-    table.field_names = ["Day", "To-Do"]
-    # Create all rows with the days
-    table.add_rows(
-        [
-            ["Monday", to_dos["monday"]],
-            ["Tuesday", to_dos["tuesday"]],
-            ["Wednesday", to_dos["wednesday"]],
-            ["Thursday", to_dos["thursday"]],
-            ["Friday", to_dos["friday"]],
-            ["Saturday", to_dos["saturday"]],
-            ["Sunday", to_dos["sunday"]]
-        ]
-    )
-    # Display the table
-    print(table)
-    # Ask the user if he likes to exit
-    while True:
-        valid_input = ["yes", "no"]
-        exit_to_do = input("You like to exit the to-do list? (Yes/No): ")
-        if exit_to_do in valid_input:
-            if exit_to_do.lower() == "yes":
-                # Set this variable to False for breaking the main while loop
-                to_do_on = False
-        break
 
+# Create object
+my_table = PrettyTable()
+# Fill table with data
+my_table.add_column("Nr.", [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+my_table.add_column("Fallstrecke in m", data_table["Fallstrecke"])
+my_table.add_column("Messung 1 in s", data_table["Messung 1"])
+my_table.add_column("Messung 2 in s", data_table["Messung 2"])
+my_table.add_column("Messung 3 in s", data_table["Messung 3"])
+my_table.add_column("Mittelwert in s", data_table["Mittelwert"])
+my_table.add_column("Geschwindigkeit in m/s", data_table["Geschwindigkeit"])
+# Display table
+print(my_table)
 
 ```
 </details>
-  
-<br>
-Exersice:
-<br>
-The table shows the recorded values of a free fall experiment.<br>
-  
-<p align="center">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img35.png" width="500">
-<p> 
-  
-Display the following table using prettytable and complete the empty cells.<br>
-Sorry but the table is writen in german language, use a translator :) <br>
-You need this formulas:
-<br>
-<br>
-  
-![CodeCogsEqn](https://user-images.githubusercontent.com/92121260/187521471-70e529ea-c54d-462b-9bd9-10bd5e865c2d.gif)
-  
-![CodeCogsEqn (1)](https://user-images.githubusercontent.com/92121260/187522535-531f2d3f-77c8-4170-822a-4bb7a418ecb5.gif)
-
-
 
   
