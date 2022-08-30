@@ -278,6 +278,17 @@ Draw the following house with your turtle!
 
 <br>
 <br>
+  
+  
+## Prettytable
+  
+Another library useful for practicing OOP is the "prettytable" libary. It allows you to quickly create simple tables in the console. Compared to the libary "turtle" you have to install it first because it is not standard. You can install it inside pycharm IDE:<br>
+Go to File > Settings > Project: > Python Interpreter > press the + symbol > search prettytabble > install
+<br>
+<br>
+Like every time to practice this libary your best friend is the [documentation](https://pypi.org/project/prettytable/) about prettytable!
+<br>
+<br>
 Exercise:
 <br>
 Create woth "prettytable" a simple to-do list! The user can select a day and enter a to-do. Then he can select to continue for a new entry or exit the to-do list.
