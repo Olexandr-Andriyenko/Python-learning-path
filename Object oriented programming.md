@@ -275,6 +275,12 @@ Draw the following house with your turtle!
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img34.PNG" width="250">
 <p>  
+
+<br>
+<br>
+Exercise:
+<br>
+Create woth "prettytable" a simple to-do list! The user can select a day and enter a to-do. Then he can select to continue for a new entry or exit the to-do list.
   
 <details><summary>Solution:</summary>
   
