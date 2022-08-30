@@ -332,3 +332,29 @@ In pycharm we go firstly to File > Settings > Project: "NameOfYourProject" > Pyt
 <br>
 <br>
 Now your are ready to use prettytable! (Like every time, the [documentation](https://pypi.org/project/prettytable/) is your friend!)
+<br>
+<br>
+Example:
+  
+```python
+  
+# Example using prettytable
+import prettytable
+# Create a table object
+table = prettytable.PrettyTable()
+# Let's add data in inside our table
+# Add a Column with data
+table.add_column("Pokemon name", ["Pikachu", "Squirtle", "Charmander"])
+# Add a row with data
+table.add_column("Type", ["Electric", "Water", "Fire"])
+# Dispkay the table
+print(table)
+# We can even change the table style!
+# Changing the alignment of columns
+table.align = "l"
+print(table)
+# Sorting your table by a field
+table.sortby = "Pokemon name"
+print(table)
+
+```
