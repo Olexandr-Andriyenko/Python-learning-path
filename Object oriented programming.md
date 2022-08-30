@@ -387,6 +387,11 @@ while to_do_on:
 Exersice:
 <br>
 The table shows the recorded values of a free fall experiment.<br>
+  
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img35.png" width="500">
+<p> 
+  
 Display the following table using prettytable and complete the empty cells.<br>
 Sorry but the table is writen in german language, use a translator :) <br>
 You need this formulas:
