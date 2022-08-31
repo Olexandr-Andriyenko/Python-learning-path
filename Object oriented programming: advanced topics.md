@@ -102,8 +102,9 @@ student_2.alcohol_allowed()
 
 ## Other special methods
 
-Like the `__init()__` and `__del()__` methods there are other importan methods in connection with classes.
-<br>
+Like the `__init()__` and `__del()__` methods there are other importan methods in connection with classes:
+- `__str()__`
+- `__repr()__`
 <br>
 When an object is printed using the `print()` function, the special `__str()__` method is called if it is defined. By default, this returns a string for outputting the properties.
 <br>
@@ -130,4 +131,9 @@ print(teacher)
 
 # Output is:
 # First name: Max, Last name: Musterman, Age: 20
+
+# Without the implementation of the __str()__ method inside the class.
+# We will get by using print(str(teacher)) the memory location of this object!
 ```
+
+You can get information about an object using the built-in function `__repr()__`. You can specify the layout of this information by yourself if you define the special method `__repr()__` within the class definition.
