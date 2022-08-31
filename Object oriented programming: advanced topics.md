@@ -136,4 +136,4 @@ print(teacher)
 # We will get by using print(str(teacher)) the memory location of this object!
 ```
 
-You can get information about an object using the built-in function `__repr()__`. You can specify the layout of this information by yourself if you define the special method `__repr()__` within the class definition. However, this is rarely used in practice and will not be discussed for the time being.
+You can get information about an object using the built-in function `__repr()__`. You can specify the layout of this information by yourself if you define the special method `__repr()__` within the class definition. However, this is rarely used in practice and will not be discussed for the time being. It works exactly like the `__strt()__` method!
