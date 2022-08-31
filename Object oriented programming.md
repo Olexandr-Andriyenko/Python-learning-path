@@ -606,3 +606,79 @@ print(f"The hypotenuse is: {hypotenuse}")
 ```
 </details>
 
+Exercice:<br>
+Write a program to plot functions with the "turtle" libary and the "math" module.<br>
+Draw a parable and a linear function!
+
+<details><summary>Solution:</summary>
+  
+```python
+# Import modules
+import turtle
+import prettytable
+# -------------------------------------------------- #
+# Create a window
+turtle.getscreen()
+# Create a object from the "Turtle()" class
+t = turtle.Turtle()
+# Variable to "zoom" later
+scale = 10
+# -------------------------------------------------- #
+# Generate a table for x square with x = -20 to +20
+my_table = prettytable.PrettyTable()
+my_table.field_names = ["x", "x^2"]
+for x in range(-20, 21, 1):
+    x_square = x ** 2
+    my_table.add_row([x, x_square])
+print(my_table)
+# -------------------------------------------------- #
+# Draw the axes
+# penup() will lift the turtle off the “digital canvas” and if you move the turtle in penup state it won’t draw.
+t.penup()
+# Move turtle to an absolute position
+t.goto(-400, 0)
+# Put the turtle back in the "canvas" to draw
+t.pendown()
+# Lets draw
+t.goto(400, 0)
+t.penup()
+t.goto(0, -400)
+t.pendown()
+t.goto(0, 400)
+t.penup()
+t.home()
+# -------------------------------------------------- #
+# Prepare the turtle
+t.pensize(2)
+# Location of the first coordinates (-20;400)
+# You can try without the scale variable
+t.goto(-20 * scale, 400)
+# -------------------------------------------------- #
+# Draw the curve
+for x in range(-20, 21, 1):
+    x_square = x ** 2
+    t.dot(10, "RED")
+    # You can try without the scale variable
+    t.goto(x * scale, x_square)
+# -------------------------------------------------- #
+# Bring the turtle back
+t.penup()
+t.home()
+# -------------------------------------------------- #
+# Lets draw f(x) = 2*x
+t.penup()
+t.goto(-20 * scale, -40)
+t.pendown()
+t.pencolor("GREEN")
+for x in range(-20, 21, 1):
+    x_2 = x * 2
+    t.goto(x * scale, x_2)
+# -------------------------------------------------- #
+# Bring the turtle back
+t.penup()
+t.home()
+# -------------------------------------------------- #
+turtle.exitonclick()
+
+```
+</details>
