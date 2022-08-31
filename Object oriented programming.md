@@ -573,3 +573,10 @@ print(math.radians(degree))
 # 180.0
 # 1.5707963267948966
 ```
+  
+Exercice:<br>
+Write a program that calculates the hypotenuse of a right triangle.<br>
+Divide the program into input, processing and output:<br>
+- In the input part, read the length of the two cathets
+- Use the function math.sqrt() for the calculation
+- Output the result to the screen
