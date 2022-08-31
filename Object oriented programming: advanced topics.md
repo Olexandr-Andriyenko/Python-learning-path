@@ -50,3 +50,51 @@ car.drive_off(10)
 # Vehicle has arrived! 
 # Object Porsche removed!
 ```
+
+Exersice:<br>
+Write a Program to create a class by name Students, and initialize attributes like name, age, and grade while creating an object.<br>
+Write a method to display information about this student!<br>
+Test your class!
+
+<details>
+ <summary>Solution</summary>
+ 
+```python
+# Class
+class Student:
+    # Constructor
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+    # Method
+    def information(self):
+        print(f"{self.name} is {self.age} years old and the grade is {self.grade}")
+
+    # This method checks if the student can drink and buy alcohol
+    def alcohol_allowed(self):
+        if self.age > 18:
+            print(f"{self.name} can drink!")
+            return True
+        else:
+            print(f"{self.name} can not drink!")
+            return False
+
+
+# Create some students
+student_1 = Student("Alex", 17, 3)
+student_2 = Student("Müller", 24, 6)
+# Display information
+student_1.information()
+# Check if students can drink alcohol
+student_1.alcohol_allowed()
+student_2.alcohol_allowed()
+
+# Output is:
+# Alex is 17 years old and the grade is 3
+# Alex can not drink!
+# Müller can drink!
+```
+    
+</details>
