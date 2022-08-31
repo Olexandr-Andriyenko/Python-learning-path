@@ -119,8 +119,15 @@ class Person:
         self.last_name = last_name
         self.age = age
 
-    # Special method which will be called if using print() function to an object
+    # Special method which will be called if using print() or str() function to an object
+    # This method must return a string value!
+    # The output of the method" __str__()" is only used to display the output to the user.
     def __str__(self):
+        return f'First name: {self.first_name}, Last name: {self.last_name}, Age: {self.age}'
+
+
+    # Special method which will be called if using print() or repr() function to an object
+    def __repr__(self):
         return f'First name: {self.first_name}, Last name: {self.last_name}, Age: {self.age}'
 
 
@@ -129,11 +136,6 @@ teacher = Person("Max", "Musterman", 20)
 # print this object
 print(teacher)
 
-# Output is:
-# First name: Max, Last name: Musterman, Age: 20
-
-# Without the implementation of the __str()__ method inside the class.
-# We will get by using print(str(teacher)) the memory location of this object!
 ```
 
 You can get information about an object using the built-in function `__repr()__`. You can specify the layout of this information by yourself if you define the special method `__repr()__` within the class definition. However, this is rarely used in practice and will not be discussed for the time being. It works exactly like the `__strt()__` method!
