@@ -443,6 +443,10 @@ my_table.add_column("Geschwindigkeit in m/s", data_table["Geschwindigkeit"])
 # Display table
 print(my_table)
 
+# Save this table as txt file! (You wil find the file inside the project directory)
+# More about this later...
+with open('file', 'w') as w:
+    w.write(str(my_table))
 ```
 </details>
 
