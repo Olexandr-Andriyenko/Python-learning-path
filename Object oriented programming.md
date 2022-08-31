@@ -580,3 +580,29 @@ Divide the program into input, processing and output:<br>
 - In the input part, read the length of the two cathets
 - Use the function math.sqrt() for the calculation
 - Output the result to the screen
+  
+<details><summary>Solution:</summary>
+  
+```python
+# import the modul
+import math
+# -------------------------------------------------- #
+# Function
+def calc_hypetenuse(cathet_1, cathet_2):
+    hypotenuse = math.sqrt((cathet_1 ** 2) + (cathet_2 ** 2))
+    return hypotenuse
+# -------------------------------------------------- #
+# Main program
+# Input part
+try:
+    cathete_1 = float(input("Input the first cathet: "))
+    cathete_2 = float(input("Input the second cathet: "))
+except:
+    print("Wrong input!")
+# Processing part
+hypotenuse = round(calc_hypetenuse(cathete_1, cathete_2), 2)
+# Output part
+print(f"The hypotenuse is: {hypotenuse}")
+```
+</details>
+
