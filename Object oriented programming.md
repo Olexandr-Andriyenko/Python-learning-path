@@ -307,8 +307,99 @@ print(my_table)
 ```
 Exercise:
 <br>
-Create woth "prettytable" a simple to-do list! The user can select a day and enter a to-do. Then he can select to continue for a new entry or exit the to-do list.
+Create with "prettytable" a simple to-do list! The user can select a day and enter a to-do. Then he can select to continue for a new entry or exit the to-do list.
+
   
+<details><summary>Solution:</summary>
+  
+```python
+# Example using prettytable
+import prettytable
+# Inside this dictionary we will store the to-dos
+to_dos = {
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  }
+to_do_on = True
+while to_do_on:
+    # Variable which will be filled by the user
+    day = "place holder"
+    valid_days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+    # Loop until the user enter the valid day
+    while True:
+        if day.lower() in valid_days:
+            break
+        # Display all days which the user can select
+        print("------------------------\nWelcome to your to-do list!\n------------------------")
+        day = input(""
+                    "\t1-Monday\n"
+                    "\t2-Tuesday\n"
+                    "\t3-Wednesday\n"
+                    "\t4-Thursday\n"
+                    "\t5-Friday\n"
+                    "\t6-Saturday\n"
+                    "\t7-Sunday\n"
+                    "------------------------\n"
+                    "Select a day: ")
+    # Now we search inside the dictionary the selected day and enter a to-do
+    to_do = input("Enter a to-do: ")
+    to_dos[day].append(to_do)
+    # Create an object of the class "PrettyTable"
+    table = prettytable.PrettyTable()
+    # Create the captions
+    table.field_names = ["Day", "To-Do"]
+    # Create all rows with the days
+    table.add_rows(
+        [
+            ["Monday", to_dos["monday"]],
+            ["Tuesday", to_dos["tuesday"]],
+            ["Wednesday", to_dos["wednesday"]],
+            ["Thursday", to_dos["thursday"]],
+            ["Friday", to_dos["friday"]],
+            ["Saturday", to_dos["saturday"]],
+            ["Sunday", to_dos["sunday"]]
+        ]
+    )
+    # Display the table
+    print(table)
+    # Ask the user if he likes to exit
+    while True:
+        valid_input = ["yes", "no"]
+        exit_to_do = input("You like to exit the to-do list? (Yes/No): ")
+        if exit_to_do in valid_input:
+            if exit_to_do.lower() == "yes":
+                # Set this variable to False for breaking the main while loop
+                to_do_on = False
+        break
+```
+</details>  
+  
+  
+<br>
+Exersice:
+<br>
+The table shows the recorded values of a free fall experiment.<br>
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img35.png" width="500">
+<p> 
+
+Display the following table using prettytable and complete the empty cells.<br>
+Sorry but the table is writen in german language, use a translator :) <br>
+You need this formulas:
+<br>
+<br>
+
+![CodeCogsEqn](https://user-images.githubusercontent.com/92121260/187521471-70e529ea-c54d-462b-9bd9-10bd5e865c2d.gif)
+
+![CodeCogsEqn (1)](https://user-images.githubusercontent.com/92121260/187522535-531f2d3f-77c8-4170-822a-4bb7a418ecb5.gif)
+  
+
 <details><summary>Solution:</summary>
   
 ```python
