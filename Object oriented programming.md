@@ -491,4 +491,67 @@ with open('file', 'w') as w:
 ```
 </details>
 
+## math — Mathematical functions
   
+This module provides access to the mathematical functions defined by the C standard. When working on financial or scientific projects, it is sometimes necessary to implement mathematical calculations into the project. Python provides the mathematical module to deal with such calculations. By using this modul you need to use methods, attributes, classes and objects, perfect to practice OOP. Don't forget to read the [documentation](https://docs.python.org/3/library/math.html#trigonometric-functions) about this math modul!
+<br>
+<br>
+Some examples using this modul:
+  
+```python
+# Examples using the "math" modul
+# ---------------------------------------- #
+# import the modul
+import math
+# ---------------------------------------- #
+# 1. Example
+# You must all be familiar with pi. Pi is represented as either 22/7 or 3.14.
+pi = math.pi
+print(pi)
+# You can use pi to calculate the area of a circle
+# Define the radius of the circle
+r = 5
+circle_area = math.pi * r ** 2
+print(circle_area)
+# ---------------------------------------- #
+# 2. Example
+# Even the circle number tau is included (Ratios of circumference and radius)
+circle_number = math.tau
+print(circle_number)
+# ---------------------------------------- #
+# 3. Example
+# Using infinity numbers in python
+print(math.inf)
+print(-math.inf)
+# Divide a number by infinite number
+print(1 / math.inf)
+# ---------------------------------------- #
+# 4. Example
+# Faculty of a number
+a = 5
+print(math.factorial(a))
+# ---------------------------------------- #
+# 5. Example
+# Power functions (German: Potenzfunktionen)
+exponentiation_numbers = [0, 5, -2, math.pi]
+print(math.exp((exponentiation_numbers[0])))
+print(math.exp((exponentiation_numbers[1])))
+print(math.exp((exponentiation_numbers[2])))
+print(math.exp((exponentiation_numbers[3])))
+# ---------------------------------------- #
+# 6. Example
+# Square root
+print(math.sqrt(9))
+# ---------------------------------------- #
+# 7. Example
+# Trigonometric functions
+print(math.sin(math.pi / 2))
+print(math.sin(90))
+# ---------------------------------------- #
+# 8. Example
+# Convert degrees in radians
+degree = 90
+radians = math.pi
+print(math.degrees(radians))
+print(math.radians(degree))  
+```
