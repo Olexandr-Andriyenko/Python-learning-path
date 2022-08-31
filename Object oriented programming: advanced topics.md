@@ -126,11 +126,6 @@ class Person:
         return f'First name: {self.first_name}, Last name: {self.last_name}, Age: {self.age}'
 
 
-    # Special method which will be called if using print() or repr() function to an object
-    def __repr__(self):
-        return f'First name: {self.first_name}, Last name: {self.last_name}, Age: {self.age}'
-
-
 # Create an object
 teacher = Person("Max", "Musterman", 20)
 # print this object
