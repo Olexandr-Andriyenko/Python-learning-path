@@ -682,3 +682,43 @@ turtle.exitonclick()
 
 ```
 </details>
+
+Exercise:<br>
+Draw the sinus function by using the tuertle and math moduls.
+  
+<details><summary>Solution:</summary>
+  
+```python
+# Import modules
+import math
+import turtle
+import prettytable
+# -------------------------------------------------- #
+# Create a window
+turtle.getscreen()
+# Create an object from the "Turtle()" class
+t = turtle.Turtle()
+# Variable to "zoom" later
+scale = 100
+# -------------------------------------------------- #
+# Draw the axis
+t.backward(180)
+t.forward(360)
+t.stamp()
+t.backward(180)
+t.left(90)
+t.forward(100)
+t.stamp()
+t.backward(200)
+t.forward(100)
+t.right(90)
+t.backward(180)
+# Draw the curve
+for i in range(-180, 181):
+    t.color("RED")
+    t.goto(i, math.sin(math.radians(i)) * scale)
+
+turtle.exitonclick()
+
+```
+</details>
