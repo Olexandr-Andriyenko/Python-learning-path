@@ -276,6 +276,47 @@ Draw the following house with your turtle!
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img34.PNG" width="250">
 <p>  
 
+<details><summary>Solution:</summary>
+  
+```python
+import turtle
+bob = turtle.Turtle()
+# Set window size
+turtle.setup(500, 500)
+# Change the shape of "bob"
+bob.shape("turtle")
+bob.color("green")
+bob.fd(80)
+bob.lt(90)
+bob.fd(80)
+bob.lt(30)
+bob.fd(80)
+bob.lt(120)
+bob.fd(80)
+bob.lt(120)
+bob.fd(80)
+bob.rt(90)
+bob.fd(80)
+bob.rt(90)
+bob.fd(20)
+bob.rt(90)
+bob.fd(40)
+bob.lt(90)
+bob.fd(40)
+bob.lt(90)
+bob.fd(40)
+bob.rt(90)
+bob.fd(20)
+bob.rt(90)
+bob.fd(80)
+# Creat a "Screen" object:
+my_screen = turtle.Screen()
+# Let's use another attribute of the class Screen (we will see the screen until we press a key)
+my_screen.exitonclick()
+```
+</details>  
+  
+  
 <br>
 <br>
   
