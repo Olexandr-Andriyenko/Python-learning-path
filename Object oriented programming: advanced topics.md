@@ -98,3 +98,36 @@ student_2.alcohol_allowed()
 ```
     
 </details>
+
+
+## Other special methods
+
+Like the `__init()__` and `__del()__` methods there are other importan methods in connection with classes.
+<br>
+<br>
+When an object is printed using the `print()` function, the special `__str()__` method is called if it is defined. By default, this returns a string for outputting the properties.
+<br>
+<br>
+Example:
+
+```python
+class Person:
+    # Constructor
+    def __init__(self, first_name, last_name, age):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+
+    # Special method which will be called if using print() function to an object
+    def __str__(self):
+        return f'First name: {self.first_name}, Last name: {self.last_name}, Age: {self.age}'
+
+
+# Create an object
+teacher = Person("Max", "Musterman", 20)
+# print this object
+print(teacher)
+
+# Output is:
+# First name: Max, Last name: Musterman, Age: 20
+```
