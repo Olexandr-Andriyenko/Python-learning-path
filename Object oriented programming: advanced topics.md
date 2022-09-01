@@ -168,3 +168,5 @@ print(raj_age)
 
 Basically, the main purpose of using getters and setters in object-oriented programs is to ensure data encapsulation (Hiding data or information from outside access).
 In the above code, `get_age()` and `set_age()` acts as a normal function and does not play a role of getter and setter. 
+
+## Inheritance
