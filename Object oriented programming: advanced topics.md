@@ -167,7 +167,7 @@ print(raj_age)
 ```
 
 Basically, the main purpose of using getters and setters in object-oriented programs is to ensure data encapsulation (Hiding data or information from outside access).
-In the above code, `get_age()` and `set_age()` acts as a normal function and does not play a role of getter and setter. To achieve this functionality, Python has a special function `property()`.
+In the above code, `get_age()` and `set_age()` acts as a normal function and does not play a role of getter and setter. To achieve this functionality, Python has a special function `property()`. Also we have to use  `__` (double underscore) to set the attributes to private.
 
 ```python
 # Python program showing a
