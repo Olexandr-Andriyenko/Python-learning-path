@@ -133,4 +133,35 @@ print(teacher)
 
 ```
 
-You can get information about an object using the built-in function `__repr()__`. You can specify the layout of this information by yourself if you define the special method `__repr()__` within the class definition. However, this is rarely used in practice and will not be discussed for the time being. It works exactly like the `__strt()__` method! Both __str__ and __repr__ functions return string representation of the object. The __str__ string representation is supposed to be human-friendly and mostly used for logging purposes, whereas __repr__ representation is supposed to contain information about object so that it can be constructed again. 
+You can get information about an object using the built-in function `__repr()__`. You can specify the layout of this information by yourself if you define the special method `__repr()__` within the class definition. However, this is rarely used in practice and will not be discussed for the time being. It works exactly like the `__strt()__` method! Both __str__ and __repr__ functions return string representation of the object. The __str__ string representation is supposed to be human-friendly and mostly used for logging purposes, whereas __repr__ representation is supposed to contain information about object so that it can be constructed again.
+
+## Getter and Setter
+
+Compared to other languages, Python uses the getter and setter method to add logic to get and set a value. To achieve the getters & setters property, when we define Normal `get()` and `set()` methods , no special implementation is considered.
+
+```python
+# Python program showing a use
+# of get() and set() method
+class Geek:
+    def __init__(self, age=0):
+        self.age = age
+
+    # getter method
+    def get_age(self):
+        return self.age
+
+    # setter method
+    def set_age(self, x):
+        self.age = x
+
+# Create an object
+raj = Geek()
+# Use setter method
+raj.set_age(25)
+# Use getter method
+raj_age = raj.get_age()
+print(raj_age)
+
+# Output is:
+# 25
+```
