@@ -179,3 +179,77 @@ Example of this "hierarchy":
 ![Konto_Vererbung](https://user-images.githubusercontent.com/92121260/187907923-57023e5c-cc64-4fa6-84b5-3235b6eafc6f.png)
 
 We implement the above example as code:
+
+```python
+# Create the class "Konto" (Superclass)
+class Account:
+
+    # Constructor
+    def __init__(self, owner, account_number, account_balance):
+        # Attributes
+        self.owner = owner
+        self.account_number = account_number
+        self.account_balance = account_balance
+
+    # Methods
+    def do_deposit(self, amount):
+        print(f"You deposit {amount} EUR!")
+        self.account_balance += amount
+
+    def do_payout(self, amount):
+        print(f"You payout {amount} EUR!")
+        self.account_balance -= amount
+
+    def show_information(self):
+        print(f"Owner: {self.owner}"
+              f"Account number: {self.account_number}"
+              f"Account balance: {self.account_balance}")
+
+
+# Child class
+class Checking_account(Account):
+    def __init__(self, interest, owner, account_number, account_balance):
+        # The super() function is used in the child class with
+        # multiple inheritance to access the function of the next parent class or superclass.
+        super().__init__(owner, account_number, account_balance)
+        self.interest = interest
+
+    def bank_transfer(self, amount):
+        self.account_balance -= amount
+
+
+# Child class
+class Savings_account(Account):
+    def __init__(self, interest_rate, owner, account_number, account_balance):
+        # The super() function is used in the child class with
+        # multiple inheritance to access the function of the next parent class or superclass.
+        super().__init__(owner, account_number, account_balance)
+        self.interest_rate = interest_rate
+
+
+# ---------------------------------------------------------------------------------------- #
+# Main program
+# Create object
+my_account = Account("Alex", 42, 25000)
+# Show my balance
+print(my_account.account_balance)
+# Lets do a deposit
+my_account.do_deposit(5000)
+# Show my balance
+print(my_account.account_balance)
+# Lets do a payout
+my_account.do_payout(10000)
+# Show my balance
+print(my_account.account_balance)
+# Create a checking account
+my_checking_account = Checking_account(2, "Alex", 42, 25000)
+# Show balance of my checking account
+print(my_checking_account.account_balance)
+# Let's do a deposit to my checking account
+my_checking_account.do_deposit(5000)
+# Show balance of my checking account
+print(my_checking_account.account_balance)
+# Show balance of my account
+print(my_account.account_balance)
+
+```
