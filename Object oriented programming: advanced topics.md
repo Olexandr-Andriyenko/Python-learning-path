@@ -170,3 +170,12 @@ Basically, the main purpose of using getters and setters in object-oriented prog
 In the above code, `get_age()` and `set_age()` acts as a normal function and does not play a role of getter and setter. 
 
 ## Inheritance
+
+A class can inherit its attributes and methods to another class. This mechanism is often used. Inheritance creates a hierarchy of classes that allows the representation of objects that have partial matching characteristics.
+<br>
+<br>
+Example of this "hierarchy": 
+
+![Konto_Vererbung](https://user-images.githubusercontent.com/92121260/187907923-57023e5c-cc64-4fa6-84b5-3235b6eafc6f.png)
+
+We implement the above example as code:
