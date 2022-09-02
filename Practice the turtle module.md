@@ -65,3 +65,6 @@ screen.exitonclick()
 ```
   
 </details>
+
+3. Challenge:<br>
+Draw a triangle, square, pentagon, hexagon, heptagon, octagon, nonagon and decagon!
