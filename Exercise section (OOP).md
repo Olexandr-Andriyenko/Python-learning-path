@@ -267,3 +267,52 @@ question_data = {"response_code": 0,
                               "question": "Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.",
                               "correct_answer": "False", "incorrect_answers": ["True"]}]}
 ```         
+
+How you have to modify the quiz game, to get it work with this database? <br>
+Firstly modify the `question_data`, just delete the `results` and `response_code`, then we have a list of dictionarys.<br>
+The data have to lool like this:
+         
+```python
+question_data = [
+    {"category": "History", "type": "boolean", "difficulty": "easy",
+     "question": "The Cold War ended with Joseph Stalin&#039;s death.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Art", "type": "boolean", "difficulty": "medium",
+     "question": "Pablo Picasso is one of the founding fathers of &quot;Cubism.&quot;",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Politics",
+     "type": "boolean",
+     "difficulty": "easy",
+     "question": "Denmark has a monarch.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "History", "type": "boolean", "difficulty": "easy",
+     "question": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Science: Computers", "type": "boolean",
+     "difficulty": "easy",
+     "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "General Knowledge", "type": "boolean",
+     "difficulty": "medium",
+     "question": "The French word for &quot;glass&quot; is &quot;glace&quot;.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Music", "type": "boolean",
+     "difficulty": "hard",
+     "question": "The song &quot;Mystery Train&quot; was released by artist &quot;Little Junior&#039;s Blue Flames&quot; in 1953.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "History", "type": "boolean", "difficulty": "medium",
+     "question": "Martin Luther King Jr. and Anne Frank were born the same year. ",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Japanese Anime & Manga",
+     "type": "boolean", "difficulty": "hard",
+     "question": "In the &quot;To Love-Ru&quot; series, Peke is considered a female robot.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Art", "type": "boolean", "difficulty": "medium",
+     "question": "Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.",
+     "correct_answer": "False", "incorrect_answers": ["True"]}
+]
+```
+         
+The last step ist just to change in `main.py` file the keys inside `question_text` to "question" and inside `question_answer` to "correct_answer".         
+         
