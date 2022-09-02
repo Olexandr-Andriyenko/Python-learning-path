@@ -181,3 +181,5 @@ Setting which I selected:
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img36.PNG" width="700">
 <p> 
+         
+After a click on "GENERATE API URL" you will get at the top of the screen a URL! If you open this URL it looks like this:
