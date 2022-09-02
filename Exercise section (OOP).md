@@ -175,3 +175,9 @@ It is a little boring when we have only one database in our quiz. You could now 
 <br>
 <br>
 Go go the website of [open trivia database](https://opentdb.com/) and take a look to the API (Application Programming Interface). An API makes it possible to exchange data between software and program parts.
+<br>
+Setting which I selected:
+         
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img36.PNG" width="700">
+<p> 
