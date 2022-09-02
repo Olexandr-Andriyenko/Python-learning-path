@@ -165,10 +165,13 @@ class QuizBrain:
         print("\n")
 
 
- 
 ```
  
 </details>
          
 ### Additional
 
+It is a little boring when we have only one database in our quiz. You could now write your own questions and then add them to the directory. However, an alternative is to use a database. I chose to use the "OPEN TRIVIA DATABASE" which provides free "trivia questions". This database has over 3000 verified questions to choose from.
+<br>
+<br>
+Go go the website of [open trivia database](https://opentdb.com/) and take a look to the API (Application Programming Interface). An API makes it possible to exchange data between software and program parts.
