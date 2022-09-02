@@ -30,4 +30,38 @@ screen.exitonclick()
 ```
   
 </details>
-                
+ 
+2. Challenge:<br>
+Draw a dashed line!
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import turtle
+from turtle import Turtle
+from turtle import Screen
+
+# Create an object
+timmy_the_turtle = Turtle()
+screen = Screen()
+
+
+# Now the movement
+def dashed_line(times):
+    # draws "times" a black line and no line
+    for counter in range(1, times + 1):
+        timmy_the_turtle.fd(10)
+        timmy_the_turtle.penup()
+        timmy_the_turtle.fd(10)
+        timmy_the_turtle.pendown()
+        print(counter)
+
+
+dashed_line(10)
+
+screen.exitonclick()
+ 
+```
+  
+</details>
