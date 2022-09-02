@@ -182,4 +182,88 @@ Setting which I selected:
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img36.PNG" width="700">
 <p> 
          
-After a click on "GENERATE API URL" you will get at the top of the screen a URL! If you open this URL it looks like this:
+After a click on "GENERATE API URL" you will get at the top of the screen a URL! If you open this URL you will see generated data in the JSON-format (JavaScript Object Notation):
+         
+```    
+ {"response_code":0,"results":[{"category":"History","type":"boolean","difficulty":"easy","question":"The Cold War ended with Joseph Stalin&#039;s death.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Art","type":"boolean","difficulty":"medium","question":"Pablo Picasso is one of the founding fathers of &quot;Cubism.&quot;","correct_answer":"True","incorrect_answers":["False"]},{"category":"Politics","type":"boolean","difficulty":"easy","question":"Denmark has a monarch.","correct_answer":"True","incorrect_answers":["False"]},{"category":"History","type":"boolean","difficulty":"easy","question":"Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Science: Computers","type":"boolean","difficulty":"easy","question":"&quot;HTML&quot; stands for Hypertext Markup Language.","correct_answer":"True","incorrect_answers":["False"]},{"category":"General Knowledge","type":"boolean","difficulty":"medium","question":"The French word for &quot;glass&quot; is &quot;glace&quot;.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Music","type":"boolean","difficulty":"hard","question":"The song &quot;Mystery Train&quot; was released by artist &quot;Little Junior&#039;s Blue Flames&quot; in 1953.","correct_answer":"True","incorrect_answers":["False"]},{"category":"History","type":"boolean","difficulty":"medium","question":"Martin Luther King Jr. and Anne Frank were born the same year. ","correct_answer":"True","incorrect_answers":["False"]},{"category":"Entertainment: Japanese Anime & Manga","type":"boolean","difficulty":"hard","question":"In the &quot;To Love-Ru&quot; series, Peke is considered a female robot.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Art","type":"boolean","difficulty":"medium","question":"Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.","correct_answer":"False","incorrect_answers":["True"]}]}        
+```         
+ 
+Lets copy the dat inside our `data.py` file and override the last data. After your paste the data is really hard to read, so go to `Code` and press `Reformat code` inside Pycharm IDE. Now it looks like this:
+               
+```python
+ question_data = {"response_code": 0, "results": [{"category": "History", "type": "boolean", "difficulty": "easy",
+                                                  "question": "The Cold War ended with Joseph Stalin&#039;s death.",
+                                                  "correct_answer": "False", "incorrect_answers": ["True"]},
+                                                 {"category": "Art", "type": "boolean", "difficulty": "medium",
+                                                  "question": "Pablo Picasso is one of the founding fathers of &quot;Cubism.&quot;",
+                                                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                                                 {"category": "Politics", "type": "boolean", "difficulty": "easy",
+                                                  "question": "Denmark has a monarch.", "correct_answer": "True",
+                                                  "incorrect_answers": ["False"]},
+                                                 {"category": "History", "type": "boolean", "difficulty": "easy",
+                                                  "question": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
+                                                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                                                 {"category": "Science: Computers", "type": "boolean",
+                                                  "difficulty": "easy",
+                                                  "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
+                                                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                                                 {"category": "General Knowledge", "type": "boolean",
+                                                  "difficulty": "medium",
+                                                  "question": "The French word for &quot;glass&quot; is &quot;glace&quot;.",
+                                                  "correct_answer": "False", "incorrect_answers": ["True"]},
+                                                 {"category": "Entertainment: Music", "type": "boolean",
+                                                  "difficulty": "hard",
+                                                  "question": "The song &quot;Mystery Train&quot; was released by artist &quot;Little Junior&#039;s Blue Flames&quot; in 1953.",
+                                                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                                                 {"category": "History", "type": "boolean", "difficulty": "medium",
+                                                  "question": "Martin Luther King Jr. and Anne Frank were born the same year. ",
+                                                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                                                 {"category": "Entertainment: Japanese Anime & Manga",
+                                                  "type": "boolean", "difficulty": "hard",
+                                                  "question": "In the &quot;To Love-Ru&quot; series, Peke is considered a female robot.",
+                                                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                                                 {"category": "Art", "type": "boolean", "difficulty": "medium",
+                                                  "question": "Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.",
+                                                  "correct_answer": "False", "incorrect_answers": ["True"]}]}
+        
+```    
+         
+This dictionary has two key value pairs (response_code and results). I fou `Reformat Code` again, you will see that `results` have 10 dictionarys:
+         
+```python
+question_data = {"response_code": 0,
+                 "results": [{"category": "History", "type": "boolean", "difficulty": "easy",
+                              "question": "The Cold War ended with Joseph Stalin&#039;s death.",
+                              "correct_answer": "False", "incorrect_answers": ["True"]},
+                             {"category": "Art", "type": "boolean", "difficulty": "medium",
+                              "question": "Pablo Picasso is one of the founding fathers of &quot;Cubism.&quot;",
+                              "correct_answer": "True", "incorrect_answers": ["False"]},
+                             {"category": "Politics", "type": "boolean", "difficulty": "easy",
+                              "question": "Denmark has a monarch.", "correct_answer": "True",
+                              "incorrect_answers": ["False"]},
+                             {"category": "History", "type": "boolean", "difficulty": "easy",
+                              "question": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
+                              "correct_answer": "True", "incorrect_answers": ["False"]},
+                             {"category": "Science: Computers", "type": "boolean",
+                              "difficulty": "easy",
+                              "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
+                              "correct_answer": "True", "incorrect_answers": ["False"]},
+                             {"category": "General Knowledge", "type": "boolean",
+                              "difficulty": "medium",
+                              "question": "The French word for &quot;glass&quot; is &quot;glace&quot;.",
+                              "correct_answer": "False", "incorrect_answers": ["True"]},
+                             {"category": "Entertainment: Music", "type": "boolean",
+                              "difficulty": "hard",
+                              "question": "The song &quot;Mystery Train&quot; was released by artist &quot;Little Junior&#039;s Blue Flames&quot; in 1953.",
+                              "correct_answer": "True", "incorrect_answers": ["False"]},
+                             {"category": "History", "type": "boolean", "difficulty": "medium",
+                              "question": "Martin Luther King Jr. and Anne Frank were born the same year. ",
+                              "correct_answer": "True", "incorrect_answers": ["False"]},
+                             {"category": "Entertainment: Japanese Anime & Manga",
+                              "type": "boolean", "difficulty": "hard",
+                              "question": "In the &quot;To Love-Ru&quot; series, Peke is considered a female robot.",
+                              "correct_answer": "True", "incorrect_answers": ["False"]},
+                             {"category": "Art", "type": "boolean", "difficulty": "medium",
+                              "question": "Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.",
+                              "correct_answer": "False", "incorrect_answers": ["True"]}]}
+```         
