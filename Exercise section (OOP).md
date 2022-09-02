@@ -155,7 +155,7 @@ class QuizBrain:
         # 12 It will check and display whether answer is correct or not
         if user_answer.lower() == correct_answer.lower():
             # 14. Keep track of the user's score, add for this a new attribute "score"
-            self.score = 1
+            self.score += 1
             print("You got it right!")
         else:
             print("That's wrong!")
