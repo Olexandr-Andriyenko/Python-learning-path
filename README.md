@@ -51,6 +51,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Object oriented programming](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Object%20oriented%20programming.md)|:star: :star:  :star:  | What is object oriented programming, why to use this concept and how it effects our code. Basic knowledge about objects and methods. Learn the "turtle" and "prettytable" package. Practice the "math" modul by using the attributes and methods of the module. |
 [Object oriented programming: advanced topics](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Object%20oriented%20programming:%20advanced%20topics.md) | :star: :star:  :star: | |
 | [Exercise section (OOP)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(OOP).md) | :star: :star:  :star: | First time using API to get data inside a game. Practice the concepts of OOP. Build own classes with contructors, attributes and methods. |
+| Practice the turtle module |:star: :star: | |
 
 ## Beginner projects
 
