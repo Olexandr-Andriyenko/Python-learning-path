@@ -114,8 +114,11 @@ Change the speed of the turtle to the fastest as possible!
 <br>
 <br>
 Note:<br>
-- In physics, random walks are used as simplified models of physical Brownian motion and diffusion such as the random movement of molecules in liquids and gases. See for example diffusion-limited aggregation. Also in physics, random walks and some of the self interacting walks play a role in quantum field theory.
-- In financial economics, the random walk hypothesis is used to model shares prices and other factors.[31] Empirical studies found some deviations from this theoretical model, especially in short term and long term correlations.
+
+- In physics, random walks are used as simplified models of physical Brownian motion and diffusion such as the random movement of molecules in liquids and gases. 
+  See for example diffusion-limited aggregation. Also in physics, random walks and some of the self interacting walks play a role in quantum field theory.
+- In financial economics, the random walk hypothesis is used to model shares prices and other factors.[31] Empirical studies found some deviations from 
+  this theoretical model, especially in short term and long term correlations.
 - In brain research, random walks and reinforced random walks are used to model cascades of neuron firing in the brain.
 
 <details>
