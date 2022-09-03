@@ -105,3 +105,41 @@ screen.exitonclick()
 ```
   
 </details>
+
+4. Challenge:<br>
+Draw a random walk! Find more information about it [here](https://en.wikipedia.org/wiki/Random_walk). <br>
+Each time the turtle changes direction, a color should be chosen at random.<br>
+Change the width of the drawn lines<br|
+Change the speed of the turtle to the fastest as possible!
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import turtle
+from turtle import Turtle
+from turtle import Screen
+import random
+
+# Create an object
+timmy_the_turtle = Turtle()
+screen = Screen()
+# Colors
+colors = ["peru", "lime", "gold", "medium spring green", "orange red", "yellow", "alice blue", "magenta", "dark olive green", "dark slate blue", "saddle brown", "light slate gray", "deep sky blue" ]
+# Valid angles
+angles = [0, 90, 180, 270, 360]
+# The pen size
+thickness = 10
+timmy_the_turtle.width(thickness)
+# Turtle speed
+timmy_the_turtle.speed(0)
+# Movement
+for _ in range(200):
+    timmy_the_turtle.color(random.choice(colors))
+    timmy_the_turtle.right(random.choice(angles))
+    timmy_the_turtle.fd(25)
+
+screen.exitonclick()
+```
+  
+</details>
