@@ -80,8 +80,8 @@ Gives the Output:
 ```
 Hello my name is Chayenne, and I am 18 years old
 ```
-For a formatted output the knowledge of string literals is helpful. They are usually introduced within a string with a backslash "\" and have a formatted effect on the output.
-| String literal  | Name |
+For a formatted output the knowledge of string escape sequences is helpful. They are usually introduced within a string with a backslash "\" and have a formatted effect on the output.
+| Escape sequences  | Name |
 | ------------- | --------------- |
 | " "           | Space           |
 | "\n"          | Line feed       |
