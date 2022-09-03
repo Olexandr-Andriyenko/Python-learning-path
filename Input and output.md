@@ -73,7 +73,7 @@ If you want to output multiple variables and character using the print function,
 Example:
 ```python
 name = "Chayenne"
-age = 18
+age = str(18)
 print(f"Hello my name is {name} and I am {age} years old")
 ```
 Gives the Output:
