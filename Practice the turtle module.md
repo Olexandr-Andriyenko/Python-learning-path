@@ -273,3 +273,10 @@ screen.onkey(key="space", fun=move_forwards) # The method "onkey" listen that wh
 screen.exitonclick()
 
 ```
+
+Exersice:<br>
+Build an [Etch A Sketch](https://en.wikipedia.org/wiki/Etch_A_Sketch)! Is a "magic board" whose non-removable pin is moved horizontally and vertically by two rotators, respectively.
+ ![EtchASketch10-23-2004](https://user-images.githubusercontent.com/92121260/188329508-f8b3337f-c245-4569-876d-b52e81ea65ed.jpg)
+ <br>
+You can press `w` for forwards, `s` for backwards, `a` for counter clockwise angle and `d` for clockwise angle.<br>
+When you press the `c` key you will clear the drawing and put the turtle back to the start position.
