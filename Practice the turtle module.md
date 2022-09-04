@@ -247,3 +247,29 @@ screen.exitonclick()
 ```
                                                                                        
 </details>
+
+ 
+ ## Using screen events
+ 
+ We need a way to listen to the user's actions, for example when the user presses a certain key. If you look into the ["turtle" documentation](https://docs.python.org/3/library/turtle.html), you will find a section called "using screen events".<br>
+ The most important is the ["listen" method](https://docs.python.org/3/library/turtle.html#turtle.listen). This allows the "turtle" screen to listen and wait for events that the user might trigger.
+<br>
+Example:
+ 
+```python
+ from turtle import Turtle, Screen
+# Create the objects
+tim = Turtle()
+screen = Screen()
+
+
+# Create a simple function for movement
+def move_forwards():
+    tim.fd(10)
+# Tell the screen object that he have to start to "listen"
+screen.listen()
+# Now we use an event listener, when the "space" key is pressed then trigger the function "move_forward"
+screen.onkey(key="space", fun=move_forwards) # The method "onkey" listen that when the space key ist pressed
+screen.exitonclick()
+
+```
