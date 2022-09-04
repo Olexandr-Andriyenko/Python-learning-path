@@ -72,3 +72,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | --------------------|:---------------:| ------------------- |
 | [Coffe Machine Program](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Coffe%20Machine%20Program.md) |  :star: :star: | Improving the use of conditionals, loops, boolean values, data structures, functions, modules and problem solving from scratch. Creating own flow chart and learning UML use case diagram.              |
 | [Higher-Lower-Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Higher-Lower-Game.md) |  :star: :star: | Split python code in different .py files and use them by the "import" keyword. Improving the use of random module, loops, conditionals. |
+| Damien Hirst's Spot Paintings (Extract RGB values from images) | :star: :star: | |
