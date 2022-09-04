@@ -15,3 +15,6 @@ After that we will use this color palette to create such a similar art.
 <br>
 For this project we will use the package [colorgram](https://pypi.org/project/colorgram.py/).
 First step is to install "colorgram.py". For this go in pycharm to `File` -> `Settings` -> `Project:...` -> `Python Interpreter` -> press the `+` symbol -> search "colorgram.py" and install it.
+<br>
+<br>
+Now we have to download the image above, and put it inside the project folder!
