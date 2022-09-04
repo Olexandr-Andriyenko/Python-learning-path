@@ -186,5 +186,16 @@ for _ in range(4000):
 screen.exitonclick()
 
 ```
-  
+                                                                                       
 </details>
+
+
+5. Challenge:<br>
+Build a spirograph! Spirograph is a geometric toy that allows you to draw different patterns or mathematical curves. Read more about it  [here](https://en.wikipedia.org/wiki/Spirograph).<br>
+Draw this image:
+ 
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img37.PNG" width="400">
+<p>  
+ 
+The color are generated randomly!
