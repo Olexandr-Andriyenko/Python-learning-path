@@ -17,4 +17,6 @@ For this project we will use the package [colorgram](https://pypi.org/project/co
 First step is to install "colorgram.py". For this go in pycharm to `File` -> `Settings` -> `Project:...` -> `Python Interpreter` -> press the `+` symbol -> search "colorgram.py" and install it.
 <br>
 <br>
-Now we have to download the image above, and put it inside the project folder!
+Now we have to download the image above, and put it inside the project folder! Do not forget to convert the image to jpeg file, because pycharm can't open png files.
+<br>
+<br>
