@@ -199,3 +199,51 @@ Draw this image:
 <p>  
  
 The color are generated randomly!
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import turtle
+from turtle import Turtle
+from turtle import Screen
+import random
+
+# Create an object
+timmy_the_turtle = Turtle()
+screen = Screen()
+# If you like you can create random RGB color instead using the list with colors
+# For this we can create a function
+turtle.colormode(255)  # You have to set this property to use rgb colors!
+# Set the speed of the turtle
+timmy_the_turtle.speed(0)
+# Set the background to Black
+turtle.bgcolor("black")
+
+
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    rgb_random = (r, g, b)
+    return rgb_random
+
+
+# Create the "art"
+def draw_spirograph(gap):
+    # Inside the range() the input has to be an integer
+    for _ in range(int(360 / gap)):
+        timmy_the_turtle.color(random_color())
+        # Shift the turtle a little
+        timmy_the_turtle.setheading(timmy_the_turtle.heading() + gap)
+        timmy_the_turtle.circle(100)
+
+
+# Main program
+draw_spirograph(10)
+
+screen.exitonclick()
+
+```
+                                                                                       
+</details>
