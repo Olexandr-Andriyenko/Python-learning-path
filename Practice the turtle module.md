@@ -149,6 +149,19 @@ def border():
         timmy_the_turtle.undo()
 
 
+# If you like you can create random RGB color instead using the list with colors
+# For this we can create a function
+turtle.colormode(255)  # You have to set this property to use rgb colors!
+
+
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    rgb_random = (r, g, b)
+    return rgb_random
+
+
 # Colors
 colors = ["peru", "lime", "gold", "medium spring green", "orange red", "yellow", "alice blue", "magenta",
           "dark olive green", "dark slate blue", "saddle brown", "light slate gray", "deep sky blue", "seashell",
@@ -165,6 +178,7 @@ timmy_the_turtle.speed(0)
 # Movement
 for _ in range(4000):
     timmy_the_turtle.color(random.choice(colors))
+    # timmy_the_turtle.color(random_color()) # Set this to get random rgb colors!
     timmy_the_turtle.right(random.choice(angles))
     timmy_the_turtle.fd(25)
     border()
