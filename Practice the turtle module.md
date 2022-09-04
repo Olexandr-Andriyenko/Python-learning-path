@@ -133,8 +133,28 @@ import random
 # Create an object
 timmy_the_turtle = Turtle()
 screen = Screen()
+# How we could prevent the turtle from leaving the screen???
+# Create a screen size
+screen.screensize(canvwidth=800, canvheight=800)
+
+
+# For this task I will create a function
+def border():
+    canvas_width = screen.canvwidth / 2
+    canvas_height = screen.canvheight / 2
+    current_position = timmy_the_turtle.position()
+    t_x = current_position[0]
+    t_y = current_position[1]
+    if t_y > canvas_height or t_y < (- canvas_height) or t_x > canvas_width or t_x < (- canvas_height):
+        timmy_the_turtle.undo()
+
+
 # Colors
-colors = ["peru", "lime", "gold", "medium spring green", "orange red", "yellow", "alice blue", "magenta", "dark olive green", "dark slate blue", "saddle brown", "light slate gray", "deep sky blue" ]
+colors = ["peru", "lime", "gold", "medium spring green", "orange red", "yellow", "alice blue", "magenta",
+          "dark olive green", "dark slate blue", "saddle brown", "light slate gray", "deep sky blue", "seashell",
+          "beige", "lavender", "navajo white", "khaki"]
+# Background color
+screen.bgcolor("black")
 # Valid angles
 angles = [0, 90, 180, 270, 360]
 # The pen size
@@ -143,12 +163,14 @@ timmy_the_turtle.width(thickness)
 # Turtle speed
 timmy_the_turtle.speed(0)
 # Movement
-for _ in range(200):
+for _ in range(4000):
     timmy_the_turtle.color(random.choice(colors))
     timmy_the_turtle.right(random.choice(angles))
     timmy_the_turtle.fd(25)
+    border()
 
 screen.exitonclick()
+
 ```
   
 </details>
