@@ -280,3 +280,78 @@ Build an [Etch A Sketch](https://en.wikipedia.org/wiki/Etch_A_Sketch)! Is a "mag
  <br>
 You can press `w` for forwards, `s` for backwards, `a` for counter clockwise angle and `d` for clockwise angle.<br>
 When you press the `c` key you will clear the drawing and put the turtle back to the start position.
+ 
+ 
+<details>
+ <summary>Solution</summary>
+
+```python
+
+import turtle
+from turtle import Turtle, Screen
+from random import randint
+
+# Create the objects
+tim = Turtle()
+screen = Screen()
+turtle.colormode(255)
+tim.width(3)
+
+
+# Create a simple function for movement
+def move_forward():
+    tim.fd(10)
+
+
+def move_backwards():
+    tim.bk(10)
+
+
+def move_right():
+    tim.rt(10)
+
+
+def move_left():
+    tim.lt(10)
+
+
+def clear():
+    tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
+
+
+def change_color():
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    rgb_tuple = (r, g, b)
+    tim.color(rgb_tuple)
+
+
+def background_color_black():
+    screen.bgcolor("black")
+
+
+def background_color_white():
+    screen.bgcolor("white")
+
+# Tell the screen object that he have to start to "listen"
+
+screen.listen()
+# Now we use an event listener
+screen.onkey(move_forward, "w")
+screen.onkey(move_backwards, "s")
+screen.onkey(move_right, "d")
+screen.onkey(move_left, "a")
+screen.onkey(clear, "c")
+screen.onkey(change_color, "m")
+screen.onkey(background_color_black, "b")
+screen.onkey(background_color_white, "n")
+
+screen.exitonclick()
+
+```
+                                                                                       
+</details>
