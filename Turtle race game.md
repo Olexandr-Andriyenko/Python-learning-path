@@ -8,3 +8,5 @@ The game should look like this:
 <p align="center">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img40.PNG" width="500">
 <p> 
+
+You can choose the background image by yourself!
