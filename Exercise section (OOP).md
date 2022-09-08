@@ -9,7 +9,9 @@ If the question was wrong, ask him the next question<br>
 You need a `main`, `question_model`, `quiz_brain` and a `data` file!<br>
 
 <details>
+ 
  <summary>data.py</summary>
+ 
 ```python
 question_data = [
 {"text": "A slug's blood is green.", "answer": "True"},
