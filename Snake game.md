@@ -280,6 +280,7 @@ class Snake:
 <br>
 Now we create the snake food! 
 <br>
+<br>
   
 This is the `main.py` file:
 
