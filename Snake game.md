@@ -216,6 +216,7 @@ DOWN = 270
 LEFT = 180
 RIGHT = 0
 
+
 class Snake:
     def __init__(self):
         # Use the starting position coordinates to create the snake body
@@ -246,6 +247,9 @@ class Snake:
             self.snake_body[segment].goto(new_x, new_y)
         self.snake_head.fd(DISTANCE)
 
+    # ----------------------------------------------- #
+    # Control the snake
+    # ----------------------------------------------- #
     # Create methods for snake control (create before head attribute!)
     # Read about "heading" inside the turtle documentation
     def up(self):
@@ -264,9 +268,6 @@ class Snake:
     def right(self):
         if self.snake_head.heading() != LEFT:
             self.snake_head.setheading(RIGHT)
-
-
-
 
 ```
   
