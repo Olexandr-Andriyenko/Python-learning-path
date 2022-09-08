@@ -193,3 +193,81 @@ class Snake:
 ```
   
 </details>
+
+<details>
+ <summary>Third part of the solution</summary>
+  
+<br>
+  
+Now we create the control by using the keyboard arrows
+  
+This is the `snake.py` file:
+
+```python
+from turtle import Turtle
+
+# Create a list of the starting position (this is a constant, so we have tu use capital letter)
+STARTING_POSITION = [(0, 0), (-20, 0), (-40, 0)]
+# Constant with the distance, which the snake can move
+DISTANCE = 20
+# Constants to prevent going up or down, depending on the orientation
+UP = 90
+DOWN = 270
+LEFT = 180
+RIGHT = 0
+
+class Snake:
+    def __init__(self):
+        # Use the starting position coordinates to create the snake body
+        self.snake_body = []
+        self.create_snake()
+        self.snake_head = self.snake_body[0]
+
+    # ----------------------------------------------- #
+    # Create a snake body
+    # ----------------------------------------------- #
+    def create_snake(self):
+        # This time we will create the snake body by using a for loop
+        for position in STARTING_POSITION:
+            new_segment = Turtle("square")
+            new_segment.color("white")
+            new_segment.penup()
+            new_segment.goto(position)
+            self.snake_body.append(new_segment)
+
+    # ----------------------------------------------- #
+    # Move the snake
+    # ----------------------------------------------- #
+    def move(self):
+        # Implementation of the movement like inside the gif
+        for segment in range(len(self.snake_body) - 1, 0, -1):
+            new_x = self.snake_body[segment - 1].xcor()
+            new_y = self.snake_body[segment - 1].ycor()
+            self.snake_body[segment].goto(new_x, new_y)
+        self.snake_head.fd(DISTANCE)
+
+    # Create methods for snake control (create before head attribute!)
+    # Read about "heading" inside the turtle documentation
+    def up(self):
+        # Snake can only go up, if it doesn't go down (using turtle heading() method)
+        if self.snake_head.heading() != DOWN:
+            self.snake_head.setheading(UP)
+
+    def down(self):
+        if self.snake_head.heading() != UP:
+            self.snake_head.setheading(DOWN)
+
+    def left(self):
+        if self.snake_head.heading() != RIGHT:
+            self.snake_head.setheading(LEFT)
+
+    def right(self):
+        if self.snake_head.heading() != LEFT:
+            self.snake_head.setheading(RIGHT)
+
+
+
+
+```
+  
+</details>
