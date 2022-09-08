@@ -23,6 +23,10 @@ Idea how the movement of the snake can be created:
   
 <details>
  <summary>First part of the solution</summary>
+  
+<br>
+  
+This is the `main.py` file:
 
 ```python
 # Modules
