@@ -12,3 +12,10 @@ You can solve the project in many small steps:
 - Create a scoreboard
 - Detect collision with wall
 - Detect collision with tail
+<br>
+<br>
+Idea how the movement of the snake can be created:
+
+<p align="center">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img41.gif" width="400">
+<p>  
