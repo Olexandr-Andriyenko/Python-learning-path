@@ -573,3 +573,161 @@ class Scoreboard(Turtle):
 ```
   
 </details>
+  
+<details>
+ <summary>Eighth part of the solution</summary>
+
+<br>  
+Extend the snake body with new segments, if the snake eats food!  
+<br>
+  
+This is the `main.py` file:
+
+```python
+# Modules
+from turtle import Screen
+from snake import Snake
+import time  # Simple module to use delay
+from food import Food
+from scoreboard import Scoreboard
+# ----------------------------------------------- #
+# Settings
+# ----------------------------------------------- #
+# Create objects
+screen = Screen()
+# Set up the screen
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
+screen.title("My Snake Game")
+# Turn the turtle animation off and set a delay for update drawings
+screen.tracer(0)
+# Create the snake object from our own class
+snake = Snake()
+# Create the food
+food = Food()
+# Create the scoreboard
+scoreboard = Scoreboard()
+# Start listening
+screen.listen()
+# Create even listener
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
+
+# Create a variable to check if the game is on or not
+game_is_on = True
+# As long as the game is on, the snake will move forward
+while game_is_on:
+    # Update the screen every 0.1 second!
+    screen.update()
+    time.sleep(0.1)
+    # Every time the screen get refreshed, the snake have to move forward
+    snake.move()
+    # Detect collision with food
+    # Read about the turtle distance method
+    if snake.snake_head.distance(food) < 15:
+        food.refresh()
+        scoreboard.increase_score()
+        # Extend the snake
+        snake.extend()
+    # Detect collision with wall
+    if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280:
+        game_is_on = False
+        scoreboard.game_over()
+    # Detect collision with the tail
+    for segment in snake.snake_body:
+        if segment == snake.snake_head:
+            pass
+        elif snake.snake_head.distance(segment) < 10:
+            game_is_on = False
+            scoreboard.game_over()
+    # If head collides with any segment in the tail then trigger game_over
+
+screen.exitonclick()
+
+```
+  
+This is the `snake.py` file:
+
+```python
+from turtle import Turtle
+
+# Create a list of the starting position (this is a constant, so we have tu use capital letter)
+STARTING_POSITION = [(0, 0), (-20, 0), (-40, 0)]
+# Constant with the distance, which the snake can move
+DISTANCE = 20
+# Constants to prevent going up or down, depending on the orientation
+UP = 90
+DOWN = 270
+LEFT = 180
+RIGHT = 0
+
+
+class Snake:
+    def __init__(self):
+        # Use the starting position coordinates to create the snake body
+        self.snake_body = []
+        self.create_snake()
+        self.snake_head = self.snake_body[0]
+
+    # ----------------------------------------------- #
+    # Create a snake body
+    # ----------------------------------------------- #
+    def create_snake(self):
+        # This time we will create the snake body by using a for loop
+        for position in STARTING_POSITION:
+            self.add_segment(position)
+
+    # ----------------------------------------------- #
+    # Extend the snake
+    # ----------------------------------------------- #
+    def extend(self):
+        # Add new segment to the snake
+        self.add_segment(self.snake_body[-1].position())
+
+    def add_segment(self, position):
+        new_segment = Turtle("square")
+        new_segment.color("white")
+        new_segment.penup()
+        new_segment.goto(position)
+        self.snake_body.append(new_segment)
+
+    # ----------------------------------------------- #
+    # Move the snake
+    # ----------------------------------------------- #
+    def move(self):
+        # Implementation of the movement like inside the gif
+        for segment in range(len(self.snake_body) - 1, 0, -1):
+            new_x = self.snake_body[segment - 1].xcor()
+            new_y = self.snake_body[segment - 1].ycor()
+            self.snake_body[segment].goto(new_x, new_y)
+        self.snake_head.fd(DISTANCE)
+
+    # ----------------------------------------------- #
+    # Control the snake
+    # ----------------------------------------------- #
+    # Create methods for snake control (create before head attribute!)
+    # Read about "heading" inside the turtle documentation
+    def up(self):
+        # Snake can only go up, if it doesn't go down (using turtle heading() method)
+        if self.snake_head.heading() != DOWN:
+            self.snake_head.setheading(UP)
+
+    def down(self):
+        if self.snake_head.heading() != UP:
+            self.snake_head.setheading(DOWN)
+
+    def left(self):
+        if self.snake_head.heading() != RIGHT:
+            self.snake_head.setheading(LEFT)
+
+    def right(self):
+        if self.snake_head.heading() != LEFT:
+            self.snake_head.setheading(RIGHT)
+
+
+
+```
+  
+</details>
