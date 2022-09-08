@@ -731,3 +731,82 @@ class Snake:
 ```
   
 </details>
+  
+  
+<details>
+ <summary>Final solution</summary>
+  
+<br> 
+Improve the code with slicing inside the 'detect the collision with the tail'
+<br>
+  
+This is the `main.py` file:
+
+```python
+# Modules
+from turtle import Screen
+from snake import Snake
+import time  # Simple module to use delay
+from food import Food
+from scoreboard import Scoreboard
+
+# ----------------------------------------------- #
+# Settings
+# ----------------------------------------------- #
+# Create objects
+screen = Screen()
+# Set up the screen
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
+screen.title("My Snake Game")
+# Turn the turtle animation off and set a delay for update drawings
+screen.tracer(0)
+# Create the snake object from our own class
+snake = Snake()
+# Create the food
+food = Food()
+# Create the scoreboard
+scoreboard = Scoreboard()
+# Start listening
+screen.listen()
+# Create even listener
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
+
+# Create a variable to check if the game is on or not
+game_is_on = True
+# As long as the game is on, the snake will move forward
+while game_is_on:
+    # Update the screen every 0.1 second!
+    screen.update()
+    time.sleep(0.1)
+    # Every time the screen get refreshed, the snake have to move forward
+    snake.move()
+    # Detect collision with food
+    # Read about the turtle distance method
+    if snake.snake_head.distance(food) < 15:
+        food.refresh()
+        scoreboard.increase_score()
+        # Extend the snake
+        snake.extend()
+    # Detect collision with wall
+    if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280:
+        game_is_on = False
+        scoreboard.game_over()
+    # Detect collision with the tail
+    # Using slicing!!! Less Code
+    for segment in snake.snake_body[1:]:
+        # if segment == snake.snake_head:
+            # pass
+        if snake.snake_head.distance(segment) < 10:
+            game_is_on = False
+            scoreboard.game_over()
+    # If head collides with any segment in the tail then trigger game_over
+
+screen.exitonclick()
+
+```
+  
+</details>
