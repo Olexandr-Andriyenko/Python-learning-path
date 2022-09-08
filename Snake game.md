@@ -104,3 +104,92 @@ screen.exitonclick()
 ```
   
 </details>
+  
+  
+<details>
+ <summary>Second part of the solution</summary>
+  
+<br>
+Now we rebuild the first solution to get a more OOP organisation! 
+<br>
+  
+This is the `main.py` file:
+
+```python
+# Modules
+from turtle import Screen
+from snake import Snake
+import time  # Simple module to use delay
+# ----------------------------------------------- #
+# Settings
+# ----------------------------------------------- #
+# Create objects
+screen = Screen()
+# Set up the screen
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
+screen.title("My Snake Game")
+# Turn the turtle animation off and set a delay for update drawings
+screen.tracer(0)
+# Create the snake object from our own class
+snake = Snake()
+
+# Create a variable to check if the game is on or not
+game_is_on = True
+# As long as the game is on, the snake will move forward
+while game_is_on:
+    # Update the screen every 0.1 second!
+    screen.update()
+    time.sleep(0.1)
+    # Every time the screen get refreshed, the snake have to move forward
+    snake.move()
+
+screen.exitonclick()
+
+```
+  
+<br>
+  
+This is the `snake.py` file:
+  
+```python
+from turtle import Turtle
+
+# Create a list of the starting position (this is a constant, so we have tu use capital letter)
+STARTING_POSITION = [(0, 0), (-20, 0), (-40, 0)]
+# Constant with the distance, which the snake can move
+DISTANCE = 20
+
+
+class Snake:
+    def __init__(self):
+        # Use the starting position coordinates to create the snake body
+        self.snake_body = []
+        self.create_snake()
+
+    # ----------------------------------------------- #
+    # Create a snake body
+    # ----------------------------------------------- #
+    def create_snake(self):
+        # This time we will create the snake body by using a for loop
+        for position in STARTING_POSITION:
+            new_segment = Turtle("square")
+            new_segment.color("white")
+            new_segment.penup()
+            new_segment.goto(position)
+            self.snake_body.append(new_segment)
+
+    # ----------------------------------------------- #
+    # Move the snake
+    # ----------------------------------------------- #
+    def move(self):
+        # Implementation of the movement like inside the gif
+        for segment in range(len(self.snake_body) - 1, 0, -1):
+            new_x = self.snake_body[segment - 1].xcor()
+            new_y = self.snake_body[segment - 1].ycor()
+            self.snake_body[segment].goto(new_x, new_y)
+        self.snake_body[0].fd(DISTANCE)
+  
+```
+  
+</details>
