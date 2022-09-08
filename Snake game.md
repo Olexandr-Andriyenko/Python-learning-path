@@ -13,9 +13,8 @@ You can solve the project in many small steps:
 - Detect collision with wall
 - Detect collision with tail
 <br>
-<br>
 Idea how the movement of the snake can be created:
 
-<p align="center">
+<p align="left">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img41.gif" width="400">
 <p>  
