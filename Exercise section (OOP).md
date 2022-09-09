@@ -492,3 +492,72 @@ first_account.display()
 ```
   
 </details>         
+
+## 5. Assignment
+         
+1. Define a Circle class allowing to create a circleC (O, r) with center O(a, b) and radius r using the constructor:   
+
+```python
+    def __init__(self, a, b, r):
+        self.a = a
+        self.b = b
+        self.r = r         
+```     
+
+2. fine a Area() method of the class which calculates the area of ​​the circle.
+3. fine a Perimeter() method of the class which allows you to calculate the perimeter of the circle.
+4. fine a testBelongs() method of the class which allows to test whether a point A(x, y) belongs to the circle C(O, r) or not.
+         
+<details>
+ <summary>Solution</summary>
+  
+
+<br>
+  
+This is the `main.py` file:
+
+```python
+from math import pi
+
+
+class Circle:
+    # a and b are the middle point coordinates!
+    def __init__(self, a, b, r):
+        self.a = a
+        self.b = b
+        self.r = r
+
+    def area(self):
+        area = pi * (self.r ** 2)
+        return area
+
+    def perimeter(self):
+        perimeter = 2 * pi * self.r
+        return perimeter
+
+    def circleEquation(self, x, y):
+        # Just the mathematical function of a circle!
+        f = (x - self.a) ** 2 + (y - self.b) ** 2 - self.r ** 2
+        return f
+
+    def testBelongs(self, x, y):
+        if self.circleEquation(x, y) == 0:
+            print(f"The point ({x}, {y}) belongs to the circle!")
+        else:
+            print(f"The point ({x}, {y}) don't belong to the circle!")
+
+
+# ---------------------------- #
+# Main program
+# ---------------------------- #
+my_circle = Circle(1, 2, 1)
+print(my_circle.area())
+print(my_circle.perimeter())
+# Is the point with the coordinate (x=1, y=1) on the circle which we created?
+my_circle.testBelongs(1, 1)
+# Is the point with the coordinate (x=5, y=3) on the circle which we created?
+my_circle.testBelongs(5, 3)
+
+```
+  
+</details>          
