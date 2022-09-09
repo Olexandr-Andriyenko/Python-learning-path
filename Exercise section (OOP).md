@@ -434,3 +434,61 @@ student.display()
 ```
   
 </details>           
+
+## 4. Assignment<br>
+         
+1. Create a Python class called BankAccount which represents a bank account, having as attributes: accountNumber (numeric type), name (name of the account owner as string type), balance.
+2. Create a constructor with parameters: accountNumber, name, balance.
+3. Create a Deposit() method which manages the deposit actions.
+4. Create a Withdrawal() method  which manages withdrawals actions.
+5. Create an bankFees() method to apply the bank fees with a percentage of 5% of the balance account.
+6. Create a display() method to display account details.
+Give the complete code for the  BankAccount class.         
+         
+<details>
+ <summary>Solution</summary>
+  
+
+<br>
+  
+This is the `main.py` file:
+
+```python
+class BankAccount:
+    def __init__(self, accountNumber, name, balance):
+        self.accountNumber = accountNumber
+        self.name = name
+        self.balance = balance
+
+    def deposit(self, deposit):
+        self.balance += deposit
+
+    def withdrawal(self, withdrawal):
+        if self.balance > withdrawal:
+            self.balance -= withdrawal
+        else:
+            print("Balance is to small!")
+
+    def bankFees(self):
+        self.balance = 95 / 100 * self.balance
+
+    def display(self):
+        print(f"Name: {self.name}, Account Number: {self.accountNumber}, Balance: {self.balance}")
+
+
+# ---------------------
+# Main program
+# ---------------------
+
+first_account = BankAccount(1, "Alex", 4000)
+first_account.deposit(500)
+first_account.display()
+first_account.withdrawal(5000)
+first_account.withdrawal(1000)
+first_account.display()
+first_account.bankFees()
+first_account.display()
+
+```
+  
+</details>         
