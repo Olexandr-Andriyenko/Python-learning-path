@@ -326,3 +326,61 @@ Rectangle class:<br>
 2. Create a Perimeter() method to calculate the perimeter of the rectangle and a Area() method to calculate the area of ​​the rectangle.
 3. Create a method display() that display the length, width, perimeter and area of an object created using an instantiation on rectangle class.
 4. Create a Parallelepipede child class inheriting from the Rectangle class and with a height attribute and another Volume() method to calculate the volume of the Parallelepiped.         
+
+         
+<details>
+ <summary>Solution</summary>
+  
+
+<br>
+  
+This is the `main.py` file:
+
+```python
+# 1. Create the class
+class Rectangle:
+    def __init__(self, width, length):
+        self.width = width
+        self.length = length
+
+    # 2. Create perimeter method
+    def perimeter(self):
+        perimeter = 2 * self.width + 2 * self.length
+        return perimeter
+
+    # 2. Create an area method
+    def area(self):
+        area = self.width * self.length
+        return area
+
+    # 3. Create the method display
+    def display(self):
+        print(
+            f"The length is {self.length} units, the width is {self.width} units, the perimeter is {self.perimeter()} units and the area is {self.area()} square units")
+
+
+# 4. Create a Parallelepiped child class
+class Parallelepiped(Rectangle):
+    def __init__(self, length, width, height):
+        self.height = height
+        super().__init__(width, length)
+
+    def volume(self):
+        volume = self.area() * self.height
+        return volume
+
+
+# --------------------------------------------------------- #
+# Main program
+# --------------------------------------------------------- #
+# Create the object
+rectangle = Rectangle(7, 5)
+rectangle.display()
+# Create the object
+my_parellepiped = Parallelepiped(7, 5, 2)
+# Show the volume
+print(f"The volume of the parellepiped is: {my_parellepiped.volume()}")
+
+```
+  
+</details>         
