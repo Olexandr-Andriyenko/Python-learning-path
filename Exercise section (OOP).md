@@ -384,3 +384,53 @@ print(f"The volume of the parellepiped is: {my_parellepiped.volume()}")
 ```
   
 </details>         
+
+## 3. Assignment
+         
+1. Create a Python class Person with attributes: name and age of type string.
+2. Create a display() method that displays the name and age of an object created via the Person class.
+3. Create a child class Student  which inherits from the Person class and which also has a section attribute.
+4. Create a method displayStudent() that displays the name, age and section of an object created via the Student class.
+5. Create a student object via an instantiation on the Student class and then test the displayStudent method.         
+         
+<details>
+ <summary>Solution</summary>
+  
+
+<br>
+  
+This is the `main.py` file:
+
+```python
+# Super class
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print(f"The name is: {self.name} and the age is: {self.age}.")
+
+
+# Subclass
+class Student(Person):
+    def __init__(self, name, age, section):
+        self.section = section
+        super().__init__(name, age)
+
+    def display(self):
+        print(f"The name is: {self.name} and the age is: {self.age}.\nStudents section is: {self.section}.")
+
+
+# -------------------------------- #
+# Main program
+# -------------------------------- #
+person = Person("Alex", 12)
+person.display()
+
+student = Student("peter", 20, "engineering")
+student.display()
+
+```
+  
+</details>           
