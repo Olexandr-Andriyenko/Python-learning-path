@@ -178,7 +178,7 @@ True
 True
 ```
 
-The variable "n1" and "n2" return the value "True", which means that the two variables reference the same object. By using the "id()" function you can explain this behavior. The function "id()" returns a unique integer value for any object. This value equals the address where the object is stored in memory.
+The variable "n1" and "n2" return the value "False", which means that the two variables reference not the same object. By using the "id()" function you can explain this behavior. The function "id()" returns a unique integer value for any object. This value equals the address where the object is stored in memory.
 
 ```python
 # Create some variables for the calculations
