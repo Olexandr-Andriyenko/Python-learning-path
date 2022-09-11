@@ -159,18 +159,22 @@ n2 = "peter"
 n3 = "chayenne"
 n4 = "alex"
 n = n1, n3
-# Lets try the operator "in"
+# Check the variable n
+print(n)
+# Let's try the operator "in"
 print(n3 is n)
 print(n2 is n)
 print(n1 is n4)
-# Lets try the operator "not in"
+# Let's try the operator "not in"
 print(n1 is not n)
 print(n2 is not n)
+
 # The operations gives the following outputs
-True
+('alex', 'chayenne')
+False
 False
 True
-False
+True
 True
 ```
 
