@@ -197,7 +197,8 @@ print(id(n4))
 # 139943243577648
 # 139943243577840
 # 139943243577520
-# The first address is equal to the fourth address, these two variables reference the same object in memory (this is why we have the value "True" using the "in" operator)
+# The first address is equal to the fourth address, these two variables reference the same object in memory 
+# (this is why we have the value "True" using the "in" operator)
 ```
 
 Don't confuse the both operators "in" and "=="! There is a big difference between the two operators. The "is" operator will return "True" if two variables point to the same object. The "==" operator will return "True", if the values assigned to the variables are identical.
