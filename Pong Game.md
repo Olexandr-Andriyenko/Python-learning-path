@@ -129,7 +129,10 @@ screen.exitonclick()
 In this part we will move our paddle in its own class! Then we can create a right and left paddle by using this class!
 <br>
 <br>  
+ 
 This is the `main.py` file:
+ 
+<br>
 
 ```python
 from turtle import Screen, Turtle
@@ -169,8 +172,10 @@ screen.exitonclick()
 ```
  
 <br>  
+ 
 This is the `paddle.py` file:
 
+ 
 ```python
 from turtle import Turtle
 
