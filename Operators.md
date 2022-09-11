@@ -201,7 +201,7 @@ print(id(n4))
 # (this is why we have the value "True" using the "in" operator)
 ```
 
-Don't confuse the both operators "in" and "=="! There is a big difference between the two operators. The "is" operator will return "True" if two variables point to the same object. The "==" operator will return "True", if the values assigned to the variables are identical.
+Don't confuse the both operators "is" and "=="! There is a big difference between the two operators. The "is" operator will return "True" if two variables point to the same object. The "==" operator will return "True", if the values assigned to the variables are identical.
 <br>
 To illustrate the difference between "is" and "==" watch the following example:
 
