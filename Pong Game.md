@@ -132,6 +132,39 @@ In this part we will move our paddle in its own class! Then we can create a righ
 This is the `main.py` file:
 
 ```python
+from turtle import Screen, Turtle
+from paddle import Paddle
+
+# -------------------------------------------- #
+# Create the screen
+# -------------------------------------------- #
+screen = Screen()
+screen.bgcolor("black")
+screen.setup(width=800, height=600)
+screen.title("Pong Game")
+# Using tracer to "hidde" the paddle animation
+# I f we turn of the tracer we have tp update the screen manually by refreshing it any time
+screen.tracer(0)
+# -------------------------------------------- #
+# Create and move a paddle / Create another paddle
+# -------------------------------------------- #
+r_paddle = Paddle((350, 0))
+l_paddle = Paddle((-350, 0))
+
+screen.listen()
+# Movement keys for right paddle
+screen.onkey(r_paddle.go_up, "Up")
+screen.onkey(r_paddle.go_down, "Down")
+# Movement keys for left paddle
+screen.onkey(l_paddle.go_up, "w")
+screen.onkey(l_paddle.go_down, "s")
+
+game_is_on = True
+while game_is_on:
+    # Update the screen manually
+    screen.update()
+
+screen.exitonclick()
 
 ```
  
@@ -139,6 +172,30 @@ This is the `main.py` file:
 This is the `paddle.py` file:
 
 ```python
+from turtle import Turtle
+
+
+# -------------------------------------------- #
+# Create and move a paddle
+# -------------------------------------------- #
+class Paddle(Turtle):
+    def __init__(self, position):
+        super().__init__()
+        # Standard size of turtle is 20x20, We want to get a 20x100 size (we will stretch 20 by 5)
+        self.shape("square")
+        self.shapesize(stretch_wid=5, stretch_len=1)
+        self.color("white")
+        self.penup()
+        self.goto(position)
+
+    # Now I create the movement of the paddle
+    def go_up(self):
+        new_y = self.ycor() + 20
+        self.goto(self.xcor(), new_y)
+
+    def go_down(self):
+        new_y = self.ycor() - 20
+        self.goto(self.xcor(), new_y)
 
 ```
   
