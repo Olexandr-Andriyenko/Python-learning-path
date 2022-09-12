@@ -7,7 +7,7 @@
  - Create and move a paddle
  - Create another paddle
  - Create the ball and make it move
- - Detect collision wit hwall and bounce
+ - Detect collision with wall and bounce
  - Detect collision with paddle
  - Detect when paddle misses
  - Keep score
@@ -202,6 +202,85 @@ class Paddle(Turtle):
         new_y = self.ycor() - 20
         self.goto(self.xcor(), new_y)
 
+```
+  
+</details>
+
+<details>
+ <summary>Fourth part of the solution</summary>
+
+<br>
+Create the ball and make it move
+<br>
+  
+This is the `main.py` file:
+
+```python
+from turtle import Screen, Turtle
+from paddle import Paddle
+from ball import Ball
+import time
+
+# -------------------------------------------- #
+# Create the screen
+# -------------------------------------------- #
+screen = Screen()
+screen.bgcolor("black")
+screen.setup(width=800, height=600)
+screen.title("Pong Game")
+# Using tracer to "hidde" the paddle animation
+# I f we turn of the tracer we have tp update the screen manually by refreshing it any time
+screen.tracer(0)
+# -------------------------------------------- #
+# Create and move a paddle / Create another paddle
+# -------------------------------------------- #
+r_paddle = Paddle((350, 0))
+l_paddle = Paddle((-350, 0))
+# -------------------------------------------- #
+# Create the ball and make it move (width=20, height=20)
+# -------------------------------------------- #
+# Initialize a ball object
+ball = Ball()
+
+screen.listen()
+# Movement keys for right paddle
+screen.onkey(r_paddle.go_up, "Up")
+screen.onkey(r_paddle.go_down, "Down")
+# Movement keys for left paddle
+screen.onkey(l_paddle.go_up, "w")
+screen.onkey(l_paddle.go_down, "s")
+
+game_is_on = True
+while game_is_on:
+    time.sleep(0.1)
+    # Update the screen manually
+    screen.update()
+    # Let's move the ball
+    ball.move()
+
+screen.exitonclick()
+
+```
+ 
+This is the `ball.py` file:
+ 
+```python
+from turtle import Turtle
+
+# -------------------------------------------- #
+# Create the ball and make it move (width=20, height=20)
+# -------------------------------------------- #
+class Ball(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.color("white")
+        self.shape("circle")
+        self.penup()
+
+    def move(self):
+        new_x = self.xcor() + 10
+        new_y = self.ycor() + 10
+        self.goto(new_x, new_y)
 ```
   
 </details>
