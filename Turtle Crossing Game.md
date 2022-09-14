@@ -83,4 +83,12 @@ Some rules for the game:
 - Cars are randomly generated along the y-axis and will move from the right edge of the screen to the left edge.
 - When the turtle hits the top edge of the screen, it moves back to the original position and the player levels up. On the next level, the car speed increases.
 - When the turtle collides with a car, it's game over and everything stops.
+<br>
+<br>
+Break the problem in smaller problems:
+- Move the turtle with keypress
+- Create and move the cars
+- Detect collision with car
+- Detect when turtle reaches the other side
+- Create a scoreboard
 
