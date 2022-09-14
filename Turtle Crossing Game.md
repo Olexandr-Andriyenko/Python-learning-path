@@ -85,6 +85,7 @@ Some rules for the game:
 - When the turtle collides with a car, it's game over and everything stops.
 <br>
 <br>
+
 Break the problem in smaller problems:
 - Move the turtle with keypress
 - Create and move the cars
