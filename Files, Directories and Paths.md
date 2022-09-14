@@ -174,3 +174,5 @@ class Scoreboard(Turtle):
 ```
   
 </details>
+ 
+Now we have a problem with the customized version of the game. After the game is completely finished, the "High Score" is not saved and is set to zero when the game is started again
