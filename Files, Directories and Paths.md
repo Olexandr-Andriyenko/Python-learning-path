@@ -265,3 +265,53 @@ Lets the new knoledge to impove our [Turtle Crossing Game](https://github.com/Ol
  
 - The first step is to create a `high_score.txt` where is in the first line a 0 already written.
 - Then we read the file and set our high_score variable to the 0 from the file.
+- If we achieve new high score we will open the file and override the zero with new high score
+- All changes did only inside the `scoreboard.py` file
+ 
+<details>
+ <summary>Solution</summary>
+
+```python
+from turtle import Turtle
+
+FONT = ("Courier", 24, "normal")
+
+
+class Scoreboard(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.color("black")
+        self.penup()
+        self.hideturtle()
+        self.score = 0
+        # We open the file and read the first line where is a zero stored
+        with open("high_score.txt") as data:
+            self.high_score = int(data.read())
+        self.update_scoreboard()
+
+    def update_scoreboard(self):
+        self.clear()
+        self.goto(x=-200, y=250)
+        self.write(f"Level: {self.score}", align="center", font=FONT)
+        self.goto(x=150, y=250)
+        self.write(f"High Score: {self.high_score}", align="center", font=FONT)
+
+    def increase_score(self):
+        self.score += 1
+        self.update_scoreboard()
+
+    def game_over(self):
+        if self.score > self.high_score:
+            self.high_score = self.score
+            # Now we will save our high score inside the text file, we override the content with the high score
+            with open("high_score.txt", mode="w") as data:
+                data.write(f"{self.high_score}")
+            self.score = 0
+        self.goto(x=0, y=0)
+        self.write("GAME OVER", align="center", font=FONT)
+
+
+
+```
+  
+</details>
