@@ -398,3 +398,31 @@ Python has a set of methods available for the file object.
 | write()           | 	Writes the specified string to the file     |  
 | writelines()                     | 	Writes a list of strings to the file |
 
+
+Solution:
+ 
+```python
+# Read the names
+with open("Input/Names/invited_names.txt") as names:
+    # Using the "readlines()" method, which return all lines as a list
+    names = names.readlines()
+    # Inside the list of names we have to remove the symbol "\n"
+    striped_names = []
+    for name in names:
+        # We use the string method "strip()" to return a trimmed version of the string
+        striped_name = name.strip()
+        striped_names.append(striped_name)
+
+# Open the letter and save the content
+with open("Input/Letters/starting_letter.txt") as letter_template:
+    letter_content = letter_template.read()
+
+# Use the string method "replace()"
+for name in striped_names:
+    new_letter = letter_content.replace("[name]", name)
+    # Save each letter
+    with open(f"Output/ReadyToSend/letter_for_{name}.txt", mode="w") as finished_letter:
+        finished_letter.write(new_letter)
+
+ 
+```
