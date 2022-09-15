@@ -335,3 +335,11 @@ Relative paths describe the position of a file relative to the file or folder yo
 | Parent-directory                                  | ../high_score.txt     |  
 | File in the parallel directory                    | ../parallel_directory/high_score.txt     |  
 | In directory C:\Temp stored                       | C:/Temp/high_score.txt
+
+## Exercise: Mail-Merge
+ 
+We have this project structure: 
+ 
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img44.PNG" width="400">
+<p> 
