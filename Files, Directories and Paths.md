@@ -259,4 +259,4 @@ with open("my_text.txt", mode="a") as file:  # If file name doesn't exist, this 
  
 ```
  
-Lets the new knoledge ti impove our [Turtle Crossing Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Turtle%20Crossing%20Game.md)! We will save the high score inside a file:
+Lets the new knoledge to impove our [Turtle Crossing Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Turtle%20Crossing%20Game.md)! We will save the high score inside a file:
