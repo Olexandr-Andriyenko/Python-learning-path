@@ -343,3 +343,36 @@ We have this project structure:
 <p align="left">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img44.PNG" width="400">
 <p> 
+
+Inside the `starting_letter.txt` file we have this text:
+ 
+```
+ Dear [name],
+
+You are invited to my birthday this Saturday.
+
+Hope you can make it!
+
+Olexandr
+
+```
+ 
+Inside the `invited_names.txt` file we have this text:
+ 
+```
+Aang
+Zuko
+Appa
+Katara
+Sokka
+Momo
+Uncle Iroh
+Toph
+```
+ 
+Inside the `ReadyToSend` folder you will find one example, we will store here our letters!
+<br>
+<br>
+The task is to automate the letter writting. For this task you have to use your knowledge about paths.<br>
+You have to open the `starting_letter.txt` and replace the name by each name of the `invited_names.txt`.<br>
+Save for each name the letter inside the `ReadeToSend` folder which is inside the `Output` folder!
