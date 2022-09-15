@@ -315,3 +315,15 @@ class Scoreboard(Turtle):
 ```
   
 </details>
+
+## Relative and Absolute File Paths
+ 
+Absolute paths contain the complete position of a file and can therefore be found unmistakably. The root directory (top level of the data structure of a computer) is always assumed.
+
+ 
+Relative paths describe the position of a file relative to the file or folder you are currently in. Thus they are completely independent of the data structure of the computer system on which they are located. 
+ 
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img43.PNG" width="400">
+<p> 
