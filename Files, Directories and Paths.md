@@ -231,3 +231,17 @@ with open("my_text.txt", mode="w") as file:
 Inside the `my_text.txt` file you will find the sentence: New text.
 <br>
 The previous  text inside the file was overwritten!
+<br>
+<br>
+You have different options to set the mode parameter:
+ 
+| Mode                                            | Description      |
+| ------------------------------------------------- | -------- | 
+| r                                        | For reading (default setting)    | 
+| w                                | To write     |  
+| a                                  | To attach at the end of the file      |  
+| r+                                 | For reading and writing, current position at the beginning     |  
+| w+                                 | For reading and writing, file is emptied     |  
+| a+                                 | For reading and writing, current position at the end     |  
+| b                                 | To open a file in binary mode      |  
+
