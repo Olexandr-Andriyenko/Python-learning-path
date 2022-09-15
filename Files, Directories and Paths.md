@@ -203,4 +203,31 @@ file.close()
 A file that is to be edited must be opened beforehand. This is done using the built-in function `open()`.<br>
 It is assumed that the file to be opened is located in the same directory as the Python program.<br>
 Otherwise, the absolute or relative path to the file must be specified.
+<br>
+<br>
+Many python develepors use a diferent way to open a file.<br>
+The use the `with` keyword:
  
+```python
+# Open my_text.txt
+with open("my_text.txt") as file:
+    # Read the file (returns the content of this file as a string)
+    content = file.read()
+    print(content)
+    # You don't need to close the fil if you use the with keyword
+ 
+``` 
+
+How we can write inside a file?<br>
+For this we use the `write` keyword:
+ 
+```python
+# Open my_text.txt
+with open("my_text.txt", mode="w") as file:
+    # If we like to write inside a file we have to set the
+    # parameter mode to w (write)
+    file.write("New text.")
+```  
+Inside the `my_text.txt` file you will find the sentence: New text.
+<br>
+The previous  text inside the file was overwritten!
