@@ -262,3 +262,6 @@ with open("my_text.txt", mode="a") as file:  # If file name doesn't exist, this 
 ```
  
 Lets the new knoledge to impove our [Turtle Crossing Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Turtle%20Crossing%20Game.md)! We will save the high score inside a file:
+ 
+- The first step is to create a `high_score.txt` where is in the first line a 0 already written.
+- Then we read the file and set our high_score variable to the 0 from the file.
