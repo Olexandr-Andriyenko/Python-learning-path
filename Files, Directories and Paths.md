@@ -327,3 +327,11 @@ Relative paths describe the position of a file relative to the file or folder yo
 <p align="left">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img43.PNG" width="400">
 <p> 
+
+ 
+| Description                                       | Path      |
+| ------------------------------------------------- | -------- | 
+| Sub-directory                                     | sub_directory/high_score.txt    | 
+| Parent-directory                                  | ../high_score.txt     |  
+| File in the parallel directory                    | ../parallel_directory/high_score.txt     |  
+| In directory C:\Temp stored                       | C:/Temp/high_score.txt
