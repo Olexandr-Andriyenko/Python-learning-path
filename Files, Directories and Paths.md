@@ -175,4 +175,10 @@ class Scoreboard(Turtle):
   
 </details>
  
-Now we have a problem with the customized version of the game. After the game is completely finished, the "High Score" is not saved and is set to zero when the game is started again
+Now we have a problem with the customized version of the game. After the game is completely finished, the "High Score" is not saved and is set to zero when the game is started again.
+<br>
+The solution for this problem is to writte the high score in a file, and then to read this file.
+Permanent storage of data can be done in simple files or in databases.
+<br>
+<br>
+Firstly I will creat a new project with a text file inside the project folder:
