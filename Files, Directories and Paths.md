@@ -180,7 +180,9 @@ Now we have a problem with the customized version of the game. After the game is
 The solution for this problem is to writte the high score in a file, and then to read this file.
 Permanent storage of data can be done in simple files or in databases.
 <br>
-<br>
+
+## Open, read or write in a file
+ 
 Firstly I will creat a new project with a text file inside the project folder:
 
 <p align="left">
