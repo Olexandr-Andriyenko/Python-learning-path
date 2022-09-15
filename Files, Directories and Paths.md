@@ -245,3 +245,16 @@ You have different options to set the mode parameter:
 | a+                                 | For reading and writing, current position at the end     |  
 | b                                 | To open a file in binary mode      |  
 
+<br>
+In this example we save the users input in a txt file:
+ 
+```python
+# Example to save names by input inside a file
+player = input("Enter you name: ")
+# Open my_text.txt
+with open("my_text.txt", mode="a") as file:  # If file name doesn't exist, this file will be created
+    # If we like to write inside a file we have to set the
+    # parameter mode to w (write)
+    file.write(f"\n{player}.")
+ 
+```
