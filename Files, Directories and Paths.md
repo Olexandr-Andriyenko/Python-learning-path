@@ -182,3 +182,25 @@ Permanent storage of data can be done in simple files or in databases.
 <br>
 <br>
 Firstly I will creat a new project with a text file inside the project folder:
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img42.PNG" width="700">
+<p> 
+ 
+Lets open this the `my_text.txt` file with python:
+ 
+```python
+# Open my_text.txt
+file = open("my_text.txt")
+# Read the file (returns the content of this file as a string)
+content = file.read()
+print(content)
+# At the end we have to close the file
+file.close()
+ 
+``` 
+ 
+A file that is to be edited must be opened beforehand. This is done using the built-in function `open()`.<br>
+It is assumed that the file to be opened is located in the same directory as the Python program.<br>
+Otherwise, the absolute or relative path to the file must be specified.
+ 
