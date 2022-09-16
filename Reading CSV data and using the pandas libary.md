@@ -113,3 +113,35 @@ print(temperatures)
 # 6    24
 # Name: temp, dtype: int64
 ```
+
+In pandas we have two importan datatypes:
+- dataframe, it is equivalent to the table like in the first example. 
+- series, it is a column like a list
+
+If you understand this two data types then you are on a good way understanding this libary!<br>
+At the start of learning pandas you should take a closer look to the twi classes ["DataFrame"](https://pandas.pydata.org/docs/reference/frame.html) and ["Series"](https://pandas.pydata.org/docs/reference/series.html).
+    
+ Lets calculate the average temperature:
+    
+```pyhton
+import pandas
+# Lets read a csv
+data = pandas.read_csv("weather_data.csv")
+# Just get the column called temp
+temperatures = data["temp"]
+# Convert the temperatures series to a list
+temperature_list = temperatures.to_list()
+# Calculate the average temperature
+temperature_sum = 0
+for temperature in temperature_list:
+    temperature_sum += temperature
+average_temperature = temperature_sum / len(temperature_list)
+print(average_temperature)
+# Alternative and faster:
+# average_temperature = sum(temperature_list) / len(temperature_list)
+# With a pandas library even faster:
+# data["temp"].mean()
+
+# Output is:
+# 17.428571428571427
+```
