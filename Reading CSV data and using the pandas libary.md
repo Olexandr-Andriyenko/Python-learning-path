@@ -194,3 +194,39 @@ print(row_max_temp)
 # 6  Sunday    24     Sunny
     
 ```
+
+Lets get the temperatures of monday and convert them in Fahrenheit:
+ 
+```python
+import pandas
+# Lets read a csv
+data = pandas.read_csv("weather_data.csv")
+# Find the row with monday
+monday = data[data["day"] == "Monday"]
+# Find the temperature of monday
+monday_temp = int(monday["temp"])
+# Convert in Fahrenheit
+monday_temp_fahrenheit = (monday_temp * (9/5)) + 32
+print(monday_temp_fahrenheit)
+
+# Output is:
+# 53.6
+```
+    
+    
+You can even create a dataframe from scratch:
+    
+```python
+import pandas
+# You have given data:
+data_dict = {
+    "students": ["Amy", "James", "Angela"],
+    "scores": [76, 56, 65]
+}
+# We have to create a data frame from this dictionary
+data = pandas.DataFrame(data_dict)
+print(data)
+# We can even convert our data frame to a csv
+data.to_csv("new_data.csv")
+    
+```
