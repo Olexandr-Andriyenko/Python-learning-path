@@ -161,3 +161,18 @@ print(max_temp)
 # Output is:
 # 24
 ```
+
+Sometimes you just like to get only one row of your table:
+ 
+```python
+import pandas
+# Lets read a csv
+data = pandas.read_csv("weather_data.csv")
+# Get data in row
+row_day = data[data["day"] == "Monday"]
+print(row_day)
+
+# Output is:
+#       day  temp condition
+# 0  Monday    12     Sunny
+```
