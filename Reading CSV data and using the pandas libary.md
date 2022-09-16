@@ -145,3 +145,19 @@ print(average_temperature)
 # Output is:
 # 17.428571428571427
 ```
+    
+We can get quick the maximum value of the temperature column:
+    
+```python
+ import pandas
+# Lets read a csv
+data = pandas.read_csv("weather_data.csv")
+# Just get the column called temp
+temperatures = data["temp"]
+# Get te max temperature of the series
+max_temp = temperatures.max()
+print(max_temp)
+
+# Output is:
+# 24
+```
