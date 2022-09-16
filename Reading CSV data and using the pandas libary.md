@@ -69,3 +69,12 @@ print(temperatures)
 # Output is:
 # [12, 14, 15, 14, 21, 22, 24]
  ```
+    
+## Pandas libary
+    
+This is an python data analysis libary which is super helpful to perform data analysis on tabula data like the csv file above.
+<br>
+Before you can work with the pandas libary, you have to import it. Because it is not a built in libary, you have to install it firstly.
+<br>
+<br>
+Do not forget to read the [pandas documentation](https://pandas.pydata.org/docs/)!
