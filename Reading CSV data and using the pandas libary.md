@@ -22,3 +22,30 @@ with open("weather_data.csv") as data_file:
 # ['day,temp,condition\n', 'Monday,12,Sunny\n', 'Tuesday,14,Rain\n', 'Wednesday,15,Rain\n', 'Thursday,14,Cloudy\n', 'Friday,21,Sunny\n', 'Saturday,22,Sunny\n',
 # 'Sunday,24,Sunny\n', '\n', '\n', '\n']
 ```
+    
+As you can imagine, it would be pretty painfull to work with the data, which is all in a string format! It would take a lot of cleaning to actually be able to extract each column und each row. So what can we do instead?
+<br>
+<br>
+We can use the inbuilt libary which will help us with csv data:
+    
+```python
+import csv
+with open("weather_data.csv") as data_file:
+    # Use the method reader()
+    data = csv.reader(data_file)
+    print(data)  # Output is an object
+    # Now we can read each row by using this object
+    for row in data:
+        print(row)
+
+# Output is:
+# <_csv.reader object at 0x000001F31A649600>
+# ['day', 'temp', 'condition']
+# ['Monday', '12', 'Sunny']
+# ['Tuesday', '14', 'Rain']
+# ['Wednesday', '15', 'Rain']
+# ['Thursday', '14', 'Cloudy']
+# ['Friday', '21', 'Sunny']
+# ['Saturday', '22', 'Sunny']
+# ['Sunday', '24', 'Sunny']
+```
