@@ -49,3 +49,23 @@ with open("weather_data.csv") as data_file:
 # ['Saturday', '22', 'Sunny']
 # ['Sunday', '24', 'Sunny']
 ```
+    
+As a exercise lets get only the temperature values inside a list. But they have to be integers inside the list and not strings!
+    
+```python
+ import csv
+with open("weather_data.csv") as data_file:
+    # Use the method reader()
+    data = csv.reader(data_file)
+    # Now we can read each row by using this object
+    temperatures = []
+    for row in data:
+        if row[1] != "temp":
+            # Add the second position in the row to a list and convert it to and integer
+            temperatures.append(int(row[1]))
+
+print(temperatures)
+
+# Output is:
+# [12, 14, 15, 14, 21, 22, 24]
+ ```
