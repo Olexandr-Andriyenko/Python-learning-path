@@ -53,7 +53,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Exercise section (OOP)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(OOP).md) | :star: :star:  :star: | First time using API to get data inside a game. Practice the concepts of OOP. Build own classes with contructors, attributes and methods. |
 | [Practice the turtle module](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Practice%20the%20turtle%20module.md) |:star: :star: | |
 | [Files, Directories and Paths](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Files%2C%20Directories%20and%20Paths.md) | :star: :star: | |
-| Reading CSV data nd using the pandas libary | | |
+| Reading CSV data and using the pandas libary | | |
 
 ## Beginner projects
 
