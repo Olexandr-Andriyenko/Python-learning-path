@@ -123,7 +123,7 @@ At the start of learning pandas you should take a closer look to the twi classes
     
  Lets calculate the average temperature:
     
-```pyhton
+ ```python
 import pandas
 # Lets read a csv
 data = pandas.read_csv("weather_data.csv")
