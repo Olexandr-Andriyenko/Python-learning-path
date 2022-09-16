@@ -176,3 +176,21 @@ print(row_day)
 #       day  temp condition
 # 0  Monday    12     Sunny
 ```
+
+Try to find the row with the highest temperature:
+ 
+```python
+import pandas
+# Lets read a csv
+data = pandas.read_csv("weather_data.csv")
+# Find the max temperature
+max_temp = data["temp"].max()
+# Find the row with max temperature
+row_max_temp = data[data["temp"] == max_temp]
+print(row_max_temp)
+
+# Output is:
+#       day  temp condition
+# 6  Sunday    24     Sunny
+    
+```
