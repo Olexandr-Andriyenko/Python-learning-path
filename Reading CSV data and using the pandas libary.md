@@ -259,3 +259,38 @@ The data will look like this inside pycharm:
 
 The goal is for you to use that data and use what you've learned about pandas to be able to create a CSV that's called squirrel_count that has a small table
 which just contains the fur color and the count. The fur color can be basically gray, cinnamon which is red, or black.
+
+```python
+import pandas as pd
+# Import csv data in a frame
+data = pd.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+# Get only the color column
+fur_color = data["Primary Fur Color"]
+# Search for the colors inside a column and count
+gray_color = 0
+cinnamon_color = 0
+black_color = 0
+for color in fur_color:
+    if color == "Gray":
+        gray_color += 1
+    if color == "Cinnamon":
+        cinnamon_color += 1
+    if color == "Black":
+        black_color += 1
+# Dictionary to store the information
+data_dict = {
+    "Fur Color": ["Gray", "Cinnamon", "Black"],
+    "Count": [gray_color, cinnamon_color, black_color]
+}
+# Creating data frame
+df = pd.DataFrame(data_dict)
+print(df)
+# Create a scv
+df.to_csv("squirrel_count.csv") 
+  
+# Output is:
+#   Fur Color  Count
+# 0      Gray   2473
+# 1  Cinnamon    392
+# 2     Black    103
+```
