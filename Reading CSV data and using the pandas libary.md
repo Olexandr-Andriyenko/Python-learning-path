@@ -254,3 +254,5 @@ The data will look like this inside pycharm:
 <p align="left">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img47.PNG" width="1200">
 <p> 
+    
+ Here you can find the Squirrel Census Fur [Color Map](https://data.cityofnewyork.us/Environment/2018-Squirrel-Census-Fur-Color-Map/fak5-wcft), which visualize the data.
