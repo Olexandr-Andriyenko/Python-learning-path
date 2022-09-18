@@ -256,3 +256,6 @@ The data will look like this inside pycharm:
 <p> 
     
  Here you can find the Squirrel Census Fur [Color Map](https://data.cityofnewyork.us/Environment/2018-Squirrel-Census-Fur-Color-Map/fak5-wcft), which visualize the data.
+
+The goal is for you to use that data and use what you've learned about pandas to be able to create a CSV that's called squirrel_count that has a small table
+which just contains the fur color and the count. The fur color can be basically gray, cinnamon which is red, or black.
