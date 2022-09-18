@@ -5,7 +5,7 @@ Firstly download [Download CSV data](https://github.com/Olexandr-Andriyenko/Pyth
 If you open the csv file inside pycharm it will look like this:
 
 <p align="left">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img45.png" width="250">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img45.PNG" width="250">
 <p> 
 
 CSV (Comma-separated values) is a common way representing tabula data.
