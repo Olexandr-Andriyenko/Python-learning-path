@@ -79,4 +79,5 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Snake game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Snake%20game.md) |  :star: :star:  :star: :star:  | Improving the concepts of OOP. Trying writing clean and structured code. Using the turtle and random module. Writing own classes. Creating subclasses and using the super() function to create inheritance. Logical thinking to solve problems. |
 | [Pong Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Pong%20Game.md) | :star: :star:  :star: :star: | Improving the use ofthe turtle module by using different methods and attributes. Using OOP concepts to write clear code. |
 | [Turtle Crossing Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Turtle%20Crossing%20Game.md) |  :star: :star:  :star: :star: | Improving the use ofthe turtle module by using different methods and attributes. Using OOP concepts to write clear code. |
+| US States Game Quiz | :star: :star:  :star: | |
 
