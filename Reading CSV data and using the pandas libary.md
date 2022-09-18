@@ -240,11 +240,11 @@ Based on the 2019 census, there were 2,373 Eastern Gray squirrels in Central Par
 The survey has been covered by various media.
 
 <p align="left">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img46.png" width="250">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img46.png" width="500">
 <p>     
     
 <br>
-<br>
+
 All of this data can be found on the [New York city open data](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw) website. You can take a look at all of the data that they collected. So what you're going to do is you're going to go to this website,
 click on export and download the CSV data.
     
