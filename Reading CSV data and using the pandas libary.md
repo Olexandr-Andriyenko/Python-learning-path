@@ -247,4 +247,10 @@ The survey has been covered by various media.
 
 All of this data can be found on the [New York city open data](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw) website. You can take a look at all of the data that they collected. So what you're going to do is you're going to go to this website,
 click on export and download the CSV data.
-    
+<br>
+<br>
+The data will look like this inside pycharm:
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img47.PNG" width="1200">
+<p> 
