@@ -39,3 +39,5 @@ turtle.onscreenclick(get_mouse_click_coor)  # Returns in click the x and y coord
 turtle.mainloop()  # Alternative to exitonclick()
 
 ```
+
+Inside the csv file you will find the coordinates to each state. So you don't have to do this time stealing work!
