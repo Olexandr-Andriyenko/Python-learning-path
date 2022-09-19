@@ -148,10 +148,6 @@ data_missing_states = pd.DataFrame(missing_states)
 data_missing_states.to_csv("states_to_learn.csv")
 
 
-
-
-
-
 # We don't need this line any more
 # screen.exitonclick()
 
