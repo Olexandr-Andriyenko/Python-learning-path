@@ -41,3 +41,51 @@ turtle.mainloop()  # Alternative to exitonclick()
 ```
 
 Inside the csv file you will find the coordinates to each state. So you don't have to do this time stealing work!
+
+```python
+import turtle
+import pandas as pd
+
+screen = turtle.Screen()
+screen.setup(width=750, height=550)
+screen.title("U.S. States Game")
+t = turtle.Turtle()
+# Change the turtle shape to a custom
+image = "img48.gif"
+screen.addshape(image)
+turtle.shape(image)
+# Count the amount of guessed states
+score = 0
+# Load the csv in a data frame
+data = pd.read_csv("50_states.csv")
+# A list with the guessed states
+guessed_states = []
+
+while len(guessed_states) < 50:
+    # Users input
+    answer_state = screen.textinput(title=f"{score}/50 States Correct", prompt="What's another state's name?").title()
+    # title() method returns the string where each word is capitalized
+    for state in data["state"]:
+        if state == answer_state:
+            # Fill the list with guessed states
+            guessed_states.append(answer_state)
+            # Increase the amount of guessed states
+            score += 1
+            # Setup t object for writing
+            t.hideturtle()
+            t.penup()
+            # Find the row with the momentum state
+            row_state = data[data["state"] == answer_state]
+            # Find the x value of current state
+            x = row_state["x"]
+            # Find the y value of current state
+            y = row_state["y"]
+            # Write the name of the state at the map
+            t.goto(int(x), int(y))
+            t.color("Red")
+            t.write(answer_state)
+
+
+screen.exitonclick()
+
+```
