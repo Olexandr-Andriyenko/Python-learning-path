@@ -19,7 +19,7 @@ TODO 1. Create a dictionary from the csv in this format:
 
 TODO 2. Create a list of the phonetic code words from a word that the user inputs.
 
-Example:
+Example program:
 
 ```python
 # User input: Enter a word: Thomas
@@ -27,7 +27,7 @@ Example:
 # ["Tango", "Hotel", "Oscar", "Mike", "Alfa", "Sierra"]
 ```
 
-This is how you can Iterate through a pandas data frame:
+This is an example how you can Iterate through a pandas data frame:
 
 ```python
 # Sometimes you have to loop a pandas data frame
