@@ -88,3 +88,22 @@ print(names_uppercase)
 # ['Alex', 'Beth', 'Dave']
 # ['ELEANOR', 'FREDDIE']
 ```
+
+## Exercise
+
+1. You are going to write a liste comprehension to creaate a new list called `squared_numbers`.
+This new list should contain every number in the list `numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]` but each number should be squared.
+
+<details>
+ <summary>Solution</summary>
+
+```python
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+squared_numbers = [(num ** 2) for num in numbers]
+print(squared_numbers)
+
+# Output is:
+# [1, 1, 4, 9, 25, 64, 169, 441, 1156, 3025]
+```
+    
+</details>
