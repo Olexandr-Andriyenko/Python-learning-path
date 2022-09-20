@@ -233,3 +233,11 @@ print(passed_students)
 # {'Alex': 61, 'Beth': 17, 'Caroline': 71, 'Dave': 32, 'Eleanor': 41, 'Freddie': 36}
 # {'Alex': 64, 'Eleanor': 95, 'Freddie': 63}
 ```
+
+## Exercise
+
+1. You are going to use dictionary comprehension to create a dictionary called `result` that takes each word in the given sentence and calculates the number
+of letters in each word.
+<br>
+
+Given sentence: `sentence = "What is the Airspeed Velocity of an Unladen Swallow?"`
