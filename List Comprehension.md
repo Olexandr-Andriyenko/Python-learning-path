@@ -256,3 +256,20 @@ print(result)
 ```
     
 </details>
+
+2. You are going to use dictionary comprehension to create a dictionary called `weather_f` that takes
+each temperature in degrees Celcius and converts it into degrees Farenheight.
+<br>
+Use this dictionary:
+
+```python
+weather_c = {
+    "Monday": 12,
+    "Tuesday": 14,
+    "Wednesday": 15,
+    "Thursday": 14,
+    "Friday": 21,
+    "Saturday": 22,
+    "Sunday": 24,
+}
+```
