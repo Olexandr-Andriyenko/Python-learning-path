@@ -218,14 +218,18 @@ new_dict = {new_key:new_value for (key, value) in dict.items() if test}
 
 Some Examples:
 
-```pytjon
+```python
 import random
 
 names = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
 # Create a dictionary from an existing list
 students_scores = {student: random.randint(1, 100) for student in names}
 print(students_scores)
+# Create a dictionary from an existing dictionary
+passed_students = {student:score for (student, score) in students_scores.items() if score >= 60}
+print(passed_students)
 
 # Output is:
 # {'Alex': 61, 'Beth': 17, 'Caroline': 71, 'Dave': 32, 'Eleanor': 41, 'Freddie': 36}
+# {'Alex': 64, 'Eleanor': 95, 'Freddie': 63}
 ```
