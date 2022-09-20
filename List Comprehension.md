@@ -241,3 +241,18 @@ of letters in each word.
 <br>
 
 Given sentence: `sentence = "What is the Airspeed Velocity of an Unladen Swallow?"`
+
+<details>
+ <summary>Solution</summary>
+
+```python
+sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+result = {word:len(word) for word in sentence.split()}
+print(result)
+
+    
+# Output is:
+# {'What': 4, 'is': 2, 'the': 3, 'Airspeed': 8, 'Velocity': 8, 'of': 2, 'an': 2, 'Unladen': 7, 'Swallow?': 8}
+```
+    
+</details>
