@@ -7,3 +7,5 @@ don't mistake your E for a B.
 <p align="left">
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img49.png" width="300">
 <p>
+
+For this project you have to use this [csv data](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Files/nato_phonetic_alphabet.csv).
