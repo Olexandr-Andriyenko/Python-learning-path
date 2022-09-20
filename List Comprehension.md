@@ -195,3 +195,37 @@ print(result)
 ```
     
 </details>
+
+## Dictionary Comprehension
+
+Basic Syntax is:
+
+```
+new_dict = {new_key:new_value for item in list}
+```
+
+We coud also create a new dictionary based in the values in an existing dictionary:
+
+```
+new_dict = {new_key:new_value for (key, value) in dict.items()}
+```
+
+Conditional dictionary comprehension is also possible too:
+
+```
+new_dict = {new_key:new_value for (key, value) in dict.items() if test}
+```
+
+Some Examples:
+
+```pytjon
+import random
+
+names = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
+# Create a dictionary from an existing list
+students_scores = {student: random.randint(1, 100) for student in names}
+print(students_scores)
+
+# Output is:
+# {'Alex': 61, 'Beth': 17, 'Caroline': 71, 'Dave': 32, 'Eleanor': 41, 'Freddie': 36}
+```
