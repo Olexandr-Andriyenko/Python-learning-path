@@ -54,7 +54,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Practice the turtle module](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Practice%20the%20turtle%20module.md) |:star: :star: | |
 | [Files, Directories and Paths](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Files%2C%20Directories%20and%20Paths.md) | :star: :star: | |
 | [Reading CSV data and using the pandas libary](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Reading%20CSV%20data%20and%20using%20the%20pandas%20libary.md) | | |
-| List Comprehension| :star: | |
+| [List Comprehension](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/List%20Comprehension.md)| :star: | |
 
 ## Beginner projects
 
