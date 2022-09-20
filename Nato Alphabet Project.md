@@ -50,3 +50,26 @@ for (index, row) in student_data.iterrows():
 # 76
 
 ```
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import pandas as pd
+
+# Load the csv file in a data frame
+data = pd.read_csv("nato_phonetic_alphabet.csv")
+# Create the dictionary
+data_dict = {row.letter: row.code for (index, row) in data.iterrows()}
+# Ask the user for a word
+word = input("Enter a word: ").upper()
+# Check each letter in the word for the key
+try:
+    data_list = [data_dict[letter] for letter in word]
+    print(data_list)
+except:
+    print("Wrong input. Only letters allowed!")
+
+```
+    
+</details>
