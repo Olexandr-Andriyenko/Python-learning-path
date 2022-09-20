@@ -124,3 +124,55 @@ print(result)
 ```
     
 </details>
+
+3. Take a look inside `file1.txt` and `file2.txt`. They each contain a bunch of numbers, each number on a new line.
+You are going to create a list called `result` which contains the numbers that are common in both files.
+
+</details>
+
+
+<details>
+ <summary>Files</summary>
+    
+<br>
+file1.txt:
+<br>
+    
+```
+3
+6
+5
+8
+33
+12
+7
+4
+72
+2
+42
+13
+
+```
+
+<br>
+file2.txt:
+<br>
+    
+```
+3
+6
+13
+5
+7
+89
+12
+3
+33
+34
+1
+344
+42
+
+```
+    
+</details>
