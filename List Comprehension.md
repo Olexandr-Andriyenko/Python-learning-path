@@ -176,3 +176,22 @@ file2.txt:
 ```
     
 </details>
+
+<details>
+ <summary>Solution</summary>
+
+```python
+with open("file1.csv") as data_1_file:
+    data_1 = data_1_file.readlines()
+
+with open("file2.csv") as data_2_file:
+    data_2 = data_2_file.readlines()
+
+result = [num.strip() for num in data_1 if (num in data_2)]
+print(result)
+    
+# Output is:
+# ['3', '6', '5', '33', '12', '7']
+```
+    
+</details>
