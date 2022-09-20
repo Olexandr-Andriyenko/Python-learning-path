@@ -81,4 +81,5 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Pong Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Pong%20Game.md) | :star: :star:  :star: :star: | Improving the use ofthe turtle module by using different methods and attributes. Using OOP concepts to write clear code. |
 | [Turtle Crossing Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Turtle%20Crossing%20Game.md) |  :star: :star:  :star: :star: | Improving the use ofthe turtle module by using different methods and attributes. Using OOP concepts to write clear code. |
 | [US States Game Quiz](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/US%20States%20Game%20Quiz.md) | :star: :star:  :star: | |
+| Nato Alphabet Project | :star: :star: | |
 
