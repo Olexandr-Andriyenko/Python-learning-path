@@ -175,3 +175,5 @@ input.pack()
 # We need to keep the window on screen, This line of code has to by at the end of your prograam
 window.mainloop()
 ```
+
+## Radiobuttons, Scales, Checkbuttons and more
