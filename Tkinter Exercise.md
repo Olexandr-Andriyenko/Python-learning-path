@@ -118,3 +118,56 @@ root.mainloop()
 ```
   
 </details>
+
+3. Exercise:
+<br>
+Write a program in Python that lists all divisors of a given integer N.
+Create a program in Python that which a Tkinter window asking the user to enter an integer N and returns all the divisors of N.
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Calculation")
+root.config(padx=20, pady=20)
+# Prevent the user to resize the window
+root.resizable(False, False)
+
+
+# ---------------------------------------------------- #
+# Functions
+def calc_divisor():
+    divisors = []
+    number = int(input_N.get())
+    for divisor in range(1, number):
+        if number % divisor == 0:
+            divisors.append(str(divisor))
+    # Take each element of the list and separate them by a comma
+    divisor_output_label.config(text=f"{', '.join(divisors)}")
+
+
+# ---------------------------------------------------- #
+# Label for the input
+input_n_label = tk.Label(text="Enter the value of N")
+input_n_label.grid(column=0, row=0)
+# Label for the divisor information
+divisor_label = tk.Label(text="The divisor of N:")
+divisor_label.grid(column=0, row=1)
+# Label to show the divisors
+divisor_output_label = tk.Label(text="")
+divisor_output_label.grid(column=1, row=1)
+# Button for calculation
+cal_button = tk.Button(text="Calculate", command=calc_divisor)
+cal_button.grid(column=1, row=2)
+# Input box
+input_N = tk.Entry()
+input_N.grid(column=1, row=0)
+# ---------------------------------------------------- #
+root.mainloop()
+
+```
+  
+</details>
