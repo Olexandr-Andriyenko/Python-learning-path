@@ -277,3 +277,32 @@ The `place()` method is all about precise positioning, you cana provide a x and 
 The `grid` method is really simple and most used layout concept. It devides the program into any number of columns and rows.
 
 ![Tkinter-grid-Grid-Geometry](https://user-images.githubusercontent.com/92121260/191913991-a7d091d1-6d08-437a-87ae-42cc43b04740.png)
+
+```python
+from tkinter import *
+
+# Creating a new window and configurations
+window = Tk()
+window.title("Widget Examples")
+window.minsize(width=500, height=500)
+# Add a bit padding
+window.config(padx=100, pady=20)
+
+# Label
+my_label = Label(text="Random text...", font=("Arial", 24, "bold"))
+my_label.grid(column=0, row=0)
+
+# Button
+my_button = Button(text="Click me", font=("Arial", 24, "bold"))
+my_button.grid(column=1, row=1)
+
+# Button
+my_button_1 = Button(text="Click me", font=("Arial", 24, "bold"))
+my_button_1.grid(column=2, row=0)
+
+# Entry
+input = Entry(width=10)
+input.grid(column=3, row=2)
+
+window.mainloop()
+```
