@@ -267,3 +267,13 @@ listbox.pack()
 window.mainloop()
 
 ```
+
+## Layout: pack, place, grid
+
+The `pack()` method will always start from the top and then pack every other widget just below the previous one. (You can use the side parameter!)
+<br>
+The `place()` method is all about precise positioning, you cana provide a x and y value. (x=0 and y=0 is the top left corner!)
+<br>
+The `grid` method is really simple and most used layout concept. It devides the program into any number of columns and rows.
+
+![Tkinter-grid-Grid-Geometry](https://user-images.githubusercontent.com/92121260/191913991-a7d091d1-6d08-437a-87ae-42cc43b04740.png)
