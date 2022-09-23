@@ -7,3 +7,58 @@ Create a GUI which converts km in miles.
 The user can input in a text box the km which have to be converted!
 <br>
 1 km is 0,621371 miles!
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Length Converter")
+root.config(padx=20, pady=20)
+
+
+# ---------------------------------------------------- #
+
+
+# Functions
+def convert():
+    km = float(km_input.get())  # Returns a string, we have to convert it with float
+    miles = km * 0.621
+    miles_result_label.config(text=f"{miles}")  # Here we have to add a string to the text parameter
+
+
+# ---------------------------------------------------- #
+# 1. Create all widgets
+# 2. Use grid to lay out the widgets
+# 3. Change the input size
+# 4. Add padding
+# 5. Create function to convert km to miles
+# 6 Add to the button the command parameter
+# In future you can try to catch errors in this program, what happens when you enter letters?
+# Input box
+km_input = tk.Entry(width=7)
+km_input.grid(column=1, row=0)
+# Show km
+km_label = tk.Label(text="km")
+km_label.grid(column=2, row=0)
+# Label for information
+is_equal_label = tk.Label(text="is equal to")
+is_equal_label.grid(column=0, row=1)
+# Output label
+miles_result_label = tk.Label(text="0")
+miles_result_label.grid(column=1, row=1)
+# Show miles
+miles_label = tk.Label(text="miles")
+miles_label.grid(column=2, row=1)
+# Button for calculation
+calc_button = tk.Button(text="Calculate", command=convert)
+calc_button.grid(column=1, row=2)
+# ---------------------------------------------------- #
+root.mainloop()
+  
+```
+  
+  
+</details>
