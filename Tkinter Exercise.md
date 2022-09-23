@@ -60,5 +60,57 @@ root.mainloop()
   
 ```
   
+</details>
+
+2. Exercise:
+<br>
+Create a graphical application in Python Tkinter that asks the user to enter two integers and displays their sum as shown in the figure below:
+
+<details>
+ <summary>Solution</summary>
+
+```python
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Calculation")
+root.config(padx=20, pady=20)
+# Prevent the user to resize the window
+root.resizable(False, False)
+
+# ---------------------------------------------------- #
+
+
+# Functions
+def calc():
+    m_value = float(input_m.get())
+    n_value = float(input_n.get())
+    sum_value = n_value + m_value
+    result.config(text=f"{sum_value}")
+
+
+# ---------------------------------------------------- #
+# Label for value M
+label_m = tk.Label(text="Enter the value of M:")
+label_m.grid(column=0, row=0)
+# Label for value N
+label_n = tk.Label(text="Enter the value of N:")
+label_n.grid(column=0, row=1)
+# Input box for M
+input_m = tk.Entry()
+input_m.grid(column=1, row=0)
+# Input box for N
+input_n = tk.Entry()
+input_n.grid(column=1, row=1)
+# Label to display the result
+result = tk.Label(text="")
+result.grid(column=1, row=2)
+# Button for calculation
+calc_button = tk.Button(text="Calculate", command=calc)
+calc_button.grid(column=1, row=3)
+# ---------------------------------------------------- #
+root.mainloop()
+
+```
   
 </details>
