@@ -56,7 +56,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Reading CSV data and using the pandas libary](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Reading%20CSV%20data%20and%20using%20the%20pandas%20libary.md) | | |
 | [List Comprehension](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/List%20Comprehension.md)| :star: | |
 | [Creating GUI with Tkinter](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Creating%20GUI%20with%20Tkinter.md) | :star: :star: | |
-|Tkinter Exercise | ||
+|[Tkinter Exercise](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Tkinter%20Exercise.md) | ||
 
 ## Beginner projects
 
