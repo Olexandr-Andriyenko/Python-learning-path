@@ -90,6 +90,9 @@ def calc():
 
 
 # ---------------------------------------------------- #
+# Label for description (columnspan: Set the number of adjacent columns that the widget can span.)
+description_label = tk.Label(text="Enter a value for M and N for addition.")
+description_label.grid(column=0, row=4, columnspan=2, pady=20)
 # Label for value M
 label_m = tk.Label(text="Enter the value of M:")
 label_m.grid(column=0, row=0)
@@ -110,6 +113,7 @@ calc_button = tk.Button(text="Calculate", command=calc)
 calc_button.grid(column=1, row=3)
 # ---------------------------------------------------- #
 root.mainloop()
+
 
 ```
   
