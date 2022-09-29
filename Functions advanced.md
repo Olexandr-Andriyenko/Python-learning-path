@@ -32,3 +32,25 @@ print(recursive_function(3))
 If you like to visualize this code you can use this tool:
 <br>
 https://pythontutor.com/render.html#mode=display
+
+Another example ist the Fibonacci sequence:
+    
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img51.PNG" width="400">
+<p> 
+
+```python
+def fib(num):
+    if num == 0:
+        return 0
+    elif num == 1:
+        return 1
+    else:
+        return fib(num - 1) + fib(num - 2)
+
+
+num = 20
+for index in range(num):
+    print(fib(index))
+
+```
