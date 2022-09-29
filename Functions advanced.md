@@ -36,7 +36,7 @@ https://pythontutor.com/render.html#mode=display
 Another example ist the Fibonacci sequence:
     
 <p align="left">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img51.PNG" width="400">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img51.PNG" width="300">
 <p> 
 
 ```python
