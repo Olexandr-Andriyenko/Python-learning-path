@@ -43,7 +43,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Exercise section (Data structures)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(Data%20structures).md) |:star: :star: :star:  | Using the previous knowledge to solve problems. |
 |[Modules](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Modules.md)| :star:| What is a module and how to use them. |
 | Debugging | :star: | How to find and fix errors in your code. Watching for red underlines and fix them.|
-| [Functions advanced](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Functions%20advanced.md) | | :star: :star: :star: |
+| [Functions advanced](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Functions%20advanced.md) | :star: :star: :star: |  |
 
 ## Python intermediate
 
