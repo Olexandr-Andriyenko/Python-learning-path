@@ -29,3 +29,6 @@ print(recursive_function(3))
 # Output is:
 # 6
 ```
+If you like to visualize this code you can use this tool:
+<br>
+https://pythontutor.com/render.html#mode=display
