@@ -8,6 +8,12 @@ A function is recursive if it calls itself, that is, if a call to the same funct
 <br>
 Let's look at this concept with a simple example:
 
+- We want to calculate the factorial of a number by recursion
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img50.PNG" width="400">
+<p> 
+
 ```python
 # Algorithm for faculty calculation
 def recursive_function(num):
