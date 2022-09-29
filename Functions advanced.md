@@ -79,7 +79,7 @@ for index in range(num):
 
 ```
 
-Lets write a Python program to calculate the sum of a list of numbers:
+Lets write a Python program to calculate the sum of a list of numbers, of course by using the concept of recursion:
 
 ```python
 def sum_num(num_list):
