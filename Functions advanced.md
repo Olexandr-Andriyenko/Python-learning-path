@@ -33,6 +33,30 @@ If you like to visualize this code you can use this tool:
 <br>
 https://pythontutor.com/render.html#mode=display
 
+Recursive functions use something called “the call stack.” When a program calls a function, that function goes on top of the call stack. This is similar to a stack of books. You add things one at a time. Then, when you are ready to take something off, you always take off the top item.    
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img52.PNG" width="700">
+<p> 
+
+The following mechanism helps us understand what is happening:
+
+- Each time your code makes a function call, Python puts information on the “call stack”, including
+    - All values of parameters and local variables
+    - The location in the code where the function call is being made.
+- Python then makes the function call, switching execution to the start of the called function.
+- This function in turn can make additional, potentially recursive, function calls, adding information to the top of the stack each time.
+- When a function ends, Python looks at the top of the stack, and
+    - restores the values of the local variables and parameters of the most recent calling function,
+    - removes this information from the top of the stack,
+    - inserts the returned value of the called function (if any) in the appropriate location of the calling function’s code, and
+    - continues execution from the location where the call was made.
+    
+    
+    
+    
+    
+    
 Another example ist the Fibonacci sequence:
     
 <p align="left">
