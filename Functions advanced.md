@@ -54,3 +54,17 @@ for index in range(num):
     print(fib(index))
 
 ```
+
+Lets write a Python program to calculate the sum of a list of numbers:
+
+```python
+def sum_num(num_list):
+    if len(num_list) == 1:
+        return num_list[0]
+    else:
+        return num_list[0] + sum_num(num_list[1:])
+
+# Given list
+num_list = [1, 4, 3, 10, 7, 6]
+print(sum_num(num_list))
+```
