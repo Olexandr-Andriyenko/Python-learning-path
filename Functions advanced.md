@@ -236,3 +236,60 @@ print(f"x inside function: {x}")
 
 ```
    
+## Arbitrary Arguments
+
+Python allows us to have the arbitrary number of arguments. This is especially useful when we are not sure in the advance that how many arguments, the function would require.
+<br>
+<br>
+We define the arbitrary arguments while defining a function using the asterisk (*) sign.
+The arguments will be stored inside a tuple!
+<br>
+<br>
+Example:
+
+```python
+def elements(*elements):
+    # Function description which can be shown by using help(elements)
+    """
+    This function displays the element names
+    """
+    # Python stores the arguments inside a tuple:
+    # print(elements)
+    for element in elements:
+        print(element)
+
+
+# Input so many arguments as we like
+elements("Hydrogen", "Oxygen", "Helium", "Silicon")
+
+# Output is:
+# Hydrogen
+# Oxygen
+# Helium
+# Silicon
+```
+
+Python can accept multiple keyword arguments, better known as **kwargs. It behaves similarly to *args, but stores the arguments in a dictionary instead of tuples:
+
+```python
+def elements(**elements):
+    # Function description which can be shown by using help(elements)
+    """
+    This function displays the element names inside a dictionary
+    """
+    # Python stores the arguments inside a dictionary:
+    print(elements)
+    # Since **kwargs is a dictionary, you can iterate over them like any other using the .items() method:
+    for index, element in elements.items():
+        print(index, "=", element)
+
+# Input so many arguments as we like
+elements(element_1="Hydrogen", element_2="Oxygen", element_3="Helium", element_4="Silicon")
+
+# Output is:
+# {'element_1': 'Hydrogen', 'element_2': 'Oxygen', 'element_3': 'Helium', 'element_4': 'Silicon'}
+# element_1 = Hydrogen
+# element_2 = Oxygen
+# element_3 = Helium
+# element_4 = Silicon
+```
