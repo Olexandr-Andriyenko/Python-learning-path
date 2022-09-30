@@ -92,3 +92,67 @@ def sum_num(num_list):
 num_list = [1, 4, 3, 10, 7, 6]
 print(sum_num(num_list))
 ```
+
+## Default parameters in functions
+    
+When you define a function, you can specify a default value for each parameter.
+<br>
+By defining parameters in the definition, a variable number of parameters is possible. It is important that the unnamed parameters are placed before the named parameters.
+<br>
+To specify default values for parameters, you use the following syntax:
+
+```python
+def function_name(param_1, param_2 = value_2, param_3 = value_3):
+```
+
+When you call a function and pass an argument to the parameter that has a default value, the function will use that argument instead of the default value.
+However, if you don’t pass the argument, the function will use the default value.
+<br>
+
+Example:
+
+```python
+def welcome(name, message='Hi'):
+    return f"{message} {name}"
+
+message = welcome("Olex")
+print(message)
+
+# Output is:
+# Hi Olex
+
+```
+The following calls the welcome() function and passes the two arguments:
+
+```python
+def welcome(name, message='Hi'):
+    return f"{message} {name}"
+
+message = welcome("Olex", message="Hello")
+print(message)
+
+# Output is:
+# Hello Olex
+```
+
+One more example:
+<br>
+Calculation of the capacity of an parallel-plate capacitor
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img53.png" width="250">
+<p> 
+
+```python
+
+def capacity(area, distance, permittivity, vacuum_permittivity = 8.854 * 10 ** (-12) ):
+    capacity_value = permittivity * vacuum_permittivity * area / distance
+    return capacity_value
+
+solution = capacity(area=0.9, distance=0.0025, permittivity=1)
+print(f"The capacity is {solution} Farad")
+
+# Output is:
+# The capacity is 3.1874399999999995e-09 Farad
+```
+   
