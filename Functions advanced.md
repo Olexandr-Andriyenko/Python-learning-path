@@ -155,4 +155,31 @@ print(f"The capacity is {solution} Farad")
 # Output is:
 # The capacity is 3.1874399999999995e-09 Farad
 ```
+
+## Multiple return values in functions
+
+Unlike many other programming languages, functions in Python can return more than one return value. For example, a tuple or a list can be returned.
+<br>
+
+Example:
+
+```python
+def capacity(area, distance, permittivity, vacuum_permittivity=8.854 * 10 ** (-12), volatege=0):
+    capacity_value = permittivity * vacuum_permittivity * area / distance
+    if volatege > 0:
+        # Calculate the energy
+        energy = capacity_value * volatege
+    return capacity_value, energy
+
+
+capacity_value, energy = capacity(area=0.9, distance=0.0025, permittivity=1, volatege=6)
+print(f"The capacity is {capacity_value} Farad")
+print(f"The capacity is {energy} Coulomb")
+
+# Output is:
+# The capacity is 3.1874399999999995e-09 Farad
+# The capacity is 1.912464e-08 Coulomb
+
+```
+
    
