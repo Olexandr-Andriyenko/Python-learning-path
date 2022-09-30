@@ -71,6 +71,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Auction program](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Auction%20program.md) |  :star: | Practice the knowledge of dictionarys by finding the highest value and print the corresponding key. Valid the input of the user by using a while loop and a list with valid input options. |
 | [Simple calculator](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Simple%20calculator.md) | :star: :star: | Write structured and clean code by using functions. Valid users input with while, try and except keywords.|
 | [Guess-The-Number-Game](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Guess-The-Number-Game.md) | :star: | Improving the use of conditionals, error handling and f-strings.|
+| [Sieve of Eratosthenes](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Sieve%20of%20Eratosthenes.md) | :star: :star: | |
 
 ## Intermediate projects
 
