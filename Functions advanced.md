@@ -182,4 +182,57 @@ print(f"The capacity is {energy} Coulomb")
 
 ```
 
+## Global and Local variables
+    
+In Python, a variable declared outside of the function is known as a global variable. This means that a global variable can be accessed inside or outside of the function.
+<br>
+Example:
+
+```python
+def foo():
+    x = x * 2
+    print(f"x inside function: {x}")
+
+
+x = 42
+foo()
+print(f"x outside function: {x}")
+
+```
+
+A variable cannot be both local and global within the same block, here the function body. That is why Python considered x to be a local variable within the body. Since this local variable is now accessed before it has been defined, it meaning it has not yet received a value, the error message occurs.
+<br>
+<br>
+However, it is possible to access global variables within a function. To do this, however, you must explicitly declare them as global using the "global" keyword:
+
+```python
+def foo():
+    global x
+    x = x * 2
+    print(f"x inside function: {x}")
+
+
+x = 42
+print(f"x before function: {x}")
+foo()
+print(f"x outside function: {x}")
+
+```
+
+With this, we have eliminated the multiple meaning!
+<br>
+<br>
+
+Local variables of a function cannot be accessed from outside:
+
+```python
+def foo():
+    global x
+    x = x * 2
+    print(f"x inside function: {x}")
+
+
+print(f"x inside function: {x}")
+
+```
    
