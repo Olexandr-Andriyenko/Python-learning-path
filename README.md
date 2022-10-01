@@ -27,11 +27,11 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 
 | Chapter                                                                                                                                      | Difficulty    | What you will learn |
 | ---------------------------------------------------------------------------------------------------------------------------------------------|:---------------:|---|
-| [Variables and data types](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Variables%20and%20data%20types.md)          | :star:      |  |
-| [Input and output](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Input%20and%20output.md)                            | :star:      |   | 
-| [Operators](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Operators.md)                                              | :star:      ||
-| [Type conversion/casting](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Type%20conversion.md)                        | :star:      ||
-| [Exercise section](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%2001.md)                         | :star:      ||
+| [Variables and data types](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Variables%20and%20data%20types.md)          | :star:      | What are variables, how to create them and how to use them. Which data types use python. |
+| [Input and output](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Input%20and%20output.md)                            | :star:      | How to save data inside variables and hot to display saved information inside the variables. | 
+| [Operators](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Operators.md)                                              | :star:      | Standart operators to work with variables. You will learn about arithmetic operators, comparison operators, logical operators, identity operator... |
+| [Type conversion/casting](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Type%20conversion.md)                        | :star:      | Get general knowledge in this topic and learn the difference betwwen implicit type conversion and explicit type conversion|
+| [Exercise section](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%2001.md)                         | :star:      |Use the previous knowledge to practice this section.|
 | [Functions introduction](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Introducing%20Functions.md)                   | :star: :star:  |What are functions in Python. How to structure your code using functions and make him clearer. What are parameters and arguments. How to work with return values of a function. |
 |[Exercise section (functions)](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Exercise%20section%20(functions).md)| :star: :star: |  Using the previous knowledge to solve problems. |
 |[Conditionals](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Conditionals.md)| :star: |How to use if statement and keyword like elif, else and pass. The knowledge about logical conditions is nesecarry. |
