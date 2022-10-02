@@ -599,7 +599,7 @@ root.mainloop()
 </details>
 
 <details>
- <summary>Part 7 of solution</summary>
+ <summary>Part 8 of solution</summary>
 
 Add reps and change the label from Timer to Work or Break!
 
