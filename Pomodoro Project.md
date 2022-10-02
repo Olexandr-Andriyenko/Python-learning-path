@@ -319,7 +319,7 @@ root.mainloop()
 </details>
 
 <details>
- <summary>Part 4 of solution</summary>
+ <summary>Part 5 of solution</summary>
 
 Lets creaate a countdown mechanism!
 <br>
