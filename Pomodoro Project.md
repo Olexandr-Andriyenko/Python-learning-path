@@ -152,8 +152,6 @@ Now the program should looks like this:
  <summary>Part 3 of solution</summary>
 
 
-Lets correct the blue marked area of the image! You have just to change the x value of the canvas image from `100` to `103`!
-
 ```python
 import tkinter as tk
 
