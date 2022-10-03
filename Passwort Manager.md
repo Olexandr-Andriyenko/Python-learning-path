@@ -6,6 +6,12 @@ Use this image:
 <img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img57.png" width="250">
 <p>
 
+Layout should look like this:
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img58.PNG" width="350">
+<p>
+
 Starting code:
 
 ```python
