@@ -87,4 +87,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [US States Game Quiz](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/US%20States%20Game%20Quiz.md) | :star: :star:  :star: | |
 | [Nato Alphabet Project](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Nato%20Alphabet%20Project.md) | :star: :star: | |
 | [Pomodoro Project](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Pomodoro%20Project.md) | :star: :star:  | Practice different widgets. Learn the `after()` method to pause the mainloop for a specific time. Using grid to layout the UI. Learn the `canvas` widget to place images and text. |
-| [Passwort Manager](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Passwort%20Manager.md) | | |
+| [Passwort Manager](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Passwort%20Manager.md) | :star: :star:  :star: | Use `tkinter.messagebox`, and tkinter widgets which I learned in the projects before. Layout the UI with `grid`. Creat and read entry fields. |
