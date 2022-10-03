@@ -21,6 +21,8 @@ Starting code:
 <details>
  <summary>Part 1 of solution</summary>
 
+Creating the UI
+
 ```python
 import tkinter as tk
 
