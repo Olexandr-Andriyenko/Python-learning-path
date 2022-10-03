@@ -70,7 +70,7 @@ root.mainloop()
 <details>
  <summary>Part 2 of solution</summary>
 
-Creating the UI
+Save the data inside a txt file
 
 ```python
 import tkinter as tk
