@@ -386,3 +386,19 @@ finally:
     raise KeyError("This is an error that I made up!")
 
 ```
+
+One more example catching error inside out BMI calculator:
+
+```python
+# BMI calculation
+
+height = float(input("Height: "))  # Unit is m
+weight = int(input("Weight: "))  # Unit is kg
+
+# Raise our own exception if the inputs are unrealistic
+if height > 3:
+    raise ValueError("Human height should not be over 3 meters!")
+
+bmi = weight / height ** 2
+print(bmi)
+```
