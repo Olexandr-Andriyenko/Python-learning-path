@@ -309,3 +309,80 @@ root.mainloop()
 ```
   
 </details>
+
+## Improve the program by using  exception handling
+
+We already know different types of errors:
+
+```python
+# Examples for different errors
+
+# FileNotFound
+with open ("a_file.txt") as file:
+    file.read()
+
+# KeyError
+a_dictionary = {"key": "value"}
+value = a_dictionary["non_existent_key"]
+
+# IndexError
+fruit_list = ["Apple", "Banana", "Pear"]
+fruit = fruit_list[3]
+
+# TypeError
+text = "abc"
+print(text + 5)
+```
+
+[Murphy's law:](https://en.wikipedia.org/wiki/Murphy%27s_law) “Anything that can go wrong will go wrong.”
+<br>
+That is why we have to take a closer look at critical points in our code and try to catch the errors.
+<br>
+<br>
+Lets take a look at some examples of catchning errors the right way:
+
+```python
+
+# FileNotFound error could happen
+try:
+    file = open("a_file.txt")
+    a_dictionary = {"key": "value"}
+    value = a_dictionary["key_nonExisting"]  # Change the key for success try run
+except FileNotFoundError:  # A specific error!!!
+    print("There was an error!")
+    file = open("a_file.txt", "w")
+    file.write("Text...")
+except KeyError as error_message:
+    print(f"The key {error_message} does not exist!")
+else:
+    content = file.read()
+    print(content)  # Will only be executed if the try-block was error free
+finally:
+    file.close()
+
+```
+
+It is even possible to generate own exceptions, for this we will use the `raise` keyword:
+
+```python
+
+# FileNotFound error could happen
+try:
+    file = open("a_file.txt")
+    a_dictionary = {"key": "value"}
+    value = a_dictionary["key_nonExisting"]  # Change the key for success try run
+except FileNotFoundError:  # A specific error!!!
+    print("There was an error!")
+    file = open("a_file.txt", "w")
+    file.write("Text...")
+except KeyError as error_message:
+    print(f"The key {error_message} does not exist!")
+else:
+    content = file.read()
+    print(content)  # Will only be executed if the try-block was error free
+finally:
+    file.close()
+    # Raise an exception by my own, even if there is no error
+    raise KeyError("This is an error that I made up!")
+
+```
