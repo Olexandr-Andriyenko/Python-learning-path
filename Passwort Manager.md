@@ -405,7 +405,7 @@ print(bmi)
 
 ### Exercises
  
-1. Catch the exceptions and make sure the code runs without crashing! If the user enters something that is out of range just print a default output of "Fruit pie".
+1. Exercise: Catch the exceptions and make sure the code runs without crashing! If the user enters something that is out of range just print a default output of "Fruit pie".
 
 ```python
 fruits = ["Apple", "Pear", "Orange"]
@@ -443,3 +443,59 @@ make_pie(4)
 ```
   
 </details>
+
+2. Exercise: We have got some buggy code, try running the code. The code will crash and give you a KeyError. This is because some of the posts in the facebook_posts do not have any "Likes".
+<br>
+ 
+```python
+facebook_posts = [
+    {'Likes': 21, 'Comments': 2}, 
+    {'Likes': 13, 'Comments': 2, 'Shares': 1}, 
+    {'Likes': 33, 'Comments': 8, 'Shares': 3}, 
+    {'Comments': 4, 'Shares': 2}, 
+    {'Comments': 1, 'Shares': 1}, 
+    {'Likes': 19, 'Comments': 3}
+]
+
+total_likes = 0
+
+for post in facebook_posts:
+    total_likes = total_likes + post['Likes']
+
+
+print(total_likes)
+```
+ 
+<br>
+Catch the exceptions and make sure the code runs without crashing!
+
+<details>
+ <summary>Solution</summary>
+
+
+```python
+facebook_posts = [
+    {'Likes': 21, 'Comments': 2}, 
+    {'Likes': 13, 'Comments': 2, 'Shares': 1}, 
+    {'Likes': 33, 'Comments': 8, 'Shares': 3}, 
+    {'Comments': 4, 'Shares': 2}, 
+    {'Comments': 1, 'Shares': 1}, 
+    {'Likes': 19, 'Comments': 3}
+]
+
+total_likes = 0
+
+for post in facebook_posts:
+    try:
+        total_likes = total_likes + post['Likes']
+    except KeyError:
+        pass
+    # Instead of pass you can use this code:
+    # total_likes += 0
+
+
+print(total_likes)
+```
+  
+</details>
+
