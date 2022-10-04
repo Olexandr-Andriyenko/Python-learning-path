@@ -402,3 +402,44 @@ if height > 3:
 bmi = weight / height ** 2
 print(bmi)
 ```
+
+### Exercises
+ 
+1. Catch the exceptions and make sure the code runs without crashing! If the user enters something that is out of range just print a default output of "Fruit pie".
+
+```python
+fruits = ["Apple", "Pear", "Orange"]
+
+
+def make_pie(index):
+    fruit = fruits[index]
+    print(fruit + "pie")
+
+
+make_pie(4)
+```
+
+<details>
+ <summary>Solution</summary>
+
+
+```python
+# Catch the exceptions and make sure the code runs without crashing!
+fruits = ["Apple", "Pear", "Orange"]
+
+
+def make_pie(index):
+    try:
+        fruit = fruits[index]
+        print(fruit + "pie")
+    except IndexError as error_message:
+        print("Fruit pie")
+    else:
+        print(fruit + "pie")
+
+
+make_pie(4)
+
+```
+  
+</details>
