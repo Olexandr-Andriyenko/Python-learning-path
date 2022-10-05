@@ -18,17 +18,32 @@ Uhse this background-color `#B1DDC6`!
 <details>
  <summary>Part 1 of solution</summary>
 
-  Set up the UI!
+ Pick a random word and change the words randomly by pressing one of the buttons.
+ Use the pandas libary to read the csv!
   
   ```python
-  # ------------ MODULES ------------ #
+# ------------ MODULES ------------ #
 import tkinter as tk
-
+import pandas as pd
 
 # ------------ CONSTANTS ------------ #
 BACKGROUND_COLOR = "#B1DDC6"
 FRONT_1= ("Ariel", 40, "italic")
 FRONT_2 = ("Ariel", 60, "bold")
+import random
+
+# ------------ DATA READ ------------ #
+# Save the csv file inside a dataframe
+df = pd.read_csv("data_flash_card.csv")
+df_dict = df.to_dict(orient="records")  # Convert df to dictionary
+
+# ------------ FUNCTIONS ------------ #
+def next_card():
+    current_card = random.choice(df_dict)
+    random_word = current_card["English"]
+    canvas.itemconfig(card_title, text="English")
+    canvas.itemconfig(card_word, text=random_word)
+
 
 # ------------ UI SETUP ------------ #
 root = tk.Tk()
@@ -41,20 +56,28 @@ canvas = tk.Canvas(height=526, width=800, background=BACKGROUND_COLOR, highlight
 canvas.create_image(400, 263, image=image_front)
 canvas.grid(row=0, column=0, columnspan=2)
 # Text on Canvas
-canvas.create_text(400, 150, text="Title", font=FRONT_1)
-canvas.create_text(400, 263, text="word", font=FRONT_2)
+card_title = canvas.create_text(400, 150, text="Title", font=FRONT_1)
+card_word = canvas.create_text(400, 263, text="word", font=FRONT_2)
 
 # Buttons
 cross_image = tk.PhotoImage(file="wrong.png")
-unknown_button = tk.Button(image=cross_image)
+unknown_button = tk.Button(image=cross_image, command=next_card)
 unknown_button.grid(row=1, column=0)
 
 check_image = tk.PhotoImage(file="right.png")
-know_button = tk.Button(image=check_image)
+know_button = tk.Button(image=check_image, command=next_card)
 know_button.grid(row=1, column=1)
+
+# Call here the function next_card, to show at the start the first word!
+next_card()
+
+
+
+
 
 root.mainloop()
 
   ```
   
 </details>
+
