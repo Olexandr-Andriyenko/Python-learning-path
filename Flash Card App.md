@@ -23,12 +23,12 @@ Uhse this background-color `#B1DDC6`!
   ```python
   # ------------ MODULES ------------ #
 import tkinter as tk
-FRONT_1= ("Ariel", 40, "italic")
-FRONT_2 = ("Ariel", 60, "bold")
+
 
 # ------------ CONSTANTS ------------ #
 BACKGROUND_COLOR = "#B1DDC6"
-
+FRONT_1= ("Ariel", 40, "italic")
+FRONT_2 = ("Ariel", 60, "bold")
 
 # ------------ UI SETUP ------------ #
 root = tk.Tk()
