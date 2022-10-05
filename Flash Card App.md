@@ -60,27 +60,6 @@ root.mainloop()
   
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details>
  <summary>Part 2 of solution</summary>
 
@@ -147,3 +126,82 @@ root.mainloop()
   
 </details>
 
+<details>
+ <summary>Part 3 of solution</summary>
+
+Add the back side of the card and keep switching the words each 3 seconds.
+  
+  ```python
+# ------------ MODULES ------------ #
+import tkinter as tk
+import pandas as pd
+
+# ------------ CONSTANTS ------------ #
+BACKGROUND_COLOR = "#B1DDC6"
+FRONT_1= ("Ariel", 40, "italic")
+FRONT_2 = ("Ariel", 60, "bold")
+import random
+
+# ------------ DATA READ ------------ #
+# Save the csv file inside a dataframe
+df = pd.read_csv("data_flash_card.csv")
+df_dict = df.to_dict(orient="records")  # Convert df to dictionary
+current_card = {}  # We will store here a random dictionary with eng and ger word
+
+# ------------ FUNCTIONS ------------ #
+def next_card():
+    global current_card, flip_timer
+    root.after_cancel(flip_timer)  # Reset the timer
+    current_card = random.choice(df_dict)  # This is still a dictionary
+    random_word = current_card["English"]
+    canvas.itemconfig(card_title, text="English", fill="black")
+    canvas.itemconfig(card_word, text=random_word, fill="black")
+    canvas.itemconfig(card_background, image=image_front)
+    flip_timer = root.after(3000, func=flip_card)
+
+def flip_card():
+    canvas.itemconfig(card_title, text="German", fill="white")
+    canvas.itemconfig(card_word, text=current_card["German"], fill="white")
+    canvas.itemconfig(card_background, image=image_back)  # Change the image
+
+
+
+# ------------ UI SETUP ------------ #
+root = tk.Tk()
+root.title("Flash Card")
+root.config(padx=50, pady=50, background=BACKGROUND_COLOR)
+# Call a function after delay in ms
+flip_timer = root.after(3000, func=flip_card)  # If you go to a new card, card flips faster cuz 3 seconds counting down (bug)
+
+# Canvas
+image_front = tk.PhotoImage(file="card_front.png")
+image_back = tk.PhotoImage(file="card_back.png")
+canvas = tk.Canvas(height=526, width=800, background=BACKGROUND_COLOR, highlightthickness=0)
+card_background = canvas.create_image(400, 263, image=image_front)
+canvas.grid(row=0, column=0, columnspan=2)
+# Text on Canvas
+card_title = canvas.create_text(400, 150, text="Title", font=FRONT_1)
+card_word = canvas.create_text(400, 263, text="word", font=FRONT_2)
+
+# Buttons
+cross_image = tk.PhotoImage(file="wrong.png")
+unknown_button = tk.Button(image=cross_image, command=next_card)
+unknown_button.grid(row=1, column=0)
+
+check_image = tk.PhotoImage(file="right.png")
+know_button = tk.Button(image=check_image, command=next_card)
+know_button.grid(row=1, column=1)
+
+# Call here the function next_card, to show at the start the first word!
+next_card()
+
+
+
+
+
+
+root.mainloop()
+
+  ```
+  
+</details>
