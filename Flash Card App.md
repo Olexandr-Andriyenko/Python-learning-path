@@ -17,7 +17,7 @@ Uhse this background-color `#B1DDC6`!
 UI looks like this:
 
 <p align="left">
-<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img59.png" width="250">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img59.PNG" width="450">
 <p>
 
 ## Solution
