@@ -12,6 +12,13 @@ You will find the images for this projects [inside this folder](https://github.c
 <br>
 <br>
 Uhse this background-color `#B1DDC6`!
+<br>
+
+UI looks like this:
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/img59.png" width="250">
+<p>
 
 ## Solution
 
