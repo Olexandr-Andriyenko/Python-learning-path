@@ -2,7 +2,7 @@
 
 In this project you will learn about the `SMTP` and `date time` module.
 <br>
-You are going to write a python code to send email when a person have birthday!
+You are going to write a python code to send email when a person have birthday (automation)!
 <br>
 
 
@@ -115,5 +115,6 @@ You are going to write a python code to send email when a person have birthday!
 ```
  
 </details>
+
 
 
