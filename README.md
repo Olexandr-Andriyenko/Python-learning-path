@@ -89,3 +89,4 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [Pomodoro Project](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Pomodoro%20Project.md) | :star: :star:  | Practice different widgets. Learn the `after()` method to pause the mainloop for a specific time. Using grid to layout the UI. Learn the `canvas` widget to place images and text. |
 | [Passwort Manager](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Passwort%20Manager.md) | :star: :star:  :star: | Use `tkinter.messagebox`, and tkinter widgets which I learned in the projects before. Layout the UI with `grid`. Creat and read entry fields. |
 |[Flash Card App](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Flash%20Card%20App.md) | :star: :star:  :star: | |
+|[Send E-Mail with smtplib](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Send%20E-Mail%20with%20smtplib.md)| | |
