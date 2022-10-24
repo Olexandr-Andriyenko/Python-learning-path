@@ -118,4 +118,42 @@ For this task I will use google mail, when you are using other email provider yo
 </details>
 
 
+## Solution
 
+<details>
+ <summary>1 part of the solution</summary>
+
+ ```python
+ # Module for using e-mails
+import smtplib
+# Module to get current dates and times
+import datetime as dt
+# ----------------------------------------------- #
+# MAIN
+# ----------------------------------------------- #
+# Email data
+my_email = "test.1995.py@gmail.com"
+pw_email = "mpmbjzywtilindkf"
+receiver = "olexandr@ymail.com"
+message = "Hello"
+# Connect to email provider
+connection = smtplib.SMTP("smtp.gmail.com")
+# Start Transport Layer Security (to secure the connection to email server by encryption)
+connection.starttls()
+# Login to email
+connection.login(user=my_email, password=pw_email)
+# Send email
+connection.sendmail(
+    from_addr=my_email,
+    to_addrs=receiver,
+    msg=f"Subject:python_test\n\nThis is the body of my email"
+)
+# Close the connection (you can use the "with" keyword, then you do not need this line of code)
+connection.close()
+# Do not forget to use 2-factor authentication and app passwort! You will find this setting in your Google account!!!
+# Create a datetime object
+now = dt.datetime.now() # Try the methods and attributes of this class to get familiar with datetime
+
+ ```
+ 
+</details>
