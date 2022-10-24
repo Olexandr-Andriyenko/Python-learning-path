@@ -2,7 +2,9 @@
 
 In this project you will learn about the `SMTP` (Simple Mail Transfer Protocol) and `date time` module.
 <br>
-You are going to write a python code to send email when a person have birthday (automation)!
+You are going to write a python code to send email when the current day is monday. (automation)!
+<br>
+The content of the mail is a random choosed quote.
 <br>
 For this task I will use google mail, when you are using other email provider you will have different settings!
 
@@ -156,4 +158,48 @@ now = dt.datetime.now() # Try the methods and attributes of this class to get fa
 
  ```
  
+</details>
+
+
+<details>
+ <summary>Final SOLUTION</summary>
+
+ ```python
+ import random
+# Module for using e-mails
+import smtplib
+# Module to get current dates and times
+import datetime as dt
+# ----------------------------------------------- #
+# MAIN
+# ----------------------------------------------- #
+# Get the current day
+now = dt.datetime.now()
+weekday = now.weekday()
+# 0 is monday
+if weekday == 0:
+    with open("quotes.txt") as quote_file:
+        all_quotes = quote_file.readlines()
+        quote = random.choice(all_quotes)
+
+    # Email data
+    MY_EMAIL = "test.1995.py@gmail.com"
+    PW_EMAIL = "mpmbjzywtilindkf"
+    RECEIVER = "olexandr@ymail.com"
+    message = quote
+    # Connect to email provider
+    with smtplib.SMTP("smtp.gmail.com") as connection:
+        # Start Transport Layer Security (to secure the connection to email server by encryption)
+        connection.starttls()
+        # Login to email
+        connection.login(user=MY_EMAIL, password=PW_EMAIL)
+        # Send email
+        connection.sendmail(
+            from_addr=MY_EMAIL,
+            to_addrs=RECEIVER,
+            msg=f"Subject:Monday Motivation\n\n{message}"
+        )
+        # Do not forget to use 2-factor authentication and app passwort! You will find this setting in your Google account!!!
+
+ ```
 </details>
