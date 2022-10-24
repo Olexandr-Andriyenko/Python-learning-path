@@ -203,3 +203,14 @@ if weekday == 0:
 
  ```
 </details>
+
+If you like to run the code above every single day, you have to use a cloud! One way to do this, is by using [Pythonanywhere](https://www.pythonanywhere.com/).
+<br>
+<br>
+After the free registrationy you have to go to `Files` and upload the main.py file together with quotes.txt.
+<br>
+After uploading go to `Console` and create a new bash console. Type in the console 'python3 main.py'.
+<br>
+When you get at the previous step a AuthentificationError, you have to setup your google account. Inside the error message you have a link which will you redirect to your account settings. Search for `Allow access to your google account` and click continue!
+<br>
+Inside the `Task` menu you can schedule the time for script(python3 main.py) run
