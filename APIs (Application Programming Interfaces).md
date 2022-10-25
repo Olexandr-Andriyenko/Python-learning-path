@@ -159,3 +159,9 @@ sunset_formatted = sunset.split("T")[1].split(":")[0]
 
 
  ```
+
+Lets put the sunruse-sunset API together with the ISS API to get an interesting project:
+
+```python
+
+```
