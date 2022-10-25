@@ -160,8 +160,79 @@ sunset_formatted = sunset.split("T")[1].split(":")[0]
 
  ```
 
-Lets put the sunruse-sunset API together with the ISS API to get an interesting project:
+Lets put the sunruse-sunset API together with the ISS API to get an interesting project. We will build a program which will send us an email, if the ISS
+is above your location and it's dark:
 
 ```python
+import requests
+from datetime import datetime
+import smtplib
+import time
+
+# Get your position here: https://www.latlong.net/
+MY_LAT = 50.973740
+MY_LNG = 11.022430
+# ------------------------------------------ #
+# Now for the use of sunset-sunrise API
+# ------------------------------------------ #
+parameters = {
+    "lat": MY_LAT,
+    "lng": MY_LNG,
+    "formatted": 0,
+}
+response = requests.get("https://api.sunrise-sunset.org/json", params=parameters)
+response.raise_for_status()
+data = response.json()
+sunrise = data["results"]["sunrise"]
+sunset = data["results"]["sunset"]
+time_now = datetime.now()
+# Get only the hours of the sunrise and sunset time
+sunrise_formatted = int(sunrise.split("T")[1].split(":")[0])
+sunset_formatted = int(sunset.split("T")[1].split(":")[0])
+# ------------------------------------------ #
+# Now ISS API
+# ------------------------------------------ #
+response = requests.get("http://api.open-notify.org/iss-now.json")
+data = response.json()
+iss_lat = float(data["iss_position"]["latitude"])
+iss_lng = float(data["iss_position"]["longitude"])
+
+
+# ------------------------------------------ #
+# Functions
+# ------------------------------------------ #
+# My position is within +5 or -5 degrees of the ISS position
+def is_iss_overhead():
+    if MY_LAT - 5 <= iss_lat <= MY_LAT + 5 and MY_LNG - 5 <= iss_lng <= MY_LNG + 5:
+        return True
+
+
+def is_night():
+    if time_now.hour >= sunset_formatted or time_now.hour <= sunrise_formatted:
+        return True
+
+
+# ------------------------------------------ #
+# Main
+# ------------------------------------------ #
+
+if is_night() and is_iss_overhead():
+    # Email data
+    MY_EMAIL = "test.1995.py@gmail.com"
+    PW_EMAIL = ""
+    RECEIVER = "olexandr@ymail.com"
+    message = "Look up! ISS is above you in the sky."
+    # Connect to email provider
+    with smtplib.SMTP("smtp.gmail.com") as connection:
+        # Start Transport Layer Security (to secure the connection to email server by encryption)
+        connection.starttls()
+        # Login to email
+        connection.login(user=MY_EMAIL, password=PW_EMAIL)
+        # Send email
+        connection.sendmail(
+            from_addr=MY_EMAIL,
+            to_addrs=RECEIVER,
+            msg=f"Subject:ISS Position\n\n{message}"
+        )
 
 ```
