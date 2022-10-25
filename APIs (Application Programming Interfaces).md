@@ -46,6 +46,7 @@ import requests
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
 # Inside the object response we can  access to the response code(2xx = everything is fine)
 # If the URL is wrong you can get the response code 404 (doesn't exist)
+# Find the meaning of more codes here: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 print(response.status_code)
 
 ```
