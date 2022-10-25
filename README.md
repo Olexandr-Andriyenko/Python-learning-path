@@ -58,6 +58,7 @@ For now, let's answer the first question: [What is python?](https://github.com/O
 | [List Comprehension](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/List%20Comprehension.md)| :star: | |
 | [Creating GUI with Tkinter](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Creating%20GUI%20with%20Tkinter.md) | :star: :star: | |
 |[Tkinter Exercise](https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/Tkinter%20Exercise.md) | ||
+|APIs (Application Programming Interfaces)| || ||
 
 ## Beginner projects
 
