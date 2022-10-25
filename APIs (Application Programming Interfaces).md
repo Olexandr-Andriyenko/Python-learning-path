@@ -54,5 +54,22 @@ print(response.status_code)
 We should always you exception handling if we are working with apis!
 
 ```python
-
+# Make a request to the ISS location API
+import requests
+# Get the data that we want from the endpoint, check the documentation from the api to get the URL
+response = requests.get(url="http://api.open-notify.org/iss-now.json")
+# Check if there are errors
+response.raise_for_status()
+# Check the data
+data = response.json()
+print(data)
+iss_position = data["iss_position"]
+print(iss_position)
+longitude = data["iss_position"]["longitude"]
+print(longitude)
+latitude = iss_position["latitude"]
+print(latitude)
+iss_position = (longitude, latitude)
+print(iss_position)
+# If you like to know where the position on the earth is, you can use https://www.latlong.net/
 ```
