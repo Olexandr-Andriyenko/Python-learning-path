@@ -135,7 +135,7 @@ import datetime as dt
 # ----------------------------------------------- #
 # Email data
 my_email = "test.1995.py@gmail.com"
-pw_email = "mpmbjzywtilindkf"
+pw_email = ""
 receiver = "olexandr@ymail.com"
 message = "Hello"
 # Connect to email provider
@@ -184,7 +184,7 @@ if weekday == 0:
 
     # Email data
     MY_EMAIL = "test.1995.py@gmail.com"
-    PW_EMAIL = "mpmbjzywtilindkf"
+    PW_EMAIL = ""
     RECEIVER = "olexandr@ymail.com"
     message = quote
     # Connect to email provider
