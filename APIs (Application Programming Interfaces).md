@@ -126,3 +126,12 @@ window.mainloop()
  
 We've seen how APIs can have endpoints and we said that's equivalent to the address of the place that you want to get some data
 from, or you want to communicate with.
+<br>
+<br>
+But APIs also have something called parameters.
+And this is a way that allows you to give an input when you are making your API
+request so that you can get different pieces of data back,
+depending on your input.
+<br>
+<br>
+Lets check the [sunrise and sunset](https://sunrise-sunset.org/api) API!
