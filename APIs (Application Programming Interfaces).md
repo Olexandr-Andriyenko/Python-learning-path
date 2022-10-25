@@ -135,3 +135,27 @@ depending on your input.
 <br>
 <br>
 Lets check the [sunrise and sunset](https://sunrise-sunset.org/api) API!
+
+ ```python
+ import requests
+from datetime import datetime
+# Get your position here: https://www.latlong.net/
+MY_LAT = 50.973740
+MY_LNG = 11.022430
+parameters = {
+    "lat": MY_LAT,
+    "lng": MY_LNG,
+    "formatted": 0,
+}
+response = requests.get("https://api.sunrise-sunset.org/json", params=parameters)
+response.raise_for_status()
+data = response.json()
+sunrise = data["results"]["sunrise"]
+sunset = data["results"]["sunset"]
+time_now = datetime.now()
+# Get only the hours of the sunrise and sunset time
+sunrise_formatted = sunrise.split("T")[1].split(":")[0]
+sunset_formatted = sunset.split("T")[1].split(":")[0]
+
+
+ ```
