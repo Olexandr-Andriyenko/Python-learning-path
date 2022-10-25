@@ -123,3 +123,6 @@ kanye_button.grid(row=1, column=0)
 window.mainloop()
   ```
 </details>
+ 
+We've seen how APIs can have endpoints and we said that's equivalent to the address of the place that you want to get some data
+from, or you want to communicate with.
