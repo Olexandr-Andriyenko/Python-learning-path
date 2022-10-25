@@ -79,6 +79,16 @@ print(iss_position)
 We will build a Kanye quote machine. So every time you click on this button which has a Kanye emoji, you can see
 he'll say different things. The data for this task you will get from this API endpoint https://kanye.rest/ !
 <br>
+<br>
+Use this images for the UI:
+
+<p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/background.png" width="100">
+<p>
+ 
+ <p align="left">
+<img src="https://github.com/Olexandr-Andriyenko/Python-learning-path/blob/main/illustrations/kanye.png" width="100">
+<p>
 
 <details>
  <summary>Solution</summary>
