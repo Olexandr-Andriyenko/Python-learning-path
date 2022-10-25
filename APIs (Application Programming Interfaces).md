@@ -73,3 +73,8 @@ iss_position = (longitude, latitude)
 print(iss_position)
 # If you like to know where the position on the earth is, you can use https://www.latlong.net/
 ```
+
+## Exercise
+
+We will build a Kanye quote machine. So every time you click on this button which has a Kanye emoji, you can see
+he'll say different things. The data for this task you will get from this API endpoint https://kanye.rest/ !
