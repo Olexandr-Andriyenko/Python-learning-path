@@ -18,3 +18,40 @@ which you can tap into using your programs or apps and get things like 10-day
 forecast, wind, atmosphere, astronomy conditions,
 and Coinbase has their own API,
 which lets you tap into the current live prices of various cryptocurrencies.
+
+<br>
+<br>
+So for example, if you wanted to get crypto data,
+you might use api.coinbase.com.
+This is the location where the Coinbase data can be found.
+Now, in addition to knowing the API endpoint,
+you also have to make a request over the internet.
+<br>
+<br>
+One of the simplest APIs that I like to introduce students to is the
+[international space station current location API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/).
+<br>
+<br>
+I recommend installing a free Chrome browser plugin quote, JSON Viewer Awesome
+and what it will do is whenever it sees JSON data being rendered in the
+browser, it will display it in a nice tree structure.
+<br>
+<br>
+Example:
+
+```python
+# Make a request to the ISS location API
+import requests
+# Get the data that we want from the endpoint, check the documentation from the api to get the URL
+response = requests.get(url="http://api.open-notify.org/iss-now.json")
+# Inside the object response we can  access to the response code(2xx = everything is fine)
+# If the URL is wrong you can get the response code 404 (doesn't exist)
+print(response.status_code)
+
+```
+
+We should always you exception handling if we are working with apis!
+
+```python
+
+```
