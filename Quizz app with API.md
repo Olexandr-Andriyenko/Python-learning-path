@@ -50,7 +50,7 @@ print(f"Your final score was: {quiz.score}/{quiz.question_number}")
 
 
 <details>
- <summary>quiz_brain.py</summary>
+ <summary>question_model.py </summary>
  
 ```python
 # 1. Create a "Question" class with an constructor with two attributes "text" and "answer"
@@ -65,7 +65,7 @@ class Question:
 
 
 <details>
- <summary>question_model.py</summary>
+ <summary>quiz_brain</summary>
  
 ```python
 # 5. Use the "quiz_brain" file to asking the questions, checking of the answer was correct
