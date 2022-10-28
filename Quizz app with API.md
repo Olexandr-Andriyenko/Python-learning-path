@@ -50,7 +50,7 @@ print(f"Your final score was: {quiz.score}/{quiz.question_number}")
 
 
 <details>
- <summary>question_model.py</summary>
+ <summary>quiz_brain.py</summary>
  
 ```python
 # 1. Create a "Question" class with an constructor with two attributes "text" and "answer"
