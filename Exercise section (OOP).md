@@ -118,7 +118,7 @@ class Question:
 
 
 <details>
- <summary>question_model.py</summary>
+ <summary>quiz_brain</summary>
  
 ```python
 # 5. Use the "quiz_brain" file to asking the questions, checking of the answer was correct
